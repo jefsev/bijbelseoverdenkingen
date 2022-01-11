@@ -1,0 +1,28 @@
+body,
+html {
+    background: $bg-grey;
+}
+
+.container {
+    max-width: 1155px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+.container-content {
+    padding-top: 80px;
+}
+
+.wrap-50 {
+    width: 50%;
+}
+
+a {
+    color: $black;
+
+    &:hover {
+        border-bottom-color: $black;
+    }
+}
