@@ -664,6 +664,8 @@ ul{
 * {
   font-family: "Montserrat", sans-serif;
   color: #212121;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 /** Import everything from autoload */
@@ -1043,6 +1045,42 @@ ul{
   padding-bottom: 60px;
 }
 
+/* line 5, resources/assets/styles/components/_hero.scss */
+
+.hero-quote-and-search .extra-text {
+  margin-top: 26px;
+}
+
+/* line 11, resources/assets/styles/components/_hero.scss */
+
+.search-and-contact-block .function-block {
+  max-width: 370px;
+  text-decoration: none;
+}
+
+/* line 15, resources/assets/styles/components/_hero.scss */
+
+.search-and-contact-block .function-block img {
+  margin-right: 18px;
+  width: 20px;
+  height: 20px;
+}
+
+/* line 21, resources/assets/styles/components/_hero.scss */
+
+.search-and-contact-block .function-block p {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+/* line 27, resources/assets/styles/components/_hero.scss */
+
+.search-and-contact-block .function-block.first {
+  margin-bottom: 32px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(112, 112, 112, 0.1);
+}
+
 /* line 1, resources/assets/styles/layouts/_header.scss */
 
 .banner {
@@ -1156,7 +1194,7 @@ html {
 /* line 18, resources/assets/styles/layouts/_pages.scss */
 
 .wrap-50 {
-  width: 50%;
+  width: calc(50% - 8px);
 }
 
 /* line 22, resources/assets/styles/layouts/_pages.scss */
@@ -1168,7 +1206,83 @@ a {
 /* line 25, resources/assets/styles/layouts/_pages.scss */
 
 a:hover {
+  border-bottom-color: transparent;
+}
+
+/* line 31, resources/assets/styles/layouts/_pages.scss */
+
+p a {
+  color: #212121;
+}
+
+/* line 34, resources/assets/styles/layouts/_pages.scss */
+
+p a:hover {
   border-bottom-color: #212121;
+}
+
+/* line 40, resources/assets/styles/layouts/_pages.scss */
+
+h2 {
+  font-size: 26px;
+  line-height: 36px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+/* line 47, resources/assets/styles/layouts/_pages.scss */
+
+h4 {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+/* line 55, resources/assets/styles/layouts/_pages.scss */
+
+.double-cards {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* line 59, resources/assets/styles/layouts/_pages.scss */
+
+.double-cards .card--blue,
+  .double-cards .card--sand {
+  border-radius: 10px;
+}
+
+/* line 63, resources/assets/styles/layouts/_pages.scss */
+
+.double-cards .card--blue .card-content,
+    .double-cards .card--sand .card-content {
+  padding: 60px;
+}
+
+/* line 66, resources/assets/styles/layouts/_pages.scss */
+
+.double-cards .card--blue .card-content h2,
+      .double-cards .card--sand .card-content h2 {
+  margin-top: 0;
+}
+
+/* line 72, resources/assets/styles/layouts/_pages.scss */
+
+.double-cards .card--blue {
+  background: #121928;
+}
+
+/* line 75, resources/assets/styles/layouts/_pages.scss */
+
+.double-cards .card--blue h2,
+    .double-cards .card--blue p {
+  color: #fff;
+}
+
+/* line 81, resources/assets/styles/layouts/_pages.scss */
+
+.double-cards .card--sand {
+  background: #eee5e2;
 }
 
 /* line 1, resources/assets/styles/layouts/_tinymce.scss */

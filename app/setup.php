@@ -133,6 +133,52 @@ add_action('after_setup_theme', function () {
 });
 
 /**
+* Register custom post types
+*/
+
+add_action('init', function () {
+        $m_labels = [
+            'name'              => 'Meditaties',
+            'singular_name'     => 'Meditatie',
+            'add_new'           => 'Nieuwe meditatie',
+            'edit_item'         => 'Meditatie aanpassen',
+        ];
+        register_post_type('meditaties', [
+            'labels'            => $m_labels,
+            'public'            => true,
+            'has_archive'       => true,
+            'query_var'         => true,
+            'supports'          => array('title', 'thumbnail'),
+            'position'          => '4',
+        ]);
+    }
+);
+
+add_action('init', function () {
+        $f_labels = [
+            'name'              => 'Blogs',
+            'singular_name'     => 'Blog',
+            'add_new'           => 'Nieuwe blog',
+            'edit_item'         => 'Blog aanpassen',
+        ];
+        register_post_type('blog', [
+            'labels'            => $f_labels,
+            'public'            => true,
+            'has_archive'       => true,
+            'query_var'         => true,
+            'rewrite'            => array( 'slug' => 'family-life-on-wheels' ),
+            'supports'          => array('title', 'thumbnail'),
+            'position'          => '4',
+        ]);
+    }
+);
+
+
+
+
+
+
+/**
  * Initialize ACF Builder
  */
 add_action('init', function () {

@@ -16,13 +16,69 @@ html {
 }
 
 .wrap-50 {
-    width: 50%;
+    width: calc(50% - 8px);
 }
 
 a {
     color: $black;
 
     &:hover {
-        border-bottom-color: $black;
+        border-bottom-color: transparent;
+    }
+}
+
+p {
+    a {
+        color: $black;
+
+        &:hover {
+            border-bottom-color: $black;
+        }
+    }
+}
+
+h2 {
+    font-size: 26px;
+    line-height: 36px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+h4 {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+// Sections
+
+.double-cards {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    .card--blue,
+    .card--sand {
+        border-radius: 10px;
+
+        .card-content {
+            padding: 60px;
+
+            h2 {
+                margin-top: 0;
+            }
+        }
+    }
+
+    .card--blue {
+        background: $blue;
+
+        h2,
+        p {
+            color: #fff;
+        }
+    }
+
+    .card--sand {
+        background: $sand;
     }
 }

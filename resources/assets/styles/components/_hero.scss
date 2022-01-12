@@ -1,4 +1,32 @@
 .hero-quote-and-search {
     padding-top: 90px;
     padding-bottom: 60px;
+
+    .extra-text {
+        margin-top: 26px;
+    }
+}
+
+.search-and-contact-block {
+    .function-block {
+        max-width: 370px;
+        text-decoration: none;
+
+        img {
+            margin-right: 18px;
+            width: 20px;
+            height: 20px;
+        }
+
+        p {
+            font-size: 14px;
+            font-weight: 300;
+        }
+    }
+
+    .function-block.first {
+        margin-bottom: 32px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgba(112, 112, 112, 0.1);
+    }
 }
