@@ -10,6 +10,9 @@
         @layout('section_double_cards')
             @include('partials.section-double-cards')
         @endlayout
+        @layout('section_articles')
+            @include('partials.section-articles')
+        @endlayout
     @endlayouts
   @endwhile
 @endsection

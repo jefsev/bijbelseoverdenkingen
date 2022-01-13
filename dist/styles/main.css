@@ -1091,6 +1091,7 @@ ul{
   border-radius: 10px;
   padding: 12px 20px;
   position: fixed;
+  z-index: 800;
   left: 0;
   right: 0;
   top: 20px;
@@ -1098,33 +1099,33 @@ ul{
           box-shadow: 0px 4px 26px rgba(33, 33, 33, 0.02);
 }
 
-/* line 14, resources/assets/styles/layouts/_header.scss */
+/* line 15, resources/assets/styles/layouts/_header.scss */
 
 .banner .wrap {
   width: 100%;
   height: 100%;
 }
 
-/* line 18, resources/assets/styles/layouts/_header.scss */
+/* line 19, resources/assets/styles/layouts/_header.scss */
 
 .banner .wrap .brand {
   text-decoration: none;
   font-size: 14px;
 }
 
-/* line 22, resources/assets/styles/layouts/_header.scss */
+/* line 23, resources/assets/styles/layouts/_header.scss */
 
 .banner .wrap .brand:hover, .banner .wrap .brand:active, .banner .wrap .brand:focus {
   border-bottom-color: transparent;
 }
 
-/* line 30, resources/assets/styles/layouts/_header.scss */
+/* line 31, resources/assets/styles/layouts/_header.scss */
 
 .banner .wrap nav.nav-primary ul {
   list-style: none;
 }
 
-/* line 33, resources/assets/styles/layouts/_header.scss */
+/* line 34, resources/assets/styles/layouts/_header.scss */
 
 .banner .wrap nav.nav-primary ul li {
   display: inline-block;
@@ -1132,26 +1133,26 @@ ul{
   font-size: 14px;
 }
 
-/* line 38, resources/assets/styles/layouts/_header.scss */
+/* line 39, resources/assets/styles/layouts/_header.scss */
 
 .banner .wrap nav.nav-primary ul li a {
   text-decoration: none;
   font-size: 14px;
 }
 
-/* line 42, resources/assets/styles/layouts/_header.scss */
+/* line 43, resources/assets/styles/layouts/_header.scss */
 
 .banner .wrap nav.nav-primary ul li a:hover, .banner .wrap nav.nav-primary ul li a:active, .banner .wrap nav.nav-primary ul li a:focus {
   border-bottom-color: transparent;
 }
 
-/* line 52, resources/assets/styles/layouts/_header.scss */
+/* line 53, resources/assets/styles/layouts/_header.scss */
 
 .banner .wrap .menu-icons {
   height: 100%;
 }
 
-/* line 54, resources/assets/styles/layouts/_header.scss */
+/* line 55, resources/assets/styles/layouts/_header.scss */
 
 .banner .wrap .menu-icons span,
       .banner .wrap .menu-icons a {
@@ -1159,7 +1160,7 @@ ul{
   cursor: pointer;
 }
 
-/* line 59, resources/assets/styles/layouts/_header.scss */
+/* line 60, resources/assets/styles/layouts/_header.scss */
 
 .banner .wrap .menu-icons span:hover, .banner .wrap .menu-icons span:active, .banner .wrap .menu-icons span:focus,
         .banner .wrap .menu-icons a:hover,
@@ -1199,29 +1200,35 @@ html {
 
 /* line 22, resources/assets/styles/layouts/_pages.scss */
 
+.wrap-40 {
+  width: calc(40% - 8px);
+}
+
+/* line 26, resources/assets/styles/layouts/_pages.scss */
+
 a {
   color: #212121;
 }
 
-/* line 25, resources/assets/styles/layouts/_pages.scss */
+/* line 29, resources/assets/styles/layouts/_pages.scss */
 
 a:hover {
   border-bottom-color: transparent;
 }
 
-/* line 31, resources/assets/styles/layouts/_pages.scss */
+/* line 35, resources/assets/styles/layouts/_pages.scss */
 
 p a {
   color: #212121;
 }
 
-/* line 34, resources/assets/styles/layouts/_pages.scss */
+/* line 38, resources/assets/styles/layouts/_pages.scss */
 
 p a:hover {
   border-bottom-color: #212121;
 }
 
-/* line 40, resources/assets/styles/layouts/_pages.scss */
+/* line 44, resources/assets/styles/layouts/_pages.scss */
 
 h2 {
   font-size: 26px;
@@ -1230,7 +1237,7 @@ h2 {
   margin-bottom: 12px;
 }
 
-/* line 47, resources/assets/styles/layouts/_pages.scss */
+/* line 51, resources/assets/styles/layouts/_pages.scss */
 
 h4 {
   font-size: 18px;
@@ -1238,51 +1245,237 @@ h4 {
   font-weight: 700;
 }
 
-/* line 55, resources/assets/styles/layouts/_pages.scss */
+/* line 59, resources/assets/styles/layouts/_pages.scss */
 
 .double-cards {
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-/* line 59, resources/assets/styles/layouts/_pages.scss */
+/* line 63, resources/assets/styles/layouts/_pages.scss */
 
 .double-cards .card--blue,
   .double-cards .card--sand {
   border-radius: 10px;
 }
 
-/* line 63, resources/assets/styles/layouts/_pages.scss */
+/* line 67, resources/assets/styles/layouts/_pages.scss */
 
 .double-cards .card--blue .card-content,
     .double-cards .card--sand .card-content {
   padding: 60px;
 }
 
-/* line 66, resources/assets/styles/layouts/_pages.scss */
+/* line 70, resources/assets/styles/layouts/_pages.scss */
 
 .double-cards .card--blue .card-content h2,
       .double-cards .card--sand .card-content h2 {
   margin-top: 0;
 }
 
-/* line 72, resources/assets/styles/layouts/_pages.scss */
+/* line 76, resources/assets/styles/layouts/_pages.scss */
 
 .double-cards .card--blue {
   background: #121928;
 }
 
-/* line 75, resources/assets/styles/layouts/_pages.scss */
+/* line 79, resources/assets/styles/layouts/_pages.scss */
 
 .double-cards .card--blue h2,
     .double-cards .card--blue p {
   color: #fff;
 }
 
-/* line 81, resources/assets/styles/layouts/_pages.scss */
+/* line 85, resources/assets/styles/layouts/_pages.scss */
 
 .double-cards .card--sand {
   background: #eee5e2;
+}
+
+/* line 90, resources/assets/styles/layouts/_pages.scss */
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* line 99, resources/assets/styles/layouts/_pages.scss */
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 109, resources/assets/styles/layouts/_pages.scss */
+
+.articles-latest {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* line 113, resources/assets/styles/layouts/_pages.scss */
+
+.articles-latest h5 {
+  font-size: 14px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* line 120, resources/assets/styles/layouts/_pages.scss */
+
+.articles-latest .meditations h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 22px;
+}
+
+/* line 126, resources/assets/styles/layouts/_pages.scss */
+
+.articles-latest .meditations p {
+  font-size: 14px;
+  line-height: 26px;
+}
+
+/* line 131, resources/assets/styles/layouts/_pages.scss */
+
+.articles-latest .meditations .btn {
+  display: inline-block;
+  margin-top: 28px;
+}
+
+/* line 3, resources/assets/styles/layouts/_posts.scss */
+
+.container--small {
+  max-width: 817px;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+/* line 11, resources/assets/styles/layouts/_posts.scss */
+
+.container--small .embed-container {
+  width: 100%;
+}
+
+/* line 15, resources/assets/styles/layouts/_posts.scss */
+
+.container--small .container-content {
+  max-width: 680px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 46px;
+}
+
+/* line 21, resources/assets/styles/layouts/_posts.scss */
+
+.container--small .container-content p {
+  margin-bottom: 22px;
+}
+
+/* line 27, resources/assets/styles/layouts/_posts.scss */
+
+.container--small .article-content h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+/* line 35, resources/assets/styles/layouts/_posts.scss */
+
+.meta-data {
+  margin-bottom: 26px;
+  padding-top: 12px;
+}
+
+/* line 40, resources/assets/styles/layouts/_posts.scss */
+
+.meta-data .to-ytb img {
+  width: 22px;
+  margin-right: 8px;
+}
+
+/* line 44, resources/assets/styles/layouts/_posts.scss */
+
+.meta-data .to-ytb span {
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+/* line 50, resources/assets/styles/layouts/_posts.scss */
+
+.meta-data span {
+  font-size: 12px;
+}
+
+/* line 54, resources/assets/styles/layouts/_posts.scss */
+
+.meta-data span.sep {
+  font-weight: 500;
+  display: inline-block;
+  margin: 0 8px;
+}
+
+/* line 61, resources/assets/styles/layouts/_posts.scss */
+
+.meta-data .author .author-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 8px;
+  margin-top: -2px;
+}
+
+/* line 70, resources/assets/styles/layouts/_posts.scss */
+
+.meta-data .author span {
+  font-weight: 700;
+}
+
+/* line 76, resources/assets/styles/layouts/_posts.scss */
+
+.meta-data .read-time img {
+  margin-right: 8px;
+  margin-top: -2px;
+}
+
+/* line 81, resources/assets/styles/layouts/_posts.scss */
+
+.meta-data .read-time .bsf-rt-reading-time {
+  font-weight: 500;
+}
+
+/* line 87, resources/assets/styles/layouts/_posts.scss */
+
+.meta-data .meta-social a {
+  margin-left: 8px;
+}
+
+/* line 93, resources/assets/styles/layouts/_posts.scss */
+
+.meta-data.foot {
+  margin-top: 60px;
+  padding-top: 22px;
+  border-top: 1px solid rgba(112, 112, 112, 0.1);
+}
+
+/* line 99, resources/assets/styles/layouts/_posts.scss */
+
+.meditation-article {
+  padding-bottom: 100px;
 }
 
 /* line 1, resources/assets/styles/layouts/_tinymce.scss */

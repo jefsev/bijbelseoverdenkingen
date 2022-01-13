@@ -148,7 +148,7 @@ add_action('init', function () {
             'public'            => true,
             'has_archive'       => true,
             'query_var'         => true,
-            'supports'          => array('title', 'thumbnail'),
+            'supports'          => array('title', 'thumbnail', 'author'),
             'position'          => '4',
         ]);
     }
