@@ -15,6 +15,8 @@ $home = new FieldsBuilder('page_home', [
 $hero_quote_and_search = get_field_partial('partials.hero-quote-and-search');   
 $section_double_cards = get_field_partial('partials.section-double-cards');   
 $section_articles = get_field_partial('partials.section-articles');   
+$section_latest_video = get_field_partial('partials.section-latest-video'); 
+$section_verse_centered = get_field_partial('partials.section-verse-centered');  
 
 $home
     ->setLocation('page_type', '==', 'front_page');
@@ -25,6 +27,8 @@ $home
     ->addLayout($hero_quote_and_search)
     ->addLayout($section_double_cards)
     ->addLayout($section_articles)
+    ->addLayout($section_latest_video)
+    ->addLayout($section_verse_centered)
 ->endFlexibleContent();
     
     

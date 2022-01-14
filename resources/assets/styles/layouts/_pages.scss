@@ -15,12 +15,33 @@ html {
     padding-top: 80px;
 }
 
+.container--verse {
+    max-width: 710px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+.verse-centered {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 .wrap-50 {
     width: calc(50% - 8px);
 }
 
 .wrap-40 {
     width: calc(40% - 8px);
+}
+
+.wrap-55 {
+    width: calc(55% - 8px);
+}
+
+.wrap-65 {
+    width: calc(65% - 8px);
 }
 
 a {
@@ -108,8 +129,8 @@ h4 {
 }
 
 .articles-latest {
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 
     h5 {
         font-size: 14px;
@@ -188,4 +209,41 @@ h4 {
             }
         }
     }
+}
+
+// section latest video
+
+.latest-video {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    width: calc(100% - 40px);
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+    .subtitle {
+        font-size: 16px;
+        font-weight: 500;
+        display: block;
+        margin-bottom: 12px;
+
+        .nr {
+            font-style: italic;
+            font-weight: 500;
+        }
+    }
+
+    h3 {
+        font-size: 26px;
+        font-weight: 700;
+    }
+
+    p {
+        margin-bottom: 20px;
+    }
+}
+
+.latest--sand {
+    background: $sand;
 }

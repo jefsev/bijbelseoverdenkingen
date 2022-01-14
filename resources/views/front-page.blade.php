@@ -13,6 +13,12 @@
         @layout('section_articles')
             @include('partials.section-articles')
         @endlayout
+        @layout('section_articles')
+            @include('partials.section-latest-video')
+        @endlayout
+        @layout('section_verse_centered')
+            @include('partials.section-verse-centered')
+        @endlayout
     @endlayouts
   @endwhile
 @endsection
