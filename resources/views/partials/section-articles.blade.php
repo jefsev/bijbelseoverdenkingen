@@ -17,13 +17,13 @@
                 <h3>@title</h3>
                 <div class="meta-data flex flex-row justify-between items-center">
                     <div class="meta-left flex flex-row justify-start items-center">
-                        <div class="author flex flex-row justify-start items-center">
-                            <img src="<?= $author_field['url'] ?>" alt="" class="author-image">
-                            <span>@author</span>
-                        </div>
-                        <span class="sep">|</span>
                         <div class="date">
                             <span>@published('j-m-Y')</span>
+                        </div>
+                        <span class="sep">|</span>
+                        <div class="read-time flex flex-row justify-start items-center">
+                            <img src="@asset('images/time.svg')" alt="">
+                            @shortcode('[read_meter]')
                         </div>
                         @hasfield('oembed_field')
                         <span class="sep">|</span>
@@ -37,11 +37,42 @@
                 <div class="content-part">
                     <p><?php echo wp_trim_words(get_field('artikel'), 65); ?></p>
                 </div>
-                <a href="@permalink" class="btn btn--blue">Lees meer</a>
+                <a href="@permalink" class="btn btn--blue">Lees meer
+                    <img src="@asset('images/arrow-white.svg')" alt="">
+                </a>
             @endposts
         </div>
-        <div class="wrap-40">
+        <div class="wrap-40 blogs">
             <h5>@sub('subtitel_wheels')</h5>
+
+            <div class="latest-blogs flex flex-col">
+                @php
+                    $queryM = new WP_Query([
+                        'post_type' => 'blog',
+                        'posts_per_page' => 3
+                    ]);
+                @endphp
+                @posts($queryM)
+                    <a href="@permalink" class="blog-item">
+                        <h3>@title</h3>
+                        <div class="meta-data flex flex-row justify-between items-center">
+                            <div class="meta-left flex flex-row justify-start items-center">
+                                <div class="date">
+                                    <span>@published('j-m-Y')</span>
+                                </div>
+                                <span class="sep">|</span>
+                                <div class="read-time flex flex-row justify-start items-center">
+                                    <img src="@asset('images/time.svg')" alt="">
+                                    @shortcode('[read_meter]')
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-part">
+                            <p><?php echo wp_trim_words(get_the_content(), 9); ?></p>
+                        </div>
+                    </a>
+                @endposts
+            </div>
         </div>
     </div>
 </section>

@@ -34,6 +34,7 @@ a {
 p {
     a {
         color: $black;
+        border-bottom: 1px solid $black;
 
         &:hover {
             border-bottom-color: $black;
@@ -107,8 +108,8 @@ h4 {
 }
 
 .articles-latest {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 
     h5 {
         font-size: 14px;
@@ -120,7 +121,7 @@ h4 {
         h3 {
             font-size: 24px;
             font-weight: 700;
-            margin-top: 22px;
+            margin-top: 28px;
         }
 
         p {
@@ -131,6 +132,60 @@ h4 {
         .btn {
             display: inline-block;
             margin-top: 28px;
+        }
+
+        .meta-data {
+            .bsf-rt-display-time {
+                &::after {
+                    content: attr(reading_time);
+                }
+            }
+
+            .bsf-rt-display-postfix {
+                &::after {
+                    content: attr(postfix);
+                }
+            }
+        }
+    }
+
+    .blogs {
+        .blog-item {
+            text-decoration: none;
+            border-bottom: 1px solid rgba(112, 112, 112, 0.1);
+            margin-bottom: 16px;
+
+            h3 {
+                margin-top: 20px;
+                margin-bottom: 0;
+                font-size: 18px;
+                font-weight: 700;
+            }
+
+            .content-part {
+                padding-bottom: 12px;
+
+                p {
+                    font-size: 14px;
+                    font-weight: 300;
+                }
+            }
+
+            .meta-data {
+                margin-bottom: 14px;
+
+                .bsf-rt-display-time {
+                    &::after {
+                        content: attr(reading_time);
+                    }
+                }
+
+                .bsf-rt-display-postfix {
+                    &::after {
+                        content: attr(postfix);
+                    }
+                }
+            }
         }
     }
 }

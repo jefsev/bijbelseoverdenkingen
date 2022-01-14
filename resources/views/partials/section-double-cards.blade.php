@@ -7,7 +7,9 @@
                 <div class="card-content flex flex-col items-start">
                     <h2>@sub('title')</h2>
                     <p>@sub('text')</p>
-                    <a href="@sub('button','url')" class="btn btn--white">@sub('button','title')</a>
+                    <a href="@sub('button','url')" class="btn btn--white">@sub('button','title')
+                        <img src="@asset('images/arrow-black.svg')" alt="">
+                    </a>
                 </div>
             </div>
             @endgroup
@@ -17,7 +19,9 @@
                 <div class="card-content flex flex-col items-start">
                     <h2>@sub('title')</h2>
                     <p>@sub('text')</p>
-                    <a href="@sub('button','url')" class="btn btn--black">@sub('button','title')</a>
+                    <a href="@sub('button','url')" class="btn btn--black">@sub('button','title')
+                        <img src="@asset('images/arrow-white.svg')" alt="">
+                    </a>
                 </div>
             </div>
             @endgroup

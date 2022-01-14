@@ -1,5 +1,41 @@
 .btn {
-  @apply bg-primary rounded my-3 px-4 py-3 text-white leading-none;
+    display: inline-block;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: 0.2s ease;
+    position: relative;
+    padding: 12px 56px 12px 28px;
+    margin-top: 12px;
+    line-height: 1;
 
-  transition: 0.2s ease;
+    img {
+        position: absolute;
+        top: calc(50% - 9px);
+        right: 8px;
+        width: 18px;
+        height: 18px;
+        transition: 0.2s ease;
+    }
+
+    &:hover {
+        img {
+            right: 16px;
+        }
+    }
+}
+
+.btn--blue {
+    background: $blue;
+    color: #fff;
+}
+
+.btn--black {
+    background: $black;
+    color: #fff;
+}
+
+.btn--white {
+    background: $sand;
+    color: $black;
 }

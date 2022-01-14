@@ -167,6 +167,24 @@ add_action('init', function () {
             'has_archive'       => true,
             'query_var'         => true,
             'rewrite'            => array( 'slug' => 'family-life-on-wheels' ),
+            'supports'          => array('title', 'thumbnail', 'editor', 'author'),
+            'position'          => '4',
+        ]);
+    }
+);
+
+add_action('init', function () {
+        $v_labels = [
+            'name'              => 'Videos',
+            'singular_name'     => 'Video',
+            'add_new'           => 'Nieuwe video',
+            'edit_item'         => 'Video aanpassen',
+        ];
+        register_post_type('videos', [
+            'labels'            => $v_labels,
+            'public'            => true,
+            'has_archive'       => true,
+            'query_var'         => true,
             'supports'          => array('title', 'thumbnail'),
             'position'          => '4',
         ]);
