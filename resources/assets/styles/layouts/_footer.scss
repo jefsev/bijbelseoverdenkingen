@@ -16,6 +16,12 @@
             font-size: 22px;
             font-weight: 700;
             margin-bottom: 24px;
+
+            font {
+                color: #fff;
+                font-size: 22px;
+                font-weight: 700;
+            }
         }
 
         h4 {
@@ -23,6 +29,12 @@
             font-size: 18px;
             font-weight: 700;
             margin-bottom: 14px;
+
+            font {
+                color: #fff;
+                font-size: 18px;
+                font-weight: 700;
+            }
         }
 
         .footer-menu {
@@ -35,6 +47,13 @@
                 opacity: 0.9;
                 transition: 0.2s ease;
 
+                font {
+                    opacity: 0.9;
+                    color: #fff;
+                    font-size: 14px;
+                    font-weight: 400;
+                }
+
                 &:hover {
                     opacity: 1;
                 }
@@ -46,6 +65,13 @@
             font-weight: 400;
             color: #fff;
             opacity: 0.9;
+
+            font {
+                opacity: 0.9;
+                color: #fff;
+                font-size: 14px;
+                font-weight: 400;
+            }
         }
 
         .youtube-links {
@@ -63,6 +89,10 @@
 
                     span {
                         color: #fff;
+
+                        font {
+                            color: #fff;
+                        }
                     }
 
                     .title {
@@ -73,6 +103,11 @@
 
                         &:hover {
                             opacity: 1;
+                        }
+
+                        font {
+                            font-size: 14px;
+                            font-weight: 500;
                         }
                     }
 
@@ -85,6 +120,84 @@
                         &:hover {
                             opacity: 1;
                         }
+
+                        font {
+                            font-size: 12px;
+                            font-style: italic;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-foot {
+        .footer-lang {
+            margin-bottom: 35px;
+            padding-top: 20px;
+
+            .switcher {
+                border-radius: 10px;
+
+                .selected a {
+                    font-size: 12px;
+                }
+            }
+
+            span {
+                display: inline-block;
+                margin-right: 20px;
+                font-size: 14px;
+                font-weight: 500;
+                opacity: 0.9;
+                color: #fff;
+
+                font {
+                    font-size: 14px;
+                    opacity: 0.9;
+                    color: #fff;
+                    font-weight: 500;
+                }
+            }
+        }
+
+        .footer-small {
+            padding-bottom: 16px;
+            width: 100%;
+
+            span {
+                font-size: 12px;
+                color: #fff;
+                opacity: 0.6;
+
+                font {
+                    font-size: 12px;
+                    opacity: 0.6;
+                    color: #fff;
+                }
+            }
+
+            a {
+                font-size: 12px;
+                color: #fff;
+                opacity: 0.6;
+
+                font {
+                    font-size: 12px;
+                    opacity: 0.6;
+                    color: #fff;
+                }
+
+                span {
+                    text-decoration: underline;
+                    font-size: 12px;
+                    color: #fff;
+                    opacity: 1;
+
+                    font {
+                        font-size: 12px;
+                        opacity: 0.6;
+                        color: #fff;
                     }
                 }
             }

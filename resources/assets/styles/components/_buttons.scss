@@ -28,11 +28,21 @@
 .btn--blue {
     background: $blue;
     color: #fff;
+
+    font {
+        color: #fff;
+        font-size: 14px;
+    }
 }
 
 .btn--black {
     background: $black;
     color: #fff;
+
+    font {
+        color: #fff;
+        font-size: 14px;
+    }
 }
 
 .btn--white {

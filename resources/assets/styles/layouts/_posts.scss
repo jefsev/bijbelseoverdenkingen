@@ -46,6 +46,11 @@
             font-size: 28px;
             font-weight: 700;
             margin-bottom: 6px;
+
+            font {
+                font-size: 28px;
+                font-weight: 700;
+            }
         }
     }
 }
@@ -62,17 +67,30 @@
         span {
             font-size: 12px;
             text-decoration: underline;
+
+            font {
+                font-size: 12px;
+                text-decoration: underline;
+            }
         }
     }
 
     span {
         font-size: 12px;
+
+        font {
+            font-size: 12px;
+        }
     }
 
     span.sep {
         font-weight: 500;
         display: inline-block;
         margin: 0 8px;
+
+        font {
+            font-weight: 500;
+        }
     }
 
     .author {
@@ -87,6 +105,10 @@
 
         span {
             font-weight: 700;
+
+            font {
+                font-weight: 700;
+            }
         }
     }
 

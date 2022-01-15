@@ -8,7 +8,7 @@
             <h4>@sub('youtube_title')</h4>
             <div class="youtube-links flex flex-col">
                 @options('youtube_kanalen')
-                <a href="@sub('youtube_link')" class="flex flex-row items-center">
+                <a href="@sub('youtube_link')" class="flex flex-row items-center" target="_blank">
                     <img src="@asset('images/youtube-white.svg')" target="_blank" alt="">
                     <div class="content flex flex-col">
                         <span class="title">@sub('youtube_titel')</span>
@@ -40,5 +40,18 @@
             @shortcode('[email-subscribers-form id="1"]')
         </div>
       @endoptions
+  </div>
+  <div class="container footer-foot flex flex-col items-start">
+    <div class="footer-lang flex flex-row items-center">
+        <span>Translate: </span>@shortcode('[gtranslate]')
+    </div>
+    <div class="footer-small flex flex-row justify-between">
+        <div class="footer-left">
+            <span>© 2021 Bijbelse Overdenkingen | 0% cookie policy</span>
+        </div>
+        <div class="footer-right">
+            <a href="https://techsev.nl/" target="_blank">Website by <span>Techsev.</span></a>
+        </div>
+    </div>
   </div>
 </footer>

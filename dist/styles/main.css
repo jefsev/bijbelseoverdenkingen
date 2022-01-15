@@ -757,14 +757,28 @@ ul{
   color: #fff;
 }
 
-/* line 33, resources/assets/styles/components/_buttons.scss */
+/* line 32, resources/assets/styles/components/_buttons.scss */
+
+.btn--blue font {
+  color: #fff;
+  font-size: 14px;
+}
+
+/* line 38, resources/assets/styles/components/_buttons.scss */
 
 .btn--black {
   background: #212121;
   color: #fff;
 }
 
-/* line 38, resources/assets/styles/components/_buttons.scss */
+/* line 42, resources/assets/styles/components/_buttons.scss */
+
+.btn--black font {
+  color: #fff;
+  font-size: 14px;
+}
+
+/* line 48, resources/assets/styles/components/_buttons.scss */
 
 .btn--white {
   background: #eee5e2;
@@ -1059,9 +1073,24 @@ ul{
   margin-bottom: 8px;
 }
 
-/* line 12, resources/assets/styles/components/_quotes.scss */
+/* line 11, resources/assets/styles/components/_quotes.scss */
+
+.quote-block .verse-n font {
+  font-size: 14px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+/* line 18, resources/assets/styles/components/_quotes.scss */
 
 .quote-block .verse-verse {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+/* line 22, resources/assets/styles/components/_quotes.scss */
+
+.quote-block .verse-verse font {
   font-size: 28px;
   font-weight: 700;
 }
@@ -1101,7 +1130,14 @@ ul{
   font-weight: 300;
 }
 
-/* line 27, resources/assets/styles/components/_hero.scss */
+/* line 25, resources/assets/styles/components/_hero.scss */
+
+.search-and-contact-block .function-block p font {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+/* line 32, resources/assets/styles/components/_hero.scss */
 
 .search-and-contact-block .function-block.first {
   margin-bottom: 32px;
@@ -1163,24 +1199,36 @@ ul{
 
 /* line 39, resources/assets/styles/layouts/_header.scss */
 
-.banner .wrap nav.nav-primary ul li a {
-  text-decoration: none;
+.banner .wrap nav.nav-primary ul li font {
   font-size: 14px;
 }
 
 /* line 43, resources/assets/styles/layouts/_header.scss */
 
+.banner .wrap nav.nav-primary ul li a {
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* line 47, resources/assets/styles/layouts/_header.scss */
+
+.banner .wrap nav.nav-primary ul li a font {
+  font-size: 14px;
+}
+
+/* line 51, resources/assets/styles/layouts/_header.scss */
+
 .banner .wrap nav.nav-primary ul li a:hover, .banner .wrap nav.nav-primary ul li a:active, .banner .wrap nav.nav-primary ul li a:focus {
   border-bottom-color: transparent;
 }
 
-/* line 53, resources/assets/styles/layouts/_header.scss */
+/* line 61, resources/assets/styles/layouts/_header.scss */
 
 .banner .wrap .menu-icons {
   height: 100%;
 }
 
-/* line 55, resources/assets/styles/layouts/_header.scss */
+/* line 63, resources/assets/styles/layouts/_header.scss */
 
 .banner .wrap .menu-icons span,
       .banner .wrap .menu-icons a {
@@ -1188,7 +1236,7 @@ ul{
   cursor: pointer;
 }
 
-/* line 60, resources/assets/styles/layouts/_header.scss */
+/* line 68, resources/assets/styles/layouts/_header.scss */
 
 .banner .wrap .menu-icons span:hover, .banner .wrap .menu-icons span:active, .banner .wrap .menu-icons span:focus,
         .banner .wrap .menu-icons a:hover,
@@ -1227,7 +1275,15 @@ ul{
   margin-bottom: 24px;
 }
 
-/* line 21, resources/assets/styles/layouts/_footer.scss */
+/* line 20, resources/assets/styles/layouts/_footer.scss */
+
+.content-info .footer-col h3 font {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+/* line 27, resources/assets/styles/layouts/_footer.scss */
 
 .content-info .footer-col h4 {
   color: #fff;
@@ -1236,7 +1292,15 @@ ul{
   margin-bottom: 14px;
 }
 
-/* line 29, resources/assets/styles/layouts/_footer.scss */
+/* line 33, resources/assets/styles/layouts/_footer.scss */
+
+.content-info .footer-col h4 font {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* line 41, resources/assets/styles/layouts/_footer.scss */
 
 .content-info .footer-col .footer-menu a {
   font-size: 14px;
@@ -1250,13 +1314,22 @@ ul{
   transition: 0.2s ease;
 }
 
-/* line 38, resources/assets/styles/layouts/_footer.scss */
+/* line 50, resources/assets/styles/layouts/_footer.scss */
+
+.content-info .footer-col .footer-menu a font {
+  opacity: 0.9;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* line 57, resources/assets/styles/layouts/_footer.scss */
 
 .content-info .footer-col .footer-menu a:hover {
   opacity: 1;
 }
 
-/* line 44, resources/assets/styles/layouts/_footer.scss */
+/* line 63, resources/assets/styles/layouts/_footer.scss */
 
 .content-info .footer-col p {
   font-size: 14px;
@@ -1265,13 +1338,22 @@ ul{
   opacity: 0.9;
 }
 
-/* line 52, resources/assets/styles/layouts/_footer.scss */
+/* line 69, resources/assets/styles/layouts/_footer.scss */
+
+.content-info .footer-col p font {
+  opacity: 0.9;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* line 78, resources/assets/styles/layouts/_footer.scss */
 
 .content-info .footer-col .youtube-links a {
   margin-bottom: 16px;
 }
 
-/* line 55, resources/assets/styles/layouts/_footer.scss */
+/* line 81, resources/assets/styles/layouts/_footer.scss */
 
 .content-info .footer-col .youtube-links a img {
   width: 37px;
@@ -1279,19 +1361,25 @@ ul{
   display: inline-block;
 }
 
-/* line 61, resources/assets/styles/layouts/_footer.scss */
+/* line 87, resources/assets/styles/layouts/_footer.scss */
 
 .content-info .footer-col .youtube-links a .content {
   width: calc(100% - 47px);
 }
 
-/* line 64, resources/assets/styles/layouts/_footer.scss */
+/* line 90, resources/assets/styles/layouts/_footer.scss */
 
 .content-info .footer-col .youtube-links a .content span {
   color: #fff;
 }
 
-/* line 68, resources/assets/styles/layouts/_footer.scss */
+/* line 93, resources/assets/styles/layouts/_footer.scss */
+
+.content-info .footer-col .youtube-links a .content span font {
+  color: #fff;
+}
+
+/* line 98, resources/assets/styles/layouts/_footer.scss */
 
 .content-info .footer-col .youtube-links a .content .title {
   font-size: 14px;
@@ -1302,13 +1390,20 @@ ul{
   transition: 0.2s ease;
 }
 
-/* line 74, resources/assets/styles/layouts/_footer.scss */
+/* line 104, resources/assets/styles/layouts/_footer.scss */
 
 .content-info .footer-col .youtube-links a .content .title:hover {
   opacity: 1;
 }
 
-/* line 79, resources/assets/styles/layouts/_footer.scss */
+/* line 108, resources/assets/styles/layouts/_footer.scss */
+
+.content-info .footer-col .youtube-links a .content .title font {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* line 114, resources/assets/styles/layouts/_footer.scss */
 
 .content-info .footer-col .youtube-links a .content .subtitle {
   font-size: 12px;
@@ -1319,10 +1414,112 @@ ul{
   transition: 0.2s ease;
 }
 
-/* line 85, resources/assets/styles/layouts/_footer.scss */
+/* line 120, resources/assets/styles/layouts/_footer.scss */
 
 .content-info .footer-col .youtube-links a .content .subtitle:hover {
   opacity: 1;
+}
+
+/* line 124, resources/assets/styles/layouts/_footer.scss */
+
+.content-info .footer-col .youtube-links a .content .subtitle font {
+  font-size: 12px;
+  font-style: italic;
+}
+
+/* line 135, resources/assets/styles/layouts/_footer.scss */
+
+.content-info .footer-foot .footer-lang {
+  margin-bottom: 35px;
+  padding-top: 20px;
+}
+
+/* line 139, resources/assets/styles/layouts/_footer.scss */
+
+.content-info .footer-foot .footer-lang .switcher {
+  border-radius: 10px;
+}
+
+/* line 142, resources/assets/styles/layouts/_footer.scss */
+
+.content-info .footer-foot .footer-lang .switcher .selected a {
+  font-size: 12px;
+}
+
+/* line 147, resources/assets/styles/layouts/_footer.scss */
+
+.content-info .footer-foot .footer-lang span {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  opacity: 0.9;
+  color: #fff;
+}
+
+/* line 155, resources/assets/styles/layouts/_footer.scss */
+
+.content-info .footer-foot .footer-lang span font {
+  font-size: 14px;
+  opacity: 0.9;
+  color: #fff;
+  font-weight: 500;
+}
+
+/* line 164, resources/assets/styles/layouts/_footer.scss */
+
+.content-info .footer-foot .footer-small {
+  padding-bottom: 16px;
+  width: 100%;
+}
+
+/* line 168, resources/assets/styles/layouts/_footer.scss */
+
+.content-info .footer-foot .footer-small span {
+  font-size: 12px;
+  color: #fff;
+  opacity: 0.6;
+}
+
+/* line 173, resources/assets/styles/layouts/_footer.scss */
+
+.content-info .footer-foot .footer-small span font {
+  font-size: 12px;
+  opacity: 0.6;
+  color: #fff;
+}
+
+/* line 180, resources/assets/styles/layouts/_footer.scss */
+
+.content-info .footer-foot .footer-small a {
+  font-size: 12px;
+  color: #fff;
+  opacity: 0.6;
+}
+
+/* line 185, resources/assets/styles/layouts/_footer.scss */
+
+.content-info .footer-foot .footer-small a font {
+  font-size: 12px;
+  opacity: 0.6;
+  color: #fff;
+}
+
+/* line 191, resources/assets/styles/layouts/_footer.scss */
+
+.content-info .footer-foot .footer-small a span {
+  text-decoration: underline;
+  font-size: 12px;
+  color: #fff;
+  opacity: 1;
+}
+
+/* line 197, resources/assets/styles/layouts/_footer.scss */
+
+.content-info .footer-foot .footer-small a span font {
+  font-size: 12px;
+  opacity: 0.6;
+  color: #fff;
 }
 
 /* line 1, resources/assets/styles/layouts/_pages.scss */
@@ -1423,7 +1620,15 @@ h2 {
   margin-bottom: 12px;
 }
 
-/* line 73, resources/assets/styles/layouts/_pages.scss */
+/* line 72, resources/assets/styles/layouts/_pages.scss */
+
+h2 font {
+  font-size: 26px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+/* line 79, resources/assets/styles/layouts/_pages.scss */
 
 h4 {
   font-size: 18px;
@@ -1431,54 +1636,83 @@ h4 {
   font-weight: 700;
 }
 
-/* line 81, resources/assets/styles/layouts/_pages.scss */
+/* line 84, resources/assets/styles/layouts/_pages.scss */
+
+h4 font {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+/* line 93, resources/assets/styles/layouts/_pages.scss */
 
 .double-cards {
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-/* line 85, resources/assets/styles/layouts/_pages.scss */
+/* line 97, resources/assets/styles/layouts/_pages.scss */
 
 .double-cards .card--blue,
   .double-cards .card--sand {
   border-radius: 10px;
 }
 
-/* line 89, resources/assets/styles/layouts/_pages.scss */
+/* line 101, resources/assets/styles/layouts/_pages.scss */
 
 .double-cards .card--blue .card-content,
     .double-cards .card--sand .card-content {
   padding: 60px;
 }
 
-/* line 92, resources/assets/styles/layouts/_pages.scss */
+/* line 104, resources/assets/styles/layouts/_pages.scss */
 
 .double-cards .card--blue .card-content h2,
       .double-cards .card--sand .card-content h2 {
   margin-top: 0;
 }
 
-/* line 98, resources/assets/styles/layouts/_pages.scss */
+/* line 110, resources/assets/styles/layouts/_pages.scss */
 
 .double-cards .card--blue {
   background: #121928;
 }
 
-/* line 101, resources/assets/styles/layouts/_pages.scss */
+/* line 113, resources/assets/styles/layouts/_pages.scss */
 
 .double-cards .card--blue h2,
     .double-cards .card--blue p {
   color: #fff;
 }
 
-/* line 107, resources/assets/styles/layouts/_pages.scss */
+/* line 117, resources/assets/styles/layouts/_pages.scss */
+
+.double-cards .card--blue h2 font,
+      .double-cards .card--blue p font {
+  color: #fff;
+}
+
+/* line 122, resources/assets/styles/layouts/_pages.scss */
+
+.double-cards .card--blue p {
+  color: #fff;
+  opacity: 0.9;
+}
+
+/* line 126, resources/assets/styles/layouts/_pages.scss */
+
+.double-cards .card--blue p font {
+  color: #fff;
+  opacity: 0.9;
+}
+
+/* line 133, resources/assets/styles/layouts/_pages.scss */
 
 .double-cards .card--sand {
   background: #eee5e2;
 }
 
-/* line 112, resources/assets/styles/layouts/_pages.scss */
+/* line 138, resources/assets/styles/layouts/_pages.scss */
 
 .embed-container {
   position: relative;
@@ -1489,7 +1723,7 @@ h4 {
   border-radius: 10px;
 }
 
-/* line 121, resources/assets/styles/layouts/_pages.scss */
+/* line 147, resources/assets/styles/layouts/_pages.scss */
 
 .embed-container iframe,
 .embed-container object,
@@ -1501,14 +1735,14 @@ h4 {
   height: 100%;
 }
 
-/* line 131, resources/assets/styles/layouts/_pages.scss */
+/* line 157, resources/assets/styles/layouts/_pages.scss */
 
 .articles-latest {
   padding-top: 100px;
   padding-bottom: 100px;
 }
 
-/* line 135, resources/assets/styles/layouts/_pages.scss */
+/* line 161, resources/assets/styles/layouts/_pages.scss */
 
 .articles-latest h5 {
   font-size: 14px;
@@ -1516,7 +1750,7 @@ h4 {
   font-style: italic;
 }
 
-/* line 142, resources/assets/styles/layouts/_pages.scss */
+/* line 168, resources/assets/styles/layouts/_pages.scss */
 
 .articles-latest .meditations h3 {
   font-size: 24px;
@@ -1524,33 +1758,47 @@ h4 {
   margin-top: 28px;
 }
 
-/* line 148, resources/assets/styles/layouts/_pages.scss */
+/* line 173, resources/assets/styles/layouts/_pages.scss */
+
+.articles-latest .meditations h3 font {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/* line 179, resources/assets/styles/layouts/_pages.scss */
 
 .articles-latest .meditations p {
   font-size: 14px;
   line-height: 26px;
 }
 
-/* line 153, resources/assets/styles/layouts/_pages.scss */
+/* line 183, resources/assets/styles/layouts/_pages.scss */
+
+.articles-latest .meditations p font {
+  font-size: 14px;
+  line-height: 26px;
+}
+
+/* line 189, resources/assets/styles/layouts/_pages.scss */
 
 .articles-latest .meditations .btn {
   display: inline-block;
   margin-top: 28px;
 }
 
-/* line 160, resources/assets/styles/layouts/_pages.scss */
+/* line 196, resources/assets/styles/layouts/_pages.scss */
 
 .articles-latest .meditations .meta-data .bsf-rt-display-time::after {
   content: attr(reading_time);
 }
 
-/* line 166, resources/assets/styles/layouts/_pages.scss */
+/* line 202, resources/assets/styles/layouts/_pages.scss */
 
 .articles-latest .meditations .meta-data .bsf-rt-display-postfix::after {
   content: attr(postfix);
 }
 
-/* line 174, resources/assets/styles/layouts/_pages.scss */
+/* line 210, resources/assets/styles/layouts/_pages.scss */
 
 .articles-latest .blogs .blog-item {
   text-decoration: none;
@@ -1558,7 +1806,7 @@ h4 {
   margin-bottom: 16px;
 }
 
-/* line 179, resources/assets/styles/layouts/_pages.scss */
+/* line 215, resources/assets/styles/layouts/_pages.scss */
 
 .articles-latest .blogs .blog-item h3 {
   margin-top: 20px;
@@ -1567,38 +1815,52 @@ h4 {
   font-weight: 700;
 }
 
-/* line 186, resources/assets/styles/layouts/_pages.scss */
+/* line 221, resources/assets/styles/layouts/_pages.scss */
+
+.articles-latest .blogs .blog-item h3 font {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* line 227, resources/assets/styles/layouts/_pages.scss */
 
 .articles-latest .blogs .blog-item .content-part {
   padding-bottom: 12px;
 }
 
-/* line 189, resources/assets/styles/layouts/_pages.scss */
+/* line 230, resources/assets/styles/layouts/_pages.scss */
 
 .articles-latest .blogs .blog-item .content-part p {
   font-size: 14px;
   font-weight: 300;
 }
 
-/* line 195, resources/assets/styles/layouts/_pages.scss */
+/* line 234, resources/assets/styles/layouts/_pages.scss */
+
+.articles-latest .blogs .blog-item .content-part p font {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+/* line 241, resources/assets/styles/layouts/_pages.scss */
 
 .articles-latest .blogs .blog-item .meta-data {
   margin-bottom: 14px;
 }
 
-/* line 199, resources/assets/styles/layouts/_pages.scss */
+/* line 245, resources/assets/styles/layouts/_pages.scss */
 
 .articles-latest .blogs .blog-item .meta-data .bsf-rt-display-time::after {
   content: attr(reading_time);
 }
 
-/* line 205, resources/assets/styles/layouts/_pages.scss */
+/* line 251, resources/assets/styles/layouts/_pages.scss */
 
 .articles-latest .blogs .blog-item .meta-data .bsf-rt-display-postfix::after {
   content: attr(postfix);
 }
 
-/* line 216, resources/assets/styles/layouts/_pages.scss */
+/* line 262, resources/assets/styles/layouts/_pages.scss */
 
 .latest-video {
   padding-top: 50px;
@@ -1610,7 +1872,7 @@ h4 {
   margin-bottom: 60px;
 }
 
-/* line 225, resources/assets/styles/layouts/_pages.scss */
+/* line 271, resources/assets/styles/layouts/_pages.scss */
 
 .latest-video .subtitle {
   font-size: 16px;
@@ -1619,27 +1881,48 @@ h4 {
   margin-bottom: 12px;
 }
 
-/* line 231, resources/assets/styles/layouts/_pages.scss */
+/* line 277, resources/assets/styles/layouts/_pages.scss */
+
+.latest-video .subtitle font {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* line 282, resources/assets/styles/layouts/_pages.scss */
 
 .latest-video .subtitle .nr {
   font-style: italic;
   font-weight: 500;
 }
 
-/* line 237, resources/assets/styles/layouts/_pages.scss */
+/* line 286, resources/assets/styles/layouts/_pages.scss */
+
+.latest-video .subtitle .nr font {
+  font-style: italic;
+  font-weight: 500;
+}
+
+/* line 293, resources/assets/styles/layouts/_pages.scss */
 
 .latest-video h3 {
   font-size: 26px;
   font-weight: 700;
 }
 
-/* line 242, resources/assets/styles/layouts/_pages.scss */
+/* line 297, resources/assets/styles/layouts/_pages.scss */
+
+.latest-video h3 font {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+/* line 303, resources/assets/styles/layouts/_pages.scss */
 
 .latest-video p {
   margin-bottom: 20px;
 }
 
-/* line 247, resources/assets/styles/layouts/_pages.scss */
+/* line 308, resources/assets/styles/layouts/_pages.scss */
 
 .latest--sand {
   background: #eee5e2;
@@ -1716,34 +1999,54 @@ h4 {
   margin-bottom: 6px;
 }
 
-/* line 53, resources/assets/styles/layouts/_posts.scss */
+/* line 50, resources/assets/styles/layouts/_posts.scss */
+
+.container--small .article-content h1 font {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+/* line 58, resources/assets/styles/layouts/_posts.scss */
 
 .meta-data {
   margin-bottom: 26px;
   padding-top: 12px;
 }
 
-/* line 58, resources/assets/styles/layouts/_posts.scss */
+/* line 63, resources/assets/styles/layouts/_posts.scss */
 
 .meta-data .to-ytb img {
   width: 22px;
   margin-right: 8px;
 }
 
-/* line 62, resources/assets/styles/layouts/_posts.scss */
+/* line 67, resources/assets/styles/layouts/_posts.scss */
 
 .meta-data .to-ytb span {
   font-size: 12px;
   text-decoration: underline;
 }
 
-/* line 68, resources/assets/styles/layouts/_posts.scss */
+/* line 71, resources/assets/styles/layouts/_posts.scss */
+
+.meta-data .to-ytb span font {
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+/* line 78, resources/assets/styles/layouts/_posts.scss */
 
 .meta-data span {
   font-size: 12px;
 }
 
-/* line 72, resources/assets/styles/layouts/_posts.scss */
+/* line 81, resources/assets/styles/layouts/_posts.scss */
+
+.meta-data span font {
+  font-size: 12px;
+}
+
+/* line 86, resources/assets/styles/layouts/_posts.scss */
 
 .meta-data span.sep {
   font-weight: 500;
@@ -1751,7 +2054,13 @@ h4 {
   margin: 0 8px;
 }
 
-/* line 79, resources/assets/styles/layouts/_posts.scss */
+/* line 91, resources/assets/styles/layouts/_posts.scss */
+
+.meta-data span.sep font {
+  font-weight: 500;
+}
+
+/* line 97, resources/assets/styles/layouts/_posts.scss */
 
 .meta-data .author .author-image {
   width: 30px;
@@ -1763,32 +2072,38 @@ h4 {
   margin-top: -2px;
 }
 
-/* line 88, resources/assets/styles/layouts/_posts.scss */
+/* line 106, resources/assets/styles/layouts/_posts.scss */
 
 .meta-data .author span {
   font-weight: 700;
 }
 
-/* line 94, resources/assets/styles/layouts/_posts.scss */
+/* line 109, resources/assets/styles/layouts/_posts.scss */
+
+.meta-data .author span font {
+  font-weight: 700;
+}
+
+/* line 116, resources/assets/styles/layouts/_posts.scss */
 
 .meta-data .read-time img {
   margin-right: 8px;
   margin-top: -2px;
 }
 
-/* line 99, resources/assets/styles/layouts/_posts.scss */
+/* line 121, resources/assets/styles/layouts/_posts.scss */
 
 .meta-data .read-time .bsf-rt-reading-time {
   font-weight: 500;
 }
 
-/* line 105, resources/assets/styles/layouts/_posts.scss */
+/* line 127, resources/assets/styles/layouts/_posts.scss */
 
 .meta-data .meta-social a {
   margin-left: 8px;
 }
 
-/* line 111, resources/assets/styles/layouts/_posts.scss */
+/* line 133, resources/assets/styles/layouts/_posts.scss */
 
 .meta-data.foot {
   margin-top: 60px;
@@ -1796,7 +2111,7 @@ h4 {
   border-top: 1px solid rgba(112, 112, 112, 0.1);
 }
 
-/* line 117, resources/assets/styles/layouts/_posts.scss */
+/* line 139, resources/assets/styles/layouts/_posts.scss */
 
 .meditation-article {
   padding-bottom: 100px;

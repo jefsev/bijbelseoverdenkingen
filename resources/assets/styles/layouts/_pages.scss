@@ -68,12 +68,24 @@ h2 {
     line-height: 36px;
     font-weight: 700;
     margin-bottom: 12px;
+
+    font {
+        font-size: 26px;
+        line-height: 36px;
+        font-weight: 700;
+    }
 }
 
 h4 {
     font-size: 18px;
     line-height: 28px;
     font-weight: 700;
+
+    font {
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 700;
+    }
 }
 
 // Sections
@@ -101,6 +113,20 @@ h4 {
         h2,
         p {
             color: #fff;
+
+            font {
+                color: #fff;
+            }
+        }
+
+        p {
+            color: #fff;
+            opacity: 0.9;
+
+            font {
+                color: #fff;
+                opacity: 0.9;
+            }
         }
     }
 
@@ -143,11 +169,21 @@ h4 {
             font-size: 24px;
             font-weight: 700;
             margin-top: 28px;
+
+            font {
+                font-size: 24px;
+                font-weight: 700;
+            }
         }
 
         p {
             font-size: 14px;
             line-height: 26px;
+
+            font {
+                font-size: 14px;
+                line-height: 26px;
+            }
         }
 
         .btn {
@@ -181,6 +217,11 @@ h4 {
                 margin-bottom: 0;
                 font-size: 18px;
                 font-weight: 700;
+
+                font {
+                    font-size: 18px;
+                    font-weight: 700;
+                }
             }
 
             .content-part {
@@ -189,6 +230,11 @@ h4 {
                 p {
                     font-size: 14px;
                     font-weight: 300;
+
+                    font {
+                        font-size: 14px;
+                        font-weight: 300;
+                    }
                 }
             }
 
@@ -228,15 +274,30 @@ h4 {
         display: block;
         margin-bottom: 12px;
 
+        font {
+            font-size: 16px;
+            font-weight: 500;
+        }
+
         .nr {
             font-style: italic;
             font-weight: 500;
+
+            font {
+                font-style: italic;
+                font-weight: 500;
+            }
         }
     }
 
     h3 {
         font-size: 26px;
         font-weight: 700;
+
+        font {
+            font-size: 26px;
+            font-weight: 700;
+        }
     }
 
     p {

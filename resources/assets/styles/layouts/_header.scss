@@ -36,9 +36,17 @@
                     margin: 0 15px;
                     font-size: 14px;
 
+                    font {
+                        font-size: 14px;
+                    }
+
                     a {
                         text-decoration: none;
                         font-size: 14px;
+
+                        font {
+                            font-size: 14px;
+                        }
 
                         &:hover,
                         &:active,
