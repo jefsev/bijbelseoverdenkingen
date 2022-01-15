@@ -192,7 +192,28 @@ add_action('init', function () {
 );
 
 
+/**
+ * Register Options Page
+**/
 
+add_action('acf/init', function() {
+
+    // Check function exists.
+    if( function_exists('acf_add_options_page') ) {
+
+        // Register options page.
+        acf_add_options_page(array(
+            'page_title'        => __('Footer'),
+            'menu_title'        => __('Footer'),
+            'menu_slug'         => 'footer-instellingen',
+            'update_button'     => 'Bewaar footer',
+            'updated_message'   => 'footer opgeslagen',
+            'position'          => '4.1',
+            'capability'        => 'edit_posts',
+            'redirect'          => false
+        ));
+    }
+});
 
 
 

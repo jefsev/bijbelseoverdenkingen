@@ -1197,6 +1197,134 @@ ul{
   border-bottom-color: transparent;
 }
 
+/* line 1, resources/assets/styles/layouts/_footer.scss */
+
+.content-info {
+  padding-top: 90px;
+  background: #121928;
+}
+
+/* line 5, resources/assets/styles/layouts/_footer.scss */
+
+.content-info .footer-col {
+  width: 33.333%;
+  margin-bottom: 40px;
+}
+
+/* line 9, resources/assets/styles/layouts/_footer.scss */
+
+.content-info .footer-col .footer-logo {
+  margin-bottom: 50px;
+  display: block;
+}
+
+/* line 14, resources/assets/styles/layouts/_footer.scss */
+
+.content-info .footer-col h3 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+/* line 21, resources/assets/styles/layouts/_footer.scss */
+
+.content-info .footer-col h4 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+/* line 29, resources/assets/styles/layouts/_footer.scss */
+
+.content-info .footer-col .footer-menu a {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 9px;
+  display: block;
+  color: #fff;
+  opacity: 0.9;
+  -webkit-transition: 0.2s ease;
+  -o-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+
+/* line 38, resources/assets/styles/layouts/_footer.scss */
+
+.content-info .footer-col .footer-menu a:hover {
+  opacity: 1;
+}
+
+/* line 44, resources/assets/styles/layouts/_footer.scss */
+
+.content-info .footer-col p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  opacity: 0.9;
+}
+
+/* line 52, resources/assets/styles/layouts/_footer.scss */
+
+.content-info .footer-col .youtube-links a {
+  margin-bottom: 16px;
+}
+
+/* line 55, resources/assets/styles/layouts/_footer.scss */
+
+.content-info .footer-col .youtube-links a img {
+  width: 37px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+/* line 61, resources/assets/styles/layouts/_footer.scss */
+
+.content-info .footer-col .youtube-links a .content {
+  width: calc(100% - 47px);
+}
+
+/* line 64, resources/assets/styles/layouts/_footer.scss */
+
+.content-info .footer-col .youtube-links a .content span {
+  color: #fff;
+}
+
+/* line 68, resources/assets/styles/layouts/_footer.scss */
+
+.content-info .footer-col .youtube-links a .content .title {
+  font-size: 14px;
+  font-weight: 500;
+  opacity: 0.9;
+  -webkit-transition: 0.2s ease;
+  -o-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+
+/* line 74, resources/assets/styles/layouts/_footer.scss */
+
+.content-info .footer-col .youtube-links a .content .title:hover {
+  opacity: 1;
+}
+
+/* line 79, resources/assets/styles/layouts/_footer.scss */
+
+.content-info .footer-col .youtube-links a .content .subtitle {
+  font-size: 12px;
+  font-style: italic;
+  opacity: 0.6;
+  -webkit-transition: 0.2s ease;
+  -o-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+
+/* line 85, resources/assets/styles/layouts/_footer.scss */
+
+.content-info .footer-col .youtube-links a .content .subtitle:hover {
+  opacity: 1;
+}
+
 /* line 1, resources/assets/styles/layouts/_pages.scss */
 
 body,

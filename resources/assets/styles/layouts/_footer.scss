@@ -1,0 +1,93 @@
+.content-info {
+    padding-top: 90px;
+    background: $blue;
+
+    .footer-col {
+        width: 33.333%;
+        margin-bottom: 40px;
+
+        .footer-logo {
+            margin-bottom: 50px;
+            display: block;
+        }
+
+        h3 {
+            color: #fff;
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 24px;
+        }
+
+        h4 {
+            color: #fff;
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 14px;
+        }
+
+        .footer-menu {
+            a {
+                font-size: 14px;
+                font-weight: 400;
+                margin-bottom: 9px;
+                display: block;
+                color: #fff;
+                opacity: 0.9;
+                transition: 0.2s ease;
+
+                &:hover {
+                    opacity: 1;
+                }
+            }
+        }
+
+        p {
+            font-size: 14px;
+            font-weight: 400;
+            color: #fff;
+            opacity: 0.9;
+        }
+
+        .youtube-links {
+            a {
+                margin-bottom: 16px;
+
+                img {
+                    width: 37px;
+                    margin-right: 10px;
+                    display: inline-block;
+                }
+
+                .content {
+                    width: calc(100% - 47px);
+
+                    span {
+                        color: #fff;
+                    }
+
+                    .title {
+                        font-size: 14px;
+                        font-weight: 500;
+                        opacity: 0.9;
+                        transition: 0.2s ease;
+
+                        &:hover {
+                            opacity: 1;
+                        }
+                    }
+
+                    .subtitle {
+                        font-size: 12px;
+                        font-style: italic;
+                        opacity: 0.6;
+                        transition: 0.2s ease;
+
+                        &:hover {
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
