@@ -212,6 +212,17 @@ add_action('acf/init', function() {
             'capability'        => 'edit_posts',
             'redirect'          => false
         ));
+
+        acf_add_options_page(array(
+            'page_title'        => __('Mega menu'),
+            'menu_title'        => __('Mega menu'),
+            'menu_slug'         => 'menu-instellingen',
+            'update_button'     => 'Bewaar menu',
+            'updated_message'   => 'menu opgeslagen',
+            'position'          => '4.1',
+            'capability'        => 'edit_posts',
+            'redirect'          => false
+        ));
     }
 });
 

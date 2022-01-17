@@ -216,6 +216,29 @@ Router.prototype.loadEvents = function loadEvents () {
 /* harmony default export */ __webpack_exports__["a"] = ({
   init: function init() {
     // JavaScript to be fired on all pages
+
+        var open_menu = document.querySelectorAll('.toggle-menu');
+        var mega_menu = document.querySelector('#popout-menu');
+        var bg_overlay = document.querySelector('.bg-overlay');
+        var mega_menu_close = document.querySelector('#close');
+
+        open_menu.forEach(function (toggle) {
+            toggle.addEventListener('click', function () {
+                mega_menu.classList.add('active');
+                bg_overlay.classList.add('active');
+            })
+        });
+
+        mega_menu_close.addEventListener('click', function () {
+            bg_overlay.classList.remove('active');
+            mega_menu.classList.remove('active');
+        });
+
+        bg_overlay.addEventListener('click', function () {
+            bg_overlay.classList.remove('active');
+            mega_menu.classList.remove('active');
+        });
+
   },
   finalize: function finalize() {
     // JavaScript to be fired on all pages, after page specific JS is fired

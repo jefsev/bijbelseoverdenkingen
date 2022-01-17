@@ -21,3 +21,42 @@
     </div>
   </div>
 </header>
+
+<div class="bg-overlay"></div>
+
+<div id="popout-menu" class="popout-menu flex flex-col justify-between">
+    <div class="head flex flex-row justify-between items-center"> 
+        @include('partials.searchform')
+        <img src="@asset('images/close.svg')" alt="" id="close" class="close">
+    </div>
+    <div class="content flex flex-col items-start justify-between">
+        @options('mega_menu')
+        <nav class="nav flex flex-col">
+            @options('menu-items')
+                <a href="@sub('link', 'url')">@sub('link', 'title')</a>
+            @endoptions
+        </nav>
+        @endoptions
+    </div>
+
+    <div class="foot flex flex-col items-start justify-between">
+        <div class="menu-lang flex flex-row items-center">
+            <span>Translate: </span>@shortcode('[gtranslate]')
+        </div>
+
+        @options('footer_1')
+        <h4>@sub('youtube_title')</h4>
+        <div class="youtube-links flex flex-col">
+            @options('youtube_kanalen')
+            <a href="@sub('youtube_link')" class="flex flex-row items-center" target="_blank">
+                <img src="@asset('images/youtube-black.svg')" target="_blank" alt="">
+                <div class="content flex flex-col">
+                    <span class="title">@sub('youtube_titel')</span>
+                    <span class="subtitle">@sub('ondertitel')</span>
+                </div>
+            </a>
+            @endoptions
+        </div>
+        @endoptions
+    </div>
+</div>

@@ -1,10 +1,55 @@
 .content-info {
+    margin-top: 50px;
     padding-top: 90px;
     background: $blue;
 
     .footer-col {
         width: 33.333%;
         margin-bottom: 40px;
+
+        .es_subscription_form {
+            .es-field-wrap {
+                display: inline-block;
+                width: calc(50% - 10px);
+
+                input {
+                    background: transparent;
+                    border: none;
+                    border-bottom: 1px solid #fff;
+                    color: #fff;
+                }
+
+                &:first-of-type {
+                    margin-right: 19px;
+                }
+            }
+
+            p {
+                margin-top: 16px;
+            }
+
+            .ig-es-form-list-selection {
+                margin-bottom: 16px;
+                .pt-4 {
+                    padding-top: 4px;
+                }
+            }
+
+            .es_subscription_form_submit {
+                display: inline-block;
+                border: none;
+                border-radius: 8px;
+                font-size: 14px;
+                font-weight: 500;
+                transition: 0.2s ease;
+                position: relative;
+                padding: 12px 36px 12px 36px;
+                margin-top: 12px;
+                line-height: 1;
+                background: $sand;
+                color: $black;
+            }
+        }
 
         .footer-logo {
             margin-bottom: 50px;
@@ -62,6 +107,7 @@
 
         p {
             font-size: 14px;
+            line-height: 24px;
             font-weight: 400;
             color: #fff;
             opacity: 0.9;
