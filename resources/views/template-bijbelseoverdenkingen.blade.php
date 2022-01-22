@@ -1,19 +1,39 @@
+{{--
+  Template Name: Bijbelse overdenkingen
+--}}
+
 @extends('layouts.app')
 
 @section('content')
+  @while(have_posts()) @php the_post() @endphp
+    
+    <section class="hero-blue-img flex flex-row">
+        <div class="wrap-50 bg--blue flex flex-col items-start justify-center">
+            <h1>Bijbelse overdenkingen</h1>
+            <p>Bijbelse overdenkingen, meditaties geschreven rond een Bijbels onderwerp. Of u nu bekend met de Bijbel of niet, worstelt met verslavingen of vragen, deze overdenkingen zetten u stil en geven stof tot nadenken.</p>
 
-    <section class="archive-header container flex flex-row items-center justify-start">
-        <img src="@asset('images/tag-title.svg')" alt="">
-        <h1><?php post_type_archive_title(); ?></h1>
+            <p>Onderstaand treft u de overdenkingen die ik geplaatst heb vanaf het jaar 2012</p>
+            <a href="#moreInfo" class="btn btn--white">Meer over
+                <img src="@asset('images/arrow-black.svg')" alt="">
+            </a>
+        </div>
+        <div class="wrap-50 wrap-img">
+            <img src="/wp-content/uploads/2022/01/Sterke-wind-waarschuwing.png" alt="">
+        </div>
     </section>
 
-    <section class="main-archive archive-archive container flex flex-row items-start justify-between">
+    <section class="main-archive container flex flex-row items-start justify-between">
         <div class="archive-loop flex flex-col">
-            @while(have_posts()) @php the_post() @endphp
-               @php
+            @query([
+                'post_type' => 'meditaties',
+                'posts_per_page' => 3,
+            ])
+
+            @posts
+            @php
                 $video_url = get_field('oembed_field', FALSE, FALSE); //URL
                 $video_thumb_url = App\get_video_thumbnail_uri($video_url); //get THumbnail via our functions 
-               @endphp
+            @endphp
                 <a href="@permalink" class="post-item">
                     <h2>@title</h2>
                     <div class="content-row flex flex-row">
@@ -42,31 +62,11 @@
                         </div>
                     </div>  
                 </a>
-            @endwhile
+            @endposts
         </div>
         <aside class="archive-sidebar flex flex-col justify-start items-start">
-          
-            <div class="aside-filter">
-                <h3>Meditaties</h3>
-                @php 
-                    $args = array(
-                        'taxonomy' => 'meditatie-jaar',
-                        'hide_empty' => false,
-                        'order' => 'DESC'
-                    );
-                    $m_cats = get_terms($args);
-                @endphp
-                <div class="filter-loop flex flex-row justify-start flex-wrap">
-                    @foreach($m_cats as $x)
-                    @php
-                        $term_link = get_term_link($x->term_id, 'meditatie-jaar');
-                    @endphp
-                        
-                        <a href="{!! $term_link !!}" class="filter-btn">{!! $x->name !!}</a>
-                    @endforeach
-                </div>
-            </div>
-            
+
+        
             @options('footer_1')
             <div class="aside-ytb">
                 <h4>@sub('youtube_title')</h4>
@@ -82,9 +82,9 @@
                     @endoptions
                 </div>
             </div>
-          @endoptions
+        @endoptions
         </aside>
     </section>
 
-   
+  @endwhile
 @endsection

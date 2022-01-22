@@ -2,9 +2,13 @@
 
 @section('content')
 
+@php
+    $cur_term = get_queried_object()->name;
+@endphp
+
     <section class="archive-header container flex flex-row items-center justify-start">
         <img src="@asset('images/tag-title.svg')" alt="">
-        <h1><?php post_type_archive_title(); ?></h1>
+        <h1>Meditaties <?php single_term_title(); ?></h1>
     </section>
 
     <section class="main-archive archive-archive container flex flex-row items-start justify-between">
@@ -62,9 +66,15 @@
                         $term_link = get_term_link($x->term_id, 'meditatie-jaar');
                     @endphp
                         
-                        <a href="{!! $term_link !!}" class="filter-btn">{!! $x->name !!}</a>
+                        <a href="{!! $term_link !!}" class="filter-btn @if($cur_term == $x->name) active @endif">{!! $x->name !!}</a>
                     @endforeach
                 </div>
+            </div>
+
+            <div class="aside-subscribe">
+                <h3>Blijf op de hoogte van:</h3>
+                <p>De Bijbelse overdenkingen van Wilco</p>
+                @shortcode('[email-subscribers-form id="2"]')
             </div>
             
             @options('footer_1')

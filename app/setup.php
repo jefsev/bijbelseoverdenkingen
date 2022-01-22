@@ -151,6 +151,21 @@ add_action('init', function () {
             'supports'          => array('title', 'thumbnail', 'author'),
             'position'          => '4',
         ]);
+
+        register_taxonomy(
+            'meditatie-jaar',
+            'meditaties',
+            array(
+                'label' => __( 'Jaar' ),
+                'hierarchical' => true,
+                'has_archive' => true,
+                'rewrite' => [
+                    'slug' => '/',
+                    "with_front" => false,
+
+                ] 
+            )
+        );
     }
 );
 

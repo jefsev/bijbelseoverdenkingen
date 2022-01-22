@@ -1561,43 +1561,57 @@ input[type="checkbox"]::before {
 
 .content-info .footer-col .es_subscription_form .es-field-wrap {
   display: inline-block;
-  width: calc(50% - 10px);
+  width: calc(65% - 10px);
 }
 
 /* line 15, resources/assets/styles/layouts/_footer.scss */
+
+.content-info .footer-col .es_subscription_form .es-field-wrap label {
+  width: 100%;
+}
+
+/* line 19, resources/assets/styles/layouts/_footer.scss */
 
 .content-info .footer-col .es_subscription_form .es-field-wrap input {
   background: transparent;
   border: none;
   border-bottom: 1px solid #fff;
   color: #fff;
+  width: 100%;
+  font-size: 14px;
 }
 
-/* line 22, resources/assets/styles/layouts/_footer.scss */
+/* line 28, resources/assets/styles/layouts/_footer.scss */
 
 .content-info .footer-col .es_subscription_form .es-field-wrap:first-of-type {
   margin-right: 19px;
 }
 
-/* line 27, resources/assets/styles/layouts/_footer.scss */
+/* line 33, resources/assets/styles/layouts/_footer.scss */
+
+.content-info .footer-col .es_subscription_form .es-field-wrap:first-child {
+  width: calc(35% - 10px);
+}
+
+/* line 37, resources/assets/styles/layouts/_footer.scss */
 
 .content-info .footer-col .es_subscription_form p {
   margin-top: 16px;
 }
 
-/* line 31, resources/assets/styles/layouts/_footer.scss */
+/* line 41, resources/assets/styles/layouts/_footer.scss */
 
 .content-info .footer-col .es_subscription_form .ig-es-form-list-selection {
   margin-bottom: 16px;
 }
 
-/* line 33, resources/assets/styles/layouts/_footer.scss */
+/* line 43, resources/assets/styles/layouts/_footer.scss */
 
 .content-info .footer-col .es_subscription_form .ig-es-form-list-selection .pt-4 {
   padding-top: 4px;
 }
 
-/* line 38, resources/assets/styles/layouts/_footer.scss */
+/* line 48, resources/assets/styles/layouts/_footer.scss */
 
 .content-info .footer-col .es_subscription_form .es_subscription_form_submit {
   display: inline-block;
@@ -1614,16 +1628,17 @@ input[type="checkbox"]::before {
   line-height: 1;
   background: #eee5e2;
   color: #212121;
+  cursor: pointer;
 }
 
-/* line 54, resources/assets/styles/layouts/_footer.scss */
+/* line 65, resources/assets/styles/layouts/_footer.scss */
 
 .content-info .footer-col .footer-logo {
   margin-bottom: 50px;
   display: block;
 }
 
-/* line 59, resources/assets/styles/layouts/_footer.scss */
+/* line 70, resources/assets/styles/layouts/_footer.scss */
 
 .content-info .footer-col h3 {
   color: #fff;
@@ -1632,7 +1647,7 @@ input[type="checkbox"]::before {
   margin-bottom: 24px;
 }
 
-/* line 65, resources/assets/styles/layouts/_footer.scss */
+/* line 76, resources/assets/styles/layouts/_footer.scss */
 
 .content-info .footer-col h3 font {
   color: #fff;
@@ -1640,7 +1655,7 @@ input[type="checkbox"]::before {
   font-weight: 700;
 }
 
-/* line 72, resources/assets/styles/layouts/_footer.scss */
+/* line 83, resources/assets/styles/layouts/_footer.scss */
 
 .content-info .footer-col h4 {
   color: #fff;
@@ -1649,7 +1664,7 @@ input[type="checkbox"]::before {
   margin-bottom: 14px;
 }
 
-/* line 78, resources/assets/styles/layouts/_footer.scss */
+/* line 89, resources/assets/styles/layouts/_footer.scss */
 
 .content-info .footer-col h4 font {
   color: #fff;
@@ -1657,7 +1672,7 @@ input[type="checkbox"]::before {
   font-weight: 700;
 }
 
-/* line 86, resources/assets/styles/layouts/_footer.scss */
+/* line 97, resources/assets/styles/layouts/_footer.scss */
 
 .content-info .footer-col .footer-menu a {
   font-size: 14px;
@@ -1671,7 +1686,7 @@ input[type="checkbox"]::before {
   transition: 0.2s ease;
 }
 
-/* line 95, resources/assets/styles/layouts/_footer.scss */
+/* line 106, resources/assets/styles/layouts/_footer.scss */
 
 .content-info .footer-col .footer-menu a font {
   opacity: 0.9;
@@ -1680,13 +1695,13 @@ input[type="checkbox"]::before {
   font-weight: 400;
 }
 
-/* line 102, resources/assets/styles/layouts/_footer.scss */
+/* line 113, resources/assets/styles/layouts/_footer.scss */
 
 .content-info .footer-col .footer-menu a:hover {
   opacity: 1;
 }
 
-/* line 108, resources/assets/styles/layouts/_footer.scss */
+/* line 119, resources/assets/styles/layouts/_footer.scss */
 
 .content-info .footer-col p {
   font-size: 14px;
@@ -1696,7 +1711,7 @@ input[type="checkbox"]::before {
   opacity: 0.9;
 }
 
-/* line 115, resources/assets/styles/layouts/_footer.scss */
+/* line 126, resources/assets/styles/layouts/_footer.scss */
 
 .content-info .footer-col p font {
   opacity: 0.9;
@@ -1705,13 +1720,13 @@ input[type="checkbox"]::before {
   font-weight: 400;
 }
 
-/* line 124, resources/assets/styles/layouts/_footer.scss */
+/* line 135, resources/assets/styles/layouts/_footer.scss */
 
 .content-info .footer-col .youtube-links a {
   margin-bottom: 16px;
 }
 
-/* line 127, resources/assets/styles/layouts/_footer.scss */
+/* line 138, resources/assets/styles/layouts/_footer.scss */
 
 .content-info .footer-col .youtube-links a img {
   width: 37px;
@@ -1719,25 +1734,25 @@ input[type="checkbox"]::before {
   display: inline-block;
 }
 
-/* line 133, resources/assets/styles/layouts/_footer.scss */
+/* line 144, resources/assets/styles/layouts/_footer.scss */
 
 .content-info .footer-col .youtube-links a .content {
   width: calc(100% - 47px);
 }
 
-/* line 136, resources/assets/styles/layouts/_footer.scss */
+/* line 147, resources/assets/styles/layouts/_footer.scss */
 
 .content-info .footer-col .youtube-links a .content span {
   color: #fff;
 }
 
-/* line 139, resources/assets/styles/layouts/_footer.scss */
+/* line 150, resources/assets/styles/layouts/_footer.scss */
 
 .content-info .footer-col .youtube-links a .content span font {
   color: #fff;
 }
 
-/* line 144, resources/assets/styles/layouts/_footer.scss */
+/* line 155, resources/assets/styles/layouts/_footer.scss */
 
 .content-info .footer-col .youtube-links a .content .title {
   font-size: 14px;
@@ -1748,20 +1763,20 @@ input[type="checkbox"]::before {
   transition: 0.2s ease;
 }
 
-/* line 150, resources/assets/styles/layouts/_footer.scss */
+/* line 161, resources/assets/styles/layouts/_footer.scss */
 
 .content-info .footer-col .youtube-links a .content .title:hover {
   opacity: 1;
 }
 
-/* line 154, resources/assets/styles/layouts/_footer.scss */
+/* line 165, resources/assets/styles/layouts/_footer.scss */
 
 .content-info .footer-col .youtube-links a .content .title font {
   font-size: 14px;
   font-weight: 500;
 }
 
-/* line 160, resources/assets/styles/layouts/_footer.scss */
+/* line 171, resources/assets/styles/layouts/_footer.scss */
 
 .content-info .footer-col .youtube-links a .content .subtitle {
   font-size: 12px;
@@ -1772,39 +1787,39 @@ input[type="checkbox"]::before {
   transition: 0.2s ease;
 }
 
-/* line 166, resources/assets/styles/layouts/_footer.scss */
+/* line 177, resources/assets/styles/layouts/_footer.scss */
 
 .content-info .footer-col .youtube-links a .content .subtitle:hover {
   opacity: 1;
 }
 
-/* line 170, resources/assets/styles/layouts/_footer.scss */
+/* line 181, resources/assets/styles/layouts/_footer.scss */
 
 .content-info .footer-col .youtube-links a .content .subtitle font {
   font-size: 12px;
   font-style: italic;
 }
 
-/* line 181, resources/assets/styles/layouts/_footer.scss */
+/* line 192, resources/assets/styles/layouts/_footer.scss */
 
 .content-info .footer-foot .footer-lang {
   margin-bottom: 35px;
   padding-top: 20px;
 }
 
-/* line 185, resources/assets/styles/layouts/_footer.scss */
+/* line 196, resources/assets/styles/layouts/_footer.scss */
 
 .content-info .footer-foot .footer-lang .switcher {
   border-radius: 10px;
 }
 
-/* line 188, resources/assets/styles/layouts/_footer.scss */
+/* line 199, resources/assets/styles/layouts/_footer.scss */
 
 .content-info .footer-foot .footer-lang .switcher .selected a {
   font-size: 12px;
 }
 
-/* line 193, resources/assets/styles/layouts/_footer.scss */
+/* line 204, resources/assets/styles/layouts/_footer.scss */
 
 .content-info .footer-foot .footer-lang span {
   display: inline-block;
@@ -1815,7 +1830,7 @@ input[type="checkbox"]::before {
   color: #fff;
 }
 
-/* line 201, resources/assets/styles/layouts/_footer.scss */
+/* line 212, resources/assets/styles/layouts/_footer.scss */
 
 .content-info .footer-foot .footer-lang span font {
   font-size: 14px;
@@ -1824,14 +1839,14 @@ input[type="checkbox"]::before {
   font-weight: 500;
 }
 
-/* line 210, resources/assets/styles/layouts/_footer.scss */
+/* line 221, resources/assets/styles/layouts/_footer.scss */
 
 .content-info .footer-foot .footer-small {
   padding-bottom: 16px;
   width: 100%;
 }
 
-/* line 214, resources/assets/styles/layouts/_footer.scss */
+/* line 225, resources/assets/styles/layouts/_footer.scss */
 
 .content-info .footer-foot .footer-small span {
   font-size: 12px;
@@ -1839,7 +1854,7 @@ input[type="checkbox"]::before {
   opacity: 0.6;
 }
 
-/* line 219, resources/assets/styles/layouts/_footer.scss */
+/* line 230, resources/assets/styles/layouts/_footer.scss */
 
 .content-info .footer-foot .footer-small span font {
   font-size: 12px;
@@ -1847,7 +1862,7 @@ input[type="checkbox"]::before {
   color: #fff;
 }
 
-/* line 226, resources/assets/styles/layouts/_footer.scss */
+/* line 237, resources/assets/styles/layouts/_footer.scss */
 
 .content-info .footer-foot .footer-small a {
   font-size: 12px;
@@ -1855,7 +1870,7 @@ input[type="checkbox"]::before {
   opacity: 0.6;
 }
 
-/* line 231, resources/assets/styles/layouts/_footer.scss */
+/* line 242, resources/assets/styles/layouts/_footer.scss */
 
 .content-info .footer-foot .footer-small a font {
   font-size: 12px;
@@ -1863,7 +1878,7 @@ input[type="checkbox"]::before {
   color: #fff;
 }
 
-/* line 237, resources/assets/styles/layouts/_footer.scss */
+/* line 248, resources/assets/styles/layouts/_footer.scss */
 
 .content-info .footer-foot .footer-small a span {
   text-decoration: underline;
@@ -1872,7 +1887,7 @@ input[type="checkbox"]::before {
   opacity: 1;
 }
 
-/* line 243, resources/assets/styles/layouts/_footer.scss */
+/* line 254, resources/assets/styles/layouts/_footer.scss */
 
 .content-info .footer-foot .footer-small a span font {
   font-size: 12px;
@@ -2338,12 +2353,39 @@ h4 font {
 
 /* line 354, resources/assets/styles/layouts/_pages.scss */
 
+.archive-header {
+  margin-top: 80px;
+}
+
+/* line 357, resources/assets/styles/layouts/_pages.scss */
+
+.archive-header h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* line 364, resources/assets/styles/layouts/_pages.scss */
+
+.archive-header img {
+  margin-right: 16px;
+}
+
+/* line 369, resources/assets/styles/layouts/_pages.scss */
+
+.main-archive.archive-archive {
+  padding-top: 60px;
+}
+
+/* line 373, resources/assets/styles/layouts/_pages.scss */
+
 .main-archive {
   padding-top: 120px;
   padding-bottom: 90px;
 }
 
-/* line 358, resources/assets/styles/layouts/_pages.scss */
+/* line 377, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-loop {
   width: 60%;
@@ -2351,7 +2393,7 @@ h4 font {
   border-right: 1px solid rgba(112, 112, 112, 0.1);
 }
 
-/* line 363, resources/assets/styles/layouts/_pages.scss */
+/* line 382, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-loop .post-item {
   padding-bottom: 36px;
@@ -2359,32 +2401,32 @@ h4 font {
   border-bottom: 1px solid rgba(112, 112, 112, 0.1);
 }
 
-/* line 368, resources/assets/styles/layouts/_pages.scss */
+/* line 387, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-loop .post-item h2 {
   margin-bottom: 18px;
 }
 
-/* line 372, resources/assets/styles/layouts/_pages.scss */
+/* line 391, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-loop .post-item .meta-data {
   margin-bottom: 12px;
   padding-top: 0;
 }
 
-/* line 377, resources/assets/styles/layouts/_pages.scss */
+/* line 396, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-loop .post-item .meta-data .bsf-rt-display-time::after {
   content: attr(reading_time);
 }
 
-/* line 383, resources/assets/styles/layouts/_pages.scss */
+/* line 402, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-loop .post-item .meta-data .bsf-rt-display-postfix::after {
   content: attr(postfix);
 }
 
-/* line 390, resources/assets/styles/layouts/_pages.scss */
+/* line 409, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-loop .post-item .content-row img.ytb-thumb {
   width: 190px;
@@ -2393,27 +2435,108 @@ h4 font {
   margin-right: 28px;
 }
 
-/* line 397, resources/assets/styles/layouts/_pages.scss */
+/* line 416, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-loop .post-item .content-row p {
   font-size: 14px;
   line-height: 24px;
 }
 
-/* line 405, resources/assets/styles/layouts/_pages.scss */
+/* line 424, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar {
   width: 40%;
   padding-left: 50px;
 }
 
-/* line 411, resources/assets/styles/layouts/_pages.scss */
+/* line 428, resources/assets/styles/layouts/_pages.scss */
+
+.main-archive .archive-sidebar .aside-filter {
+  padding-bottom: 26px;
+}
+
+/* line 431, resources/assets/styles/layouts/_pages.scss */
+
+.main-archive .archive-sidebar .aside-filter h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #212121;
+  margin-bottom: 16px;
+}
+
+/* line 437, resources/assets/styles/layouts/_pages.scss */
+
+.main-archive .archive-sidebar .aside-filter h3 font {
+  color: #212121;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* line 445, resources/assets/styles/layouts/_pages.scss */
+
+.main-archive .archive-sidebar .aside-filter .filter-loop .filter-btn {
+  font-size: 12px;
+  color: #212121;
+  font-weight: 300;
+  padding: 11px 34px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+  background: #e8e8e8;
+  border-radius: 20px;
+  -webkit-transition: 0.1s ease-in-out;
+  -o-transition: 0.1s ease-in-out;
+  transition: 0.1s ease-in-out;
+}
+
+/* line 456, resources/assets/styles/layouts/_pages.scss */
+
+.main-archive .archive-sidebar .aside-filter .filter-loop .filter-btn font {
+  font-size: 12px;
+  color: #212121;
+  font-weight: 300;
+}
+
+/* line 462, resources/assets/styles/layouts/_pages.scss */
+
+.main-archive .archive-sidebar .aside-filter .filter-loop .filter-btn:hover {
+  background: #212121;
+  color: #fff;
+}
+
+/* line 466, resources/assets/styles/layouts/_pages.scss */
+
+.main-archive .archive-sidebar .aside-filter .filter-loop .filter-btn:hover font {
+  background: #212121;
+  color: #fff;
+}
+
+/* line 473, resources/assets/styles/layouts/_pages.scss */
+
+.main-archive .archive-sidebar .aside-filter .filter-loop .filter-btn.active {
+  background: #212121;
+  color: #fff;
+}
+
+/* line 477, resources/assets/styles/layouts/_pages.scss */
+
+.main-archive .archive-sidebar .aside-filter .filter-loop .filter-btn.active font {
+  background: #212121;
+  color: #fff;
+}
+
+/* line 485, resources/assets/styles/layouts/_pages.scss */
+
+.main-archive .archive-sidebar .aside-ytb {
+  padding-top: 26px;
+}
+
+/* line 489, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-ytb .youtube-links a {
   margin-bottom: 16px;
 }
 
-/* line 414, resources/assets/styles/layouts/_pages.scss */
+/* line 492, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-ytb .youtube-links a img {
   width: 37px;
@@ -2421,25 +2544,25 @@ h4 font {
   display: inline-block;
 }
 
-/* line 420, resources/assets/styles/layouts/_pages.scss */
+/* line 498, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-ytb .youtube-links a .content {
   width: calc(100% - 47px);
 }
 
-/* line 423, resources/assets/styles/layouts/_pages.scss */
+/* line 501, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-ytb .youtube-links a .content span {
   color: #212121;
 }
 
-/* line 426, resources/assets/styles/layouts/_pages.scss */
+/* line 504, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-ytb .youtube-links a .content span font {
   color: #212121;
 }
 
-/* line 431, resources/assets/styles/layouts/_pages.scss */
+/* line 509, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-ytb .youtube-links a .content .title {
   font-size: 14px;
@@ -2450,20 +2573,20 @@ h4 font {
   transition: 0.2s ease;
 }
 
-/* line 437, resources/assets/styles/layouts/_pages.scss */
+/* line 515, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-ytb .youtube-links a .content .title:hover {
   opacity: 1;
 }
 
-/* line 441, resources/assets/styles/layouts/_pages.scss */
+/* line 519, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-ytb .youtube-links a .content .title font {
   font-size: 14px;
   font-weight: 500;
 }
 
-/* line 447, resources/assets/styles/layouts/_pages.scss */
+/* line 525, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-ytb .youtube-links a .content .subtitle {
   font-size: 12px;
@@ -2474,17 +2597,132 @@ h4 font {
   transition: 0.2s ease;
 }
 
-/* line 453, resources/assets/styles/layouts/_pages.scss */
+/* line 531, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-ytb .youtube-links a .content .subtitle:hover {
   opacity: 1;
 }
 
-/* line 457, resources/assets/styles/layouts/_pages.scss */
+/* line 535, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-ytb .youtube-links a .content .subtitle font {
   font-size: 12px;
   font-style: italic;
+}
+
+/* line 545, resources/assets/styles/layouts/_pages.scss */
+
+.main-archive .archive-sidebar .aside-subscribe {
+  padding: 45px;
+  margin-top: 26px;
+  margin-bottom: 26px;
+  background: #eee5e2;
+  border-radius: 10px;
+}
+
+/* line 552, resources/assets/styles/layouts/_pages.scss */
+
+.main-archive .archive-sidebar .aside-subscribe h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 0;
+  color: #212121;
+}
+
+/* line 558, resources/assets/styles/layouts/_pages.scss */
+
+.main-archive .archive-sidebar .aside-subscribe h3 font {
+  font-size: 16px;
+  font-weight: 700;
+  color: #212121;
+}
+
+/* line 565, resources/assets/styles/layouts/_pages.scss */
+
+.main-archive .archive-sidebar .aside-subscribe p {
+  font-size: 14px;
+  color: #212121;
+}
+
+/* line 569, resources/assets/styles/layouts/_pages.scss */
+
+.main-archive .archive-sidebar .aside-subscribe p font {
+  font-size: 14px;
+  color: #212121;
+}
+
+/* line 576, resources/assets/styles/layouts/_pages.scss */
+
+.main-archive .archive-sidebar .aside-subscribe .es_subscription_form .es-field-wrap {
+  display: inline-block;
+  width: calc(65% - 10px);
+}
+
+/* line 580, resources/assets/styles/layouts/_pages.scss */
+
+.main-archive .archive-sidebar .aside-subscribe .es_subscription_form .es-field-wrap label {
+  width: 100%;
+}
+
+/* line 584, resources/assets/styles/layouts/_pages.scss */
+
+.main-archive .archive-sidebar .aside-subscribe .es_subscription_form .es-field-wrap input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #212121;
+  color: #212121;
+  width: 100%;
+  font-size: 14px;
+}
+
+/* line 593, resources/assets/styles/layouts/_pages.scss */
+
+.main-archive .archive-sidebar .aside-subscribe .es_subscription_form .es-field-wrap:first-of-type {
+  margin-right: 19px;
+}
+
+/* line 598, resources/assets/styles/layouts/_pages.scss */
+
+.main-archive .archive-sidebar .aside-subscribe .es_subscription_form .es-field-wrap:first-child {
+  width: calc(35% - 10px);
+}
+
+/* line 602, resources/assets/styles/layouts/_pages.scss */
+
+.main-archive .archive-sidebar .aside-subscribe .es_subscription_form p {
+  margin-top: 16px;
+}
+
+/* line 606, resources/assets/styles/layouts/_pages.scss */
+
+.main-archive .archive-sidebar .aside-subscribe .es_subscription_form .ig-es-form-list-selection {
+  margin-bottom: 16px;
+}
+
+/* line 608, resources/assets/styles/layouts/_pages.scss */
+
+.main-archive .archive-sidebar .aside-subscribe .es_subscription_form .ig-es-form-list-selection .pt-4 {
+  padding-top: 4px;
+}
+
+/* line 613, resources/assets/styles/layouts/_pages.scss */
+
+.main-archive .archive-sidebar .aside-subscribe .es_subscription_form .es_subscription_form_submit {
+  display: inline-block;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  -webkit-transition: 0.2s ease;
+  -o-transition: 0.2s ease;
+  transition: 0.2s ease;
+  position: relative;
+  padding: 12px 36px 12px 36px;
+  margin-top: 12px;
+  line-height: 1;
+  background: #212121;
+  color: #fff;
+  cursor: pointer;
 }
 
 /* line 3, resources/assets/styles/layouts/_posts.scss */

@@ -10,18 +10,28 @@
         .es_subscription_form {
             .es-field-wrap {
                 display: inline-block;
-                width: calc(50% - 10px);
+                width: calc(65% - 10px);
+
+                label {
+                    width: 100%;
+                }
 
                 input {
                     background: transparent;
                     border: none;
                     border-bottom: 1px solid #fff;
                     color: #fff;
+                    width: 100%;
+                    font-size: 14px;
                 }
 
                 &:first-of-type {
                     margin-right: 19px;
                 }
+            }
+
+            .es-field-wrap:first-child {
+                width: calc(35% - 10px);
             }
 
             p {
@@ -48,6 +58,7 @@
                 line-height: 1;
                 background: $sand;
                 color: $black;
+                cursor: pointer;
             }
         }
 

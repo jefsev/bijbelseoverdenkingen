@@ -351,6 +351,25 @@ h4 {
 
 // Archives
 
+.archive-header {
+    margin-top: 80px;
+
+    h1 {
+        font-size: 28px;
+        font-weight: 700;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    img {
+        margin-right: 16px;
+    }
+}
+
+.main-archive.archive-archive {
+    padding-top: 60px;
+}
+
 .main-archive {
     padding-top: 120px;
     padding-bottom: 90px;
@@ -406,7 +425,66 @@ h4 {
         width: 40%;
         padding-left: 50px;
 
+        .aside-filter {
+            padding-bottom: 26px;
+
+            h3 {
+                font-size: 18px;
+                font-weight: 700;
+                color: $black;
+                margin-bottom: 16px;
+
+                font {
+                    color: $black;
+                    font-size: 18px;
+                    font-weight: 700;
+                }
+            }
+
+            .filter-loop {
+                .filter-btn {
+                    font-size: 12px;
+                    color: $black;
+                    font-weight: 300;
+                    padding: 11px 34px;
+                    margin-right: 12px;
+                    margin-bottom: 12px;
+                    background: #e8e8e8;
+                    border-radius: 20px;
+                    transition: 0.1s ease-in-out;
+
+                    font {
+                        font-size: 12px;
+                        color: $black;
+                        font-weight: 300;
+                    }
+
+                    &:hover {
+                        background: $black;
+                        color: #fff;
+
+                        font {
+                            background: $black;
+                            color: #fff;
+                        }
+                    }
+                }
+
+                .filter-btn.active {
+                    background: $black;
+                    color: #fff;
+
+                    font {
+                        background: $black;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+
         .aside-ytb {
+            padding-top: 26px;
+
             .youtube-links {
                 a {
                     margin-bottom: 16px;
@@ -460,6 +538,92 @@ h4 {
                             }
                         }
                     }
+                }
+            }
+        }
+
+        .aside-subscribe {
+            padding: 45px;
+            margin-top: 26px;
+            margin-bottom: 26px;
+            background: $sand;
+            border-radius: 10px;
+
+            h3 {
+                font-size: 16px;
+                font-weight: 700;
+                margin-top: 0;
+                color: $black;
+
+                font {
+                    font-size: 16px;
+                    font-weight: 700;
+                    color: $black;
+                }
+            }
+
+            p {
+                font-size: 14px;
+                color: $black;
+
+                font {
+                    font-size: 14px;
+                    color: $black;
+                }
+            }
+
+            .es_subscription_form {
+                .es-field-wrap {
+                    display: inline-block;
+                    width: calc(65% - 10px);
+
+                    label {
+                        width: 100%;
+                    }
+
+                    input {
+                        background: transparent;
+                        border: none;
+                        border-bottom: 1px solid $black;
+                        color: $black;
+                        width: 100%;
+                        font-size: 14px;
+                    }
+
+                    &:first-of-type {
+                        margin-right: 19px;
+                    }
+                }
+
+                .es-field-wrap:first-child {
+                    width: calc(35% - 10px);
+                }
+
+                p {
+                    margin-top: 16px;
+                }
+
+                .ig-es-form-list-selection {
+                    margin-bottom: 16px;
+                    .pt-4 {
+                        padding-top: 4px;
+                    }
+                }
+
+                .es_subscription_form_submit {
+                    display: inline-block;
+                    border: none;
+                    border-radius: 8px;
+                    font-size: 14px;
+                    font-weight: 500;
+                    transition: 0.2s ease;
+                    position: relative;
+                    padding: 12px 36px 12px 36px;
+                    margin-top: 12px;
+                    line-height: 1;
+                    background: $black;
+                    color: #fff;
+                    cursor: pointer;
                 }
             }
         }
