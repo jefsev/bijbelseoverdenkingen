@@ -664,7 +664,7 @@ ul{
 * {
   font-family: "Montserrat", sans-serif;
   color: #212121;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
 }
 
@@ -1394,7 +1394,7 @@ input[type="checkbox"]::before {
   position: absolute;
   background: transparent;
   right: 10px;
-  top: 5px;
+  top: 6px;
   border: none;
   padding: 0;
 }
@@ -2723,6 +2723,25 @@ h4 font {
   background: #212121;
   color: #fff;
   cursor: pointer;
+}
+
+/* line 633, resources/assets/styles/layouts/_pages.scss */
+
+.duo-text {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* line 637, resources/assets/styles/layouts/_pages.scss */
+
+.duo-text .wrap-50 {
+  width: calc(50% - 16px);
+}
+
+/* line 641, resources/assets/styles/layouts/_pages.scss */
+
+.duo-text p {
+  margin-bottom: 26px;
 }
 
 /* line 3, resources/assets/styles/layouts/_posts.scss */

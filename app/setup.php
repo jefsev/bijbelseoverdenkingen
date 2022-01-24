@@ -137,6 +137,20 @@ add_action('after_setup_theme', function () {
 */
 
 add_action('init', function () {
+        register_taxonomy(
+            'meditatie-jaar',
+            'meditaties',
+            array(
+                'label' => __( 'Jaar' ),
+                'hierarchical' => true,
+                'has_archive' => true,
+                'rewrite' => [
+                    'slug' => 'meditaties/jaar',
+                    "with_front" => true,
+                ] 
+            )
+        );
+
         $m_labels = [
             'name'              => 'Meditaties',
             'singular_name'     => 'Meditatie',
@@ -152,20 +166,7 @@ add_action('init', function () {
             'position'          => '4',
         ]);
 
-        register_taxonomy(
-            'meditatie-jaar',
-            'meditaties',
-            array(
-                'label' => __( 'Jaar' ),
-                'hierarchical' => true,
-                'has_archive' => true,
-                'rewrite' => [
-                    'slug' => '/',
-                    "with_front" => false,
-
-                ] 
-            )
-        );
+ 
     }
 );
 

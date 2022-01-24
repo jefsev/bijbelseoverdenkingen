@@ -629,3 +629,16 @@ h4 {
         }
     }
 }
+
+.duo-text {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    .wrap-50 {
+        width: calc(50% - 16px);
+    }
+
+    p {
+        margin-bottom: 26px;
+    }
+}
