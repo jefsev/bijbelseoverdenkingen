@@ -182,7 +182,7 @@ add_action('init', function () {
             'public'            => true,
             'has_archive'       => true,
             'query_var'         => true,
-            'rewrite'            => array( 'slug' => 'family-life-on-wheels' ),
+            'rewrite'            => array( 'slug' => 'blogs' ),
             'supports'          => array('title', 'thumbnail', 'editor', 'author'),
             'position'          => '4',
         ]);

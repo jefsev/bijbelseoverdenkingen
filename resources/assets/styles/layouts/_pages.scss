@@ -310,6 +310,38 @@ h4 {
     background: $sand;
 }
 
+.latest--blue {
+    background: $blue;
+
+    .subtitle {
+        color: #fff;
+
+        font {
+            color: #fff;
+        }
+
+        .nr {
+            color: #fff;
+
+            font {
+                color: #fff;
+            }
+        }
+    }
+
+    h3 {
+        color: #fff;
+
+        font {
+            color: #fff;
+        }
+    }
+
+    p {
+        color: #fff;
+    }
+}
+
 // hero hero-blue-img
 
 .hero-blue-img {
@@ -335,6 +367,43 @@ h4 {
 
         p {
             color: #fff;
+        }
+    }
+
+    .wrap-img {
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+    }
+}
+
+.hero-sand-img {
+    border-radius: 10px;
+    background: $sand;
+    width: calc(100% - 40px);
+    margin: 0 auto;
+    margin-top: 20px;
+
+    .wrap-50 {
+        width: 50%;
+    }
+
+    .bg--sand {
+        padding: 65px;
+        h1 {
+            color: $black;
+            font-size: 28px;
+            margin-top: 0;
+            font-weight: 700;
+            margin-bottom: 22px;
+        }
+
+        p {
+            color: $black;
         }
     }
 
