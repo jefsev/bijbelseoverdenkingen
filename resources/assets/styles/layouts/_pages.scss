@@ -477,7 +477,7 @@ h4 {
             .content-row {
                 img.ytb-thumb {
                     width: 190px;
-                    height: 114px;
+                    height: auto;
                     border-radius: 10px;
                     margin-right: 28px;
                 }
@@ -696,6 +696,35 @@ h4 {
                 }
             }
         }
+
+        .aside-latest-video {
+            padding-top: 26px;
+            padding-bottom: 26px;
+            width: 100%;
+
+            h3 {
+                font-size: 16px;
+                font-weight: 700;
+                margin-top: 0;
+                color: $black;
+                margin-bottom: 16px;
+
+                font {
+                    font-size: 16px;
+                    font-weight: 700;
+                    color: $black;
+                }
+            }
+
+            .embed-container {
+                width: 100%;
+                height: 210px;
+
+                iframe {
+                    border-radius: 10px;
+                }
+            }
+        }
     }
 }
 
@@ -709,5 +738,102 @@ h4 {
 
     p {
         margin-bottom: 26px;
+    }
+}
+
+// Blog
+
+.main-archive-blog {
+    padding-top: 75px;
+    padding-bottom: 75px;
+
+    h2 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .blog-latest {
+        .featured-item {
+            .thumbnail {
+                img {
+                    border-radius: 10px;
+                }
+            }
+
+            h3 {
+                font-weight: 700;
+                font-size: 24px;
+            }
+
+            .meta-data .bsf-rt-display-postfix::after {
+                content: attr(postfix);
+            }
+
+            .wrap-50 {
+                width: calc(50% - 26px);
+            }
+        }
+    }
+
+    .blogs {
+        padding-top: 80px;
+        padding-bottom: 60px;
+        width: 100%;
+
+        .wrap-50 {
+            width: calc(50% - 26px);
+        }
+
+        .blog-item {
+            text-decoration: none;
+            border-bottom: 1px solid rgba(112, 112, 112, 0.1);
+            margin-bottom: 16px;
+
+            h3 {
+                margin-top: 20px;
+                margin-bottom: 0;
+                font-size: 18px;
+                font-weight: 700;
+
+                font {
+                    font-size: 18px;
+                    font-weight: 700;
+                }
+            }
+
+            .content-part {
+                padding-bottom: 12px;
+
+                p {
+                    font-size: 14px;
+                    font-weight: 300;
+
+                    font {
+                        font-size: 14px;
+                        font-weight: 300;
+                    }
+                }
+            }
+
+            .meta-data {
+                margin-bottom: 14px;
+
+                .bsf-rt-display-time {
+                    &::after {
+                        content: attr(reading_time);
+                    }
+                }
+
+                .bsf-rt-display-postfix {
+                    &::after {
+                        content: attr(postfix);
+                    }
+                }
+            }
+        }
+    }
+
+    .btn-row {
+        width: 100%;
     }
 }
