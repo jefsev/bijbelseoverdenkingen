@@ -12,7 +12,7 @@ $queryX = new WP_Query([
                 <span class="subtitle"><span class="nr">@field('video_nr').</span> Laatste video</span>
                 <h3>@title</h3>
                 <p>@field('samenvatting')</p>
-                <a href="/family-life-on-wheels/" class="btn btn--white">Alle videos
+                <a href="/videos/" class="btn btn--white">Alle videos
                     <img src="@asset('images/arrow-black.svg')" alt="">
                 </a>
             </div>

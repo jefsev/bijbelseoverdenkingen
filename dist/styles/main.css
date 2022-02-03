@@ -3001,6 +3001,50 @@ h4 font {
   width: 100%;
 }
 
+/* line 843, resources/assets/styles/layouts/_pages.scss */
+
+.container-all-videos {
+  padding-top: 45px;
+  padding-bottom: 75px;
+}
+
+/* line 847, resources/assets/styles/layouts/_pages.scss */
+
+.container-all-videos h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* line 853, resources/assets/styles/layouts/_pages.scss */
+
+.container-all-videos .row-videos .item-video {
+  width: calc(33.333% - 10px);
+  margin-bottom: 20px;
+}
+
+/* line 857, resources/assets/styles/layouts/_pages.scss */
+
+.container-all-videos .row-videos .item-video img {
+  width: 100%;
+  height: 210px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/* line 863, resources/assets/styles/layouts/_pages.scss */
+
+.container-all-videos .row-videos .item-video h3 {
+  font-size: 16px;
+  padding-top: 8px;
+}
+
+/* line 870, resources/assets/styles/layouts/_pages.scss */
+
+.container-all-videos .btn-row {
+  width: 100%;
+  padding-top: 40px;
+}
+
 /* line 3, resources/assets/styles/layouts/_posts.scss */
 
 .container--small {
