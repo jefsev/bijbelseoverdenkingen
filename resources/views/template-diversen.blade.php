@@ -32,6 +32,12 @@
             @layout('section_text')
                 @include('partials.section-text')
             @endlayout
+            @layout('section_text_img')
+                @include('partials.section-text-img')
+            @endlayout
+            @layout('section_img_text')
+                @include('partials.section-img-text')
+            @endlayout
         @endlayouts
 
   @endwhile

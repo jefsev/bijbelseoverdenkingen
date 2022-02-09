@@ -2511,11 +2511,109 @@ h4 font {
 
 /* line 467, resources/assets/styles/layouts/_pages.scss */
 
+.img-text {
+  background: #eee5e2;
+  margin: 36px auto;
+  padding: 0;
+  border-radius: 10px;
+}
+
+/* line 473, resources/assets/styles/layouts/_pages.scss */
+
+.img-text .text-side {
+  padding: 40px;
+}
+
+/* line 476, resources/assets/styles/layouts/_pages.scss */
+
+.img-text .text-side h2,
+    .img-text .text-side h3,
+    .img-text .text-side h4,
+    .img-text .text-side h5,
+    .img-text .text-side h6 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* line 485, resources/assets/styles/layouts/_pages.scss */
+
+.img-text .text-side span,
+    .img-text .text-side p,
+    .img-text .text-side li {
+  font-size: 14px;
+}
+
+/* line 492, resources/assets/styles/layouts/_pages.scss */
+
+.img-text .wrap-50 {
+  width: 50%;
+}
+
+/* line 497, resources/assets/styles/layouts/_pages.scss */
+
+.img-text .img-side img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/* line 505, resources/assets/styles/layouts/_pages.scss */
+
+.text-img {
+  background: #eee5e2;
+  margin: 36px auto;
+  padding: 0;
+  border-radius: 10px;
+}
+
+/* line 511, resources/assets/styles/layouts/_pages.scss */
+
+.text-img .text-side {
+  padding: 40px;
+}
+
+/* line 514, resources/assets/styles/layouts/_pages.scss */
+
+.text-img .text-side h2,
+    .text-img .text-side h3,
+    .text-img .text-side h4,
+    .text-img .text-side h5,
+    .text-img .text-side h6 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* line 523, resources/assets/styles/layouts/_pages.scss */
+
+.text-img .text-side span,
+    .text-img .text-side p,
+    .text-img .text-side li {
+  font-size: 14px;
+}
+
+/* line 530, resources/assets/styles/layouts/_pages.scss */
+
+.text-img .wrap-50 {
+  width: 50%;
+}
+
+/* line 535, resources/assets/styles/layouts/_pages.scss */
+
+.text-img .img-side img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/* line 545, resources/assets/styles/layouts/_pages.scss */
+
 .archive-header {
   margin-top: 80px;
 }
 
-/* line 470, resources/assets/styles/layouts/_pages.scss */
+/* line 548, resources/assets/styles/layouts/_pages.scss */
 
 .archive-header h1 {
   font-size: 28px;
@@ -2524,26 +2622,26 @@ h4 font {
   margin-bottom: 0;
 }
 
-/* line 477, resources/assets/styles/layouts/_pages.scss */
+/* line 555, resources/assets/styles/layouts/_pages.scss */
 
 .archive-header img {
   margin-right: 16px;
 }
 
-/* line 482, resources/assets/styles/layouts/_pages.scss */
+/* line 560, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive.archive-archive {
   padding-top: 60px;
 }
 
-/* line 486, resources/assets/styles/layouts/_pages.scss */
+/* line 564, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive {
   padding-top: 120px;
   padding-bottom: 90px;
 }
 
-/* line 490, resources/assets/styles/layouts/_pages.scss */
+/* line 568, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-loop {
   width: 60%;
@@ -2551,7 +2649,7 @@ h4 font {
   border-right: 1px solid rgba(112, 112, 112, 0.1);
 }
 
-/* line 495, resources/assets/styles/layouts/_pages.scss */
+/* line 573, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-loop .post-item {
   padding-bottom: 36px;
@@ -2559,32 +2657,32 @@ h4 font {
   border-bottom: 1px solid rgba(112, 112, 112, 0.1);
 }
 
-/* line 500, resources/assets/styles/layouts/_pages.scss */
+/* line 578, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-loop .post-item h2 {
   margin-bottom: 18px;
 }
 
-/* line 504, resources/assets/styles/layouts/_pages.scss */
+/* line 582, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-loop .post-item .meta-data {
   margin-bottom: 12px;
   padding-top: 0;
 }
 
-/* line 509, resources/assets/styles/layouts/_pages.scss */
+/* line 587, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-loop .post-item .meta-data .bsf-rt-display-time::after {
   content: attr(reading_time);
 }
 
-/* line 515, resources/assets/styles/layouts/_pages.scss */
+/* line 593, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-loop .post-item .meta-data .bsf-rt-display-postfix::after {
   content: attr(postfix);
 }
 
-/* line 522, resources/assets/styles/layouts/_pages.scss */
+/* line 600, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-loop .post-item .content-row img.ytb-thumb {
   width: 190px;
@@ -2593,27 +2691,27 @@ h4 font {
   margin-right: 28px;
 }
 
-/* line 529, resources/assets/styles/layouts/_pages.scss */
+/* line 607, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-loop .post-item .content-row p {
   font-size: 14px;
   line-height: 24px;
 }
 
-/* line 537, resources/assets/styles/layouts/_pages.scss */
+/* line 615, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar {
   width: 40%;
   padding-left: 50px;
 }
 
-/* line 541, resources/assets/styles/layouts/_pages.scss */
+/* line 619, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-filter {
   padding-bottom: 26px;
 }
 
-/* line 544, resources/assets/styles/layouts/_pages.scss */
+/* line 622, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-filter h3 {
   font-size: 18px;
@@ -2622,7 +2720,7 @@ h4 font {
   margin-bottom: 16px;
 }
 
-/* line 550, resources/assets/styles/layouts/_pages.scss */
+/* line 628, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-filter h3 font {
   color: #212121;
@@ -2630,7 +2728,7 @@ h4 font {
   font-weight: 700;
 }
 
-/* line 558, resources/assets/styles/layouts/_pages.scss */
+/* line 636, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-filter .filter-loop .filter-btn {
   font-size: 12px;
@@ -2646,7 +2744,7 @@ h4 font {
   transition: 0.1s ease-in-out;
 }
 
-/* line 569, resources/assets/styles/layouts/_pages.scss */
+/* line 647, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-filter .filter-loop .filter-btn font {
   font-size: 12px;
@@ -2654,47 +2752,47 @@ h4 font {
   font-weight: 300;
 }
 
-/* line 575, resources/assets/styles/layouts/_pages.scss */
+/* line 653, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-filter .filter-loop .filter-btn:hover {
   background: #212121;
   color: #fff;
 }
 
-/* line 579, resources/assets/styles/layouts/_pages.scss */
+/* line 657, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-filter .filter-loop .filter-btn:hover font {
   background: #212121;
   color: #fff;
 }
 
-/* line 586, resources/assets/styles/layouts/_pages.scss */
+/* line 664, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-filter .filter-loop .filter-btn.active {
   background: #212121;
   color: #fff;
 }
 
-/* line 590, resources/assets/styles/layouts/_pages.scss */
+/* line 668, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-filter .filter-loop .filter-btn.active font {
   background: #212121;
   color: #fff;
 }
 
-/* line 598, resources/assets/styles/layouts/_pages.scss */
+/* line 676, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-ytb {
   padding-top: 26px;
 }
 
-/* line 602, resources/assets/styles/layouts/_pages.scss */
+/* line 680, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-ytb .youtube-links a {
   margin-bottom: 16px;
 }
 
-/* line 605, resources/assets/styles/layouts/_pages.scss */
+/* line 683, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-ytb .youtube-links a img {
   width: 37px;
@@ -2702,25 +2800,25 @@ h4 font {
   display: inline-block;
 }
 
-/* line 611, resources/assets/styles/layouts/_pages.scss */
+/* line 689, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-ytb .youtube-links a .content {
   width: calc(100% - 47px);
 }
 
-/* line 614, resources/assets/styles/layouts/_pages.scss */
+/* line 692, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-ytb .youtube-links a .content span {
   color: #212121;
 }
 
-/* line 617, resources/assets/styles/layouts/_pages.scss */
+/* line 695, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-ytb .youtube-links a .content span font {
   color: #212121;
 }
 
-/* line 622, resources/assets/styles/layouts/_pages.scss */
+/* line 700, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-ytb .youtube-links a .content .title {
   font-size: 14px;
@@ -2731,20 +2829,20 @@ h4 font {
   transition: 0.2s ease;
 }
 
-/* line 628, resources/assets/styles/layouts/_pages.scss */
+/* line 706, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-ytb .youtube-links a .content .title:hover {
   opacity: 1;
 }
 
-/* line 632, resources/assets/styles/layouts/_pages.scss */
+/* line 710, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-ytb .youtube-links a .content .title font {
   font-size: 14px;
   font-weight: 500;
 }
 
-/* line 638, resources/assets/styles/layouts/_pages.scss */
+/* line 716, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-ytb .youtube-links a .content .subtitle {
   font-size: 12px;
@@ -2755,20 +2853,20 @@ h4 font {
   transition: 0.2s ease;
 }
 
-/* line 644, resources/assets/styles/layouts/_pages.scss */
+/* line 722, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-ytb .youtube-links a .content .subtitle:hover {
   opacity: 1;
 }
 
-/* line 648, resources/assets/styles/layouts/_pages.scss */
+/* line 726, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-ytb .youtube-links a .content .subtitle font {
   font-size: 12px;
   font-style: italic;
 }
 
-/* line 658, resources/assets/styles/layouts/_pages.scss */
+/* line 736, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-subscribe {
   padding: 45px;
@@ -2778,7 +2876,7 @@ h4 font {
   border-radius: 10px;
 }
 
-/* line 665, resources/assets/styles/layouts/_pages.scss */
+/* line 743, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-subscribe h3 {
   font-size: 16px;
@@ -2787,7 +2885,7 @@ h4 font {
   color: #212121;
 }
 
-/* line 671, resources/assets/styles/layouts/_pages.scss */
+/* line 749, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-subscribe h3 font {
   font-size: 16px;
@@ -2795,34 +2893,34 @@ h4 font {
   color: #212121;
 }
 
-/* line 678, resources/assets/styles/layouts/_pages.scss */
+/* line 756, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-subscribe p {
   font-size: 14px;
   color: #212121;
 }
 
-/* line 682, resources/assets/styles/layouts/_pages.scss */
+/* line 760, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-subscribe p font {
   font-size: 14px;
   color: #212121;
 }
 
-/* line 689, resources/assets/styles/layouts/_pages.scss */
+/* line 767, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-subscribe .es_subscription_form .es-field-wrap {
   display: inline-block;
   width: calc(65% - 10px);
 }
 
-/* line 693, resources/assets/styles/layouts/_pages.scss */
+/* line 771, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-subscribe .es_subscription_form .es-field-wrap label {
   width: 100%;
 }
 
-/* line 697, resources/assets/styles/layouts/_pages.scss */
+/* line 775, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-subscribe .es_subscription_form .es-field-wrap input {
   background: transparent;
@@ -2833,37 +2931,37 @@ h4 font {
   font-size: 14px;
 }
 
-/* line 706, resources/assets/styles/layouts/_pages.scss */
+/* line 784, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-subscribe .es_subscription_form .es-field-wrap:first-of-type {
   margin-right: 19px;
 }
 
-/* line 711, resources/assets/styles/layouts/_pages.scss */
+/* line 789, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-subscribe .es_subscription_form .es-field-wrap:first-child {
   width: calc(35% - 10px);
 }
 
-/* line 715, resources/assets/styles/layouts/_pages.scss */
+/* line 793, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-subscribe .es_subscription_form p {
   margin-top: 16px;
 }
 
-/* line 719, resources/assets/styles/layouts/_pages.scss */
+/* line 797, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-subscribe .es_subscription_form .ig-es-form-list-selection {
   margin-bottom: 16px;
 }
 
-/* line 721, resources/assets/styles/layouts/_pages.scss */
+/* line 799, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-subscribe .es_subscription_form .ig-es-form-list-selection .pt-4 {
   padding-top: 4px;
 }
 
-/* line 726, resources/assets/styles/layouts/_pages.scss */
+/* line 804, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-subscribe .es_subscription_form .es_subscription_form_submit {
   display: inline-block;
@@ -2883,7 +2981,7 @@ h4 font {
   cursor: pointer;
 }
 
-/* line 744, resources/assets/styles/layouts/_pages.scss */
+/* line 822, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-latest-video {
   padding-top: 26px;
@@ -2891,7 +2989,7 @@ h4 font {
   width: 100%;
 }
 
-/* line 749, resources/assets/styles/layouts/_pages.scss */
+/* line 827, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-latest-video h3 {
   font-size: 16px;
@@ -2901,7 +2999,7 @@ h4 font {
   margin-bottom: 16px;
 }
 
-/* line 756, resources/assets/styles/layouts/_pages.scss */
+/* line 834, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-latest-video h3 font {
   font-size: 16px;
@@ -2909,78 +3007,78 @@ h4 font {
   color: #212121;
 }
 
-/* line 763, resources/assets/styles/layouts/_pages.scss */
+/* line 841, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-latest-video .embed-container {
   width: 100%;
   height: 210px;
 }
 
-/* line 767, resources/assets/styles/layouts/_pages.scss */
+/* line 845, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-latest-video .embed-container iframe {
   border-radius: 10px;
 }
 
-/* line 775, resources/assets/styles/layouts/_pages.scss */
+/* line 853, resources/assets/styles/layouts/_pages.scss */
 
 .duo-text {
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
-/* line 779, resources/assets/styles/layouts/_pages.scss */
+/* line 857, resources/assets/styles/layouts/_pages.scss */
 
 .duo-text .wrap-50 {
   width: calc(50% - 16px);
 }
 
-/* line 783, resources/assets/styles/layouts/_pages.scss */
+/* line 861, resources/assets/styles/layouts/_pages.scss */
 
 .duo-text p {
   margin-bottom: 26px;
 }
 
-/* line 790, resources/assets/styles/layouts/_pages.scss */
+/* line 868, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive-blog {
   padding-top: 75px;
   padding-bottom: 75px;
 }
 
-/* line 794, resources/assets/styles/layouts/_pages.scss */
+/* line 872, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive-blog h2 {
   font-size: 20px;
   font-weight: 500;
 }
 
-/* line 802, resources/assets/styles/layouts/_pages.scss */
+/* line 880, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive-blog .blog-latest .featured-item .thumbnail img {
   border-radius: 10px;
 }
 
-/* line 807, resources/assets/styles/layouts/_pages.scss */
+/* line 885, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive-blog .blog-latest .featured-item h3 {
   font-weight: 700;
   font-size: 24px;
 }
 
-/* line 812, resources/assets/styles/layouts/_pages.scss */
+/* line 890, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive-blog .blog-latest .featured-item .meta-data .bsf-rt-display-postfix::after {
   content: attr(postfix);
 }
 
-/* line 816, resources/assets/styles/layouts/_pages.scss */
+/* line 894, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive-blog .blog-latest .featured-item .wrap-50 {
   width: calc(50% - 26px);
 }
 
-/* line 822, resources/assets/styles/layouts/_pages.scss */
+/* line 900, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive-blog .blogs {
   padding-top: 80px;
@@ -2988,13 +3086,13 @@ h4 font {
   width: 100%;
 }
 
-/* line 827, resources/assets/styles/layouts/_pages.scss */
+/* line 905, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive-blog .blogs .wrap-50 {
   width: calc(50% - 26px);
 }
 
-/* line 831, resources/assets/styles/layouts/_pages.scss */
+/* line 909, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive-blog .blogs .blog-item {
   text-decoration: none;
@@ -3002,7 +3100,7 @@ h4 font {
   margin-bottom: 16px;
 }
 
-/* line 836, resources/assets/styles/layouts/_pages.scss */
+/* line 914, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive-blog .blogs .blog-item h3 {
   margin-top: 20px;
@@ -3011,79 +3109,79 @@ h4 font {
   font-weight: 700;
 }
 
-/* line 842, resources/assets/styles/layouts/_pages.scss */
+/* line 920, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive-blog .blogs .blog-item h3 font {
   font-size: 18px;
   font-weight: 700;
 }
 
-/* line 848, resources/assets/styles/layouts/_pages.scss */
+/* line 926, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive-blog .blogs .blog-item .content-part {
   padding-bottom: 12px;
 }
 
-/* line 851, resources/assets/styles/layouts/_pages.scss */
+/* line 929, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive-blog .blogs .blog-item .content-part p {
   font-size: 14px;
   font-weight: 300;
 }
 
-/* line 855, resources/assets/styles/layouts/_pages.scss */
+/* line 933, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive-blog .blogs .blog-item .content-part p font {
   font-size: 14px;
   font-weight: 300;
 }
 
-/* line 862, resources/assets/styles/layouts/_pages.scss */
+/* line 940, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive-blog .blogs .blog-item .meta-data {
   margin-bottom: 14px;
 }
 
-/* line 866, resources/assets/styles/layouts/_pages.scss */
+/* line 944, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive-blog .blogs .blog-item .meta-data .bsf-rt-display-time::after {
   content: attr(reading_time);
 }
 
-/* line 872, resources/assets/styles/layouts/_pages.scss */
+/* line 950, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive-blog .blogs .blog-item .meta-data .bsf-rt-display-postfix::after {
   content: attr(postfix);
 }
 
-/* line 880, resources/assets/styles/layouts/_pages.scss */
+/* line 958, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive-blog .btn-row {
   width: 100%;
 }
 
-/* line 887, resources/assets/styles/layouts/_pages.scss */
+/* line 965, resources/assets/styles/layouts/_pages.scss */
 
 .container-all-videos {
   padding-top: 45px;
   padding-bottom: 75px;
 }
 
-/* line 891, resources/assets/styles/layouts/_pages.scss */
+/* line 969, resources/assets/styles/layouts/_pages.scss */
 
 .container-all-videos h2 {
   font-size: 20px;
   font-weight: 500;
 }
 
-/* line 897, resources/assets/styles/layouts/_pages.scss */
+/* line 975, resources/assets/styles/layouts/_pages.scss */
 
 .container-all-videos .row-videos .item-video {
   width: calc(33.333% - 10px);
   margin-bottom: 20px;
 }
 
-/* line 901, resources/assets/styles/layouts/_pages.scss */
+/* line 979, resources/assets/styles/layouts/_pages.scss */
 
 .container-all-videos .row-videos .item-video img {
   width: 100%;
@@ -3092,35 +3190,35 @@ h4 font {
      object-fit: cover;
 }
 
-/* line 907, resources/assets/styles/layouts/_pages.scss */
+/* line 985, resources/assets/styles/layouts/_pages.scss */
 
 .container-all-videos .row-videos .item-video h3 {
   font-size: 16px;
   padding-top: 8px;
 }
 
-/* line 914, resources/assets/styles/layouts/_pages.scss */
+/* line 992, resources/assets/styles/layouts/_pages.scss */
 
 .container-all-videos .btn-row {
   width: 100%;
   padding-top: 40px;
 }
 
-/* line 922, resources/assets/styles/layouts/_pages.scss */
+/* line 1000, resources/assets/styles/layouts/_pages.scss */
 
 .container-grid {
   padding-top: 45px;
   padding-bottom: 100px;
 }
 
-/* line 926, resources/assets/styles/layouts/_pages.scss */
+/* line 1004, resources/assets/styles/layouts/_pages.scss */
 
 .container-grid h2 {
   margin-bottom: 45px;
   font-weight: 400;
 }
 
-/* line 932, resources/assets/styles/layouts/_pages.scss */
+/* line 1010, resources/assets/styles/layouts/_pages.scss */
 
 .container-grid .wrap-grid .item {
   width: calc(33.333% - 10px);
@@ -3133,40 +3231,40 @@ h4 font {
   transition: 0.2s ease-in-out;
 }
 
-/* line 940, resources/assets/styles/layouts/_pages.scss */
+/* line 1018, resources/assets/styles/layouts/_pages.scss */
 
 .container-grid .wrap-grid .item .head {
   margin-bottom: 16px;
 }
 
-/* line 943, resources/assets/styles/layouts/_pages.scss */
+/* line 1021, resources/assets/styles/layouts/_pages.scss */
 
 .container-grid .wrap-grid .item .head h3 {
   font-size: 16px;
   font-weight: 700;
 }
 
-/* line 948, resources/assets/styles/layouts/_pages.scss */
+/* line 1026, resources/assets/styles/layouts/_pages.scss */
 
 .container-grid .wrap-grid .item .head img {
   height: 30px;
   width: auto;
 }
 
-/* line 954, resources/assets/styles/layouts/_pages.scss */
+/* line 1032, resources/assets/styles/layouts/_pages.scss */
 
 .container-grid .wrap-grid .item p {
   font-size: 14px;
 }
 
-/* line 958, resources/assets/styles/layouts/_pages.scss */
+/* line 1036, resources/assets/styles/layouts/_pages.scss */
 
 .container-grid .wrap-grid .item:hover {
   -webkit-box-shadow: 0px 0px 26px rgba(0, 0, 0, 0.02);
           box-shadow: 0px 0px 26px rgba(0, 0, 0, 0.02);
 }
 
-/* line 967, resources/assets/styles/layouts/_pages.scss */
+/* line 1045, resources/assets/styles/layouts/_pages.scss */
 
 .container-text {
   padding-top: 80px;
