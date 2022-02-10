@@ -38,6 +38,9 @@
             @layout('section_img_text')
                 @include('partials.section-img-text')
             @endlayout
+            @layout('section_video_nature')
+                @include('partials.section-video-nature')
+            @endlayout
         @endlayouts
 
   @endwhile

@@ -89,3 +89,10 @@ add_filter('comments_template', function ($comments_template) {
 
     return $comments_template;
 }, 100);
+
+
+// To change add to cart text on product archives(Collection) page
+add_filter( 'woocommerce_product_add_to_cart_text',  function () {
+    return __( 'in winkelwagen', 'woocommerce' );
+} );  
+   

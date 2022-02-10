@@ -26,7 +26,7 @@ $section_grid = get_field_partial('partials.section-grid');
 $section_text = get_field_partial('partials.section-text'); 
 $section_text_img = get_field_partial('partials.section-text-img'); 
 $section_img_text = get_field_partial('partials.section-img-text'); 
-
+$section_video_nature = get_field_partial('partials.section-video-nature'); 
 
 $diversen
     ->addFlexibleContent('flexible_elementen', ['button_label' => 'Add Content Row'])
@@ -40,6 +40,7 @@ $diversen
         ->addLayout($section_text)
         ->addLayout($section_text_img)
         ->addLayout($section_img_text)
+        ->addLayout($section_video_nature)
     ->endFlexibleContent();
     
 ;return $diversen;

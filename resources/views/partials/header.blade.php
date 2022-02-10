@@ -12,7 +12,15 @@
         <span class="toggle-menu">
             <img src="@asset('images/search.svg')" alt="">
         </span>
-        <a href="/winkelmand/">
+
+        <?php if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {       
+            $count = WC()->cart->cart_contents_count; 
+        }?>
+
+        <a href="/winkelmand/" class="cart">
+            @if ($count > 0)
+                <span id="amount"><?php echo esc_html( $count ); ?></span>
+            @endif
             <img src="@asset('images/bag.svg')" alt="">
         </a>
         <span class="toggle-menu">

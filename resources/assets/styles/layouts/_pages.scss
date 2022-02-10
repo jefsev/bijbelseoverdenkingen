@@ -1046,3 +1046,127 @@ h4 {
     padding-top: 80px;
     padding-bottom: 80px;
 }
+
+// woocommerce
+
+.woocommerce-cart,
+.woocommerce-page {
+    .main {
+        max-width: 1155px;
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 0 auto;
+    }
+
+    h1 {
+        font-size: 28px;
+        font-weight: 700;
+        color: $black;
+        margin-bottom: 16px;
+    }
+}
+
+.woocommerce {
+    .main {
+        max-width: 1155px;
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 0 auto;
+    }
+
+    a.button,
+    button.button,
+    input.button,
+    #review_form #submit {
+        display: inline-block;
+        border-radius: 8px;
+        font-size: 14px;
+        font-weight: 500;
+        transition: 0.2s ease;
+        position: relative;
+        padding: 12px 28px 12px 28px;
+        line-height: 1;
+        background: $blue;
+        color: #fff;
+
+        font {
+            color: #fff;
+            font-size: 14px;
+        }
+
+        &:hover {
+            background: $sand;
+            color: $black;
+
+            font {
+                color: $black;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt {
+    display: inline-block;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: 0.2s ease;
+    position: relative;
+    padding: 12px 28px 12px 28px;
+    line-height: 1;
+    background: $blue;
+    color: #fff;
+
+    font {
+        color: #fff;
+        font-size: 14px;
+    }
+
+    &:hover {
+        background: $sand;
+        color: $black;
+
+        font {
+            color: $black;
+            font-size: 14px;
+        }
+    }
+}
+
+.woocommerce .quantity .qty {
+    height: 38px;
+}
+
+.woocommerce div.product .product_title {
+    font-size: 28px;
+    font-weight: 700;
+    color: $black;
+    margin-bottom: 16px;
+}
+
+.woocommerce div.product p.price,
+.woocommerce div.product span.price {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.woocommerce #respond input#submit.disabled,
+.woocommerce #respond input#submit:disabled,
+.woocommerce #respond input#submit:disabled[disabled],
+.woocommerce a.button.disabled,
+.woocommerce a.button:disabled,
+.woocommerce a.button:disabled[disabled],
+.woocommerce button.button.disabled,
+.woocommerce button.button:disabled,
+.woocommerce button.button:disabled[disabled],
+.woocommerce input.button.disabled,
+.woocommerce input.button:disabled,
+.woocommerce input.button:disabled[disabled] {
+    color: #fff;
+}

@@ -1542,6 +1542,29 @@ input[type="checkbox"]::before {
           transform: translateX(0%);
 }
 
+/* line 260, resources/assets/styles/layouts/_header.scss */
+
+.cart {
+  position: relative;
+}
+
+/* line 263, resources/assets/styles/layouts/_header.scss */
+
+.cart #amount {
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  padding: 3px;
+  font-weight: 400;
+  background: #121928;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 8px;
+  width: 18px;
+  height: 18px;
+  text-align: center;
+}
+
 /* line 1, resources/assets/styles/layouts/_footer.scss */
 
 .content-info {
@@ -3269,6 +3292,177 @@ h4 font {
 .container-text {
   padding-top: 80px;
   padding-bottom: 80px;
+}
+
+/* line 1054, resources/assets/styles/layouts/_pages.scss */
+
+.woocommerce-cart .main,
+.woocommerce-page .main {
+  max-width: 1155px;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+/* line 1062, resources/assets/styles/layouts/_pages.scss */
+
+.woocommerce-cart h1,
+.woocommerce-page h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #212121;
+  margin-bottom: 16px;
+}
+
+/* line 1071, resources/assets/styles/layouts/_pages.scss */
+
+.woocommerce .main {
+  max-width: 1155px;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+/* line 1079, resources/assets/styles/layouts/_pages.scss */
+
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.woocommerce #review_form #submit {
+  display: inline-block;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  -webkit-transition: 0.2s ease;
+  -o-transition: 0.2s ease;
+  transition: 0.2s ease;
+  position: relative;
+  padding: 12px 28px 12px 28px;
+  line-height: 1;
+  background: #121928;
+  color: #fff;
+}
+
+/* line 1094, resources/assets/styles/layouts/_pages.scss */
+
+.woocommerce a.button font,
+  .woocommerce button.button font,
+  .woocommerce input.button font,
+  .woocommerce #review_form #submit font {
+  color: #fff;
+  font-size: 14px;
+}
+
+/* line 1099, resources/assets/styles/layouts/_pages.scss */
+
+.woocommerce a.button:hover,
+  .woocommerce button.button:hover,
+  .woocommerce input.button:hover,
+  .woocommerce #review_form #submit:hover {
+  background: #eee5e2;
+  color: #212121;
+}
+
+/* line 1103, resources/assets/styles/layouts/_pages.scss */
+
+.woocommerce a.button:hover font,
+    .woocommerce button.button:hover font,
+    .woocommerce input.button:hover font,
+    .woocommerce #review_form #submit:hover font {
+  color: #212121;
+  font-size: 14px;
+}
+
+/* line 1111, resources/assets/styles/layouts/_pages.scss */
+
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt {
+  display: inline-block;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  -webkit-transition: 0.2s ease;
+  -o-transition: 0.2s ease;
+  transition: 0.2s ease;
+  position: relative;
+  padding: 12px 28px 12px 28px;
+  line-height: 1;
+  background: #121928;
+  color: #fff;
+}
+
+/* line 1126, resources/assets/styles/layouts/_pages.scss */
+
+.woocommerce #respond input#submit.alt font,
+  .woocommerce a.button.alt font,
+  .woocommerce button.button.alt font,
+  .woocommerce input.button.alt font {
+  color: #fff;
+  font-size: 14px;
+}
+
+/* line 1131, resources/assets/styles/layouts/_pages.scss */
+
+.woocommerce #respond input#submit.alt:hover,
+  .woocommerce a.button.alt:hover,
+  .woocommerce button.button.alt:hover,
+  .woocommerce input.button.alt:hover {
+  background: #eee5e2;
+  color: #212121;
+}
+
+/* line 1135, resources/assets/styles/layouts/_pages.scss */
+
+.woocommerce #respond input#submit.alt:hover font,
+    .woocommerce a.button.alt:hover font,
+    .woocommerce button.button.alt:hover font,
+    .woocommerce input.button.alt:hover font {
+  color: #212121;
+  font-size: 14px;
+}
+
+/* line 1142, resources/assets/styles/layouts/_pages.scss */
+
+.woocommerce .quantity .qty {
+  height: 38px;
+}
+
+/* line 1146, resources/assets/styles/layouts/_pages.scss */
+
+.woocommerce div.product .product_title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #212121;
+  margin-bottom: 16px;
+}
+
+/* line 1153, resources/assets/styles/layouts/_pages.scss */
+
+.woocommerce div.product p.price,
+.woocommerce div.product span.price {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* line 1159, resources/assets/styles/layouts/_pages.scss */
+
+.woocommerce #respond input#submit.disabled,
+.woocommerce #respond input#submit:disabled,
+.woocommerce #respond input#submit:disabled[disabled],
+.woocommerce a.button.disabled,
+.woocommerce a.button:disabled,
+.woocommerce a.button:disabled[disabled],
+.woocommerce button.button.disabled,
+.woocommerce button.button:disabled,
+.woocommerce button.button:disabled[disabled],
+.woocommerce input.button.disabled,
+.woocommerce input.button:disabled,
+.woocommerce input.button:disabled[disabled] {
+  color: #fff;
 }
 
 /* line 3, resources/assets/styles/layouts/_posts.scss */

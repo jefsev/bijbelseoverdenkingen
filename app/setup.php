@@ -91,6 +91,8 @@ add_action('widgets_init', function () {
         'name'          => __('Footer', 'sage'),
         'id'            => 'sidebar-footer'
     ] + $config);
+
+
 });
 
 /**
@@ -207,6 +209,24 @@ add_action('init', function () {
     }
 );
 
+add_action('init', function () {
+    $vv_labels = [
+        'name'              => 'Videos nature',
+        'singular_name'     => 'Video',
+        'add_new'           => 'Nieuwe video',
+        'edit_item'         => 'Video aanpassen',
+    ];
+    register_post_type('videos-nature', [
+        'labels'            => $vv_labels,
+        'public'            => true,
+        'has_archive'       => false,
+        'query_var'         => true,
+        'supports'          => array('title', 'thumbnail'),
+        'position'          => '4',
+    ]);
+}
+);
+
 
 /**
  * Register Options Page
@@ -242,6 +262,14 @@ add_action('acf/init', function() {
     }
 });
 
+ /**
+ * Woocommerce theme support
+ */
+
+add_action( 'after_setup_theme', function() {
+    add_theme_support( 'wc-product-gallery-lightbox' );
+    add_theme_support( 'wc-product-gallery-slider' );
+} );
 
 
 /**
