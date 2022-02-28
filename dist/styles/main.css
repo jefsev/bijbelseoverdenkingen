@@ -1944,6 +1944,18 @@ html {
 
 /* line 19, resources/assets/styles/layouts/_pages.scss */
 
+.woocommerce .container-content {
+  padding-top: 120px;
+}
+
+/* line 23, resources/assets/styles/layouts/_pages.scss */
+
+.woocommerce-page .container-content {
+  padding-top: 120px;
+}
+
+/* line 27, resources/assets/styles/layouts/_pages.scss */
+
 .container--verse {
   max-width: 710px;
   width: 100%;
@@ -1952,75 +1964,75 @@ html {
   margin: 0 auto;
 }
 
-/* line 27, resources/assets/styles/layouts/_pages.scss */
+/* line 35, resources/assets/styles/layouts/_pages.scss */
 
 .verse-centered {
   padding-top: 100px;
   padding-bottom: 100px;
 }
 
-/* line 32, resources/assets/styles/layouts/_pages.scss */
+/* line 40, resources/assets/styles/layouts/_pages.scss */
 
 .wrap-50 {
   width: calc(50% - 8px);
 }
 
-/* line 36, resources/assets/styles/layouts/_pages.scss */
+/* line 44, resources/assets/styles/layouts/_pages.scss */
 
 .wrap-40 {
   width: calc(40% - 8px);
 }
 
-/* line 40, resources/assets/styles/layouts/_pages.scss */
+/* line 48, resources/assets/styles/layouts/_pages.scss */
 
 .wrap-55 {
   width: calc(55% - 8px);
 }
 
-/* line 44, resources/assets/styles/layouts/_pages.scss */
+/* line 52, resources/assets/styles/layouts/_pages.scss */
 
 .wrap-65 {
   width: calc(65% - 8px);
 }
 
-/* line 48, resources/assets/styles/layouts/_pages.scss */
+/* line 56, resources/assets/styles/layouts/_pages.scss */
 
 a {
   color: #212121;
 }
 
-/* line 51, resources/assets/styles/layouts/_pages.scss */
+/* line 59, resources/assets/styles/layouts/_pages.scss */
 
 a:hover {
   border-bottom-color: transparent;
 }
 
-/* line 56, resources/assets/styles/layouts/_pages.scss */
+/* line 64, resources/assets/styles/layouts/_pages.scss */
 
 p {
   margin-bottom: 26px;
 }
 
-/* line 58, resources/assets/styles/layouts/_pages.scss */
+/* line 66, resources/assets/styles/layouts/_pages.scss */
 
 p a {
   color: #212121;
   border-bottom: 1px solid #212121;
 }
 
-/* line 62, resources/assets/styles/layouts/_pages.scss */
+/* line 70, resources/assets/styles/layouts/_pages.scss */
 
 p a:hover {
   border-bottom-color: #212121;
 }
 
-/* line 68, resources/assets/styles/layouts/_pages.scss */
+/* line 76, resources/assets/styles/layouts/_pages.scss */
 
 h1 {
   margin-bottom: 26px;
 }
 
-/* line 72, resources/assets/styles/layouts/_pages.scss */
+/* line 80, resources/assets/styles/layouts/_pages.scss */
 
 h2 {
   font-size: 26px;
@@ -2029,7 +2041,7 @@ h2 {
   margin-bottom: 12px;
 }
 
-/* line 78, resources/assets/styles/layouts/_pages.scss */
+/* line 86, resources/assets/styles/layouts/_pages.scss */
 
 h2 font {
   font-size: 26px;
@@ -2037,7 +2049,7 @@ h2 font {
   font-weight: 700;
 }
 
-/* line 85, resources/assets/styles/layouts/_pages.scss */
+/* line 93, resources/assets/styles/layouts/_pages.scss */
 
 h4 {
   font-size: 18px;
@@ -2045,7 +2057,7 @@ h4 {
   font-weight: 700;
 }
 
-/* line 90, resources/assets/styles/layouts/_pages.scss */
+/* line 98, resources/assets/styles/layouts/_pages.scss */
 
 h4 font {
   font-size: 18px;
@@ -2053,75 +2065,75 @@ h4 font {
   font-weight: 700;
 }
 
-/* line 99, resources/assets/styles/layouts/_pages.scss */
+/* line 107, resources/assets/styles/layouts/_pages.scss */
 
 .double-cards {
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-/* line 103, resources/assets/styles/layouts/_pages.scss */
+/* line 111, resources/assets/styles/layouts/_pages.scss */
 
 .double-cards .card--blue,
   .double-cards .card--sand {
   border-radius: 10px;
 }
 
-/* line 107, resources/assets/styles/layouts/_pages.scss */
+/* line 115, resources/assets/styles/layouts/_pages.scss */
 
 .double-cards .card--blue .card-content,
     .double-cards .card--sand .card-content {
   padding: 60px;
 }
 
-/* line 110, resources/assets/styles/layouts/_pages.scss */
+/* line 118, resources/assets/styles/layouts/_pages.scss */
 
 .double-cards .card--blue .card-content h2,
       .double-cards .card--sand .card-content h2 {
   margin-top: 0;
 }
 
-/* line 116, resources/assets/styles/layouts/_pages.scss */
+/* line 124, resources/assets/styles/layouts/_pages.scss */
 
 .double-cards .card--blue {
   background: #121928;
 }
 
-/* line 119, resources/assets/styles/layouts/_pages.scss */
+/* line 127, resources/assets/styles/layouts/_pages.scss */
 
 .double-cards .card--blue h2,
     .double-cards .card--blue p {
   color: #fff;
 }
 
-/* line 123, resources/assets/styles/layouts/_pages.scss */
+/* line 131, resources/assets/styles/layouts/_pages.scss */
 
 .double-cards .card--blue h2 font,
       .double-cards .card--blue p font {
   color: #fff;
 }
 
-/* line 128, resources/assets/styles/layouts/_pages.scss */
+/* line 136, resources/assets/styles/layouts/_pages.scss */
 
 .double-cards .card--blue p {
   color: #fff;
   opacity: 0.9;
 }
 
-/* line 132, resources/assets/styles/layouts/_pages.scss */
+/* line 140, resources/assets/styles/layouts/_pages.scss */
 
 .double-cards .card--blue p font {
   color: #fff;
   opacity: 0.9;
 }
 
-/* line 139, resources/assets/styles/layouts/_pages.scss */
+/* line 147, resources/assets/styles/layouts/_pages.scss */
 
 .double-cards .card--sand {
   background: #eee5e2;
 }
 
-/* line 144, resources/assets/styles/layouts/_pages.scss */
+/* line 152, resources/assets/styles/layouts/_pages.scss */
 
 .embed-container {
   position: relative;
@@ -2132,7 +2144,7 @@ h4 font {
   border-radius: 10px;
 }
 
-/* line 153, resources/assets/styles/layouts/_pages.scss */
+/* line 161, resources/assets/styles/layouts/_pages.scss */
 
 .embed-container iframe,
 .embed-container object,
@@ -2144,14 +2156,14 @@ h4 font {
   height: 100%;
 }
 
-/* line 163, resources/assets/styles/layouts/_pages.scss */
+/* line 171, resources/assets/styles/layouts/_pages.scss */
 
 .articles-latest {
   padding-top: 100px;
   padding-bottom: 100px;
 }
 
-/* line 167, resources/assets/styles/layouts/_pages.scss */
+/* line 175, resources/assets/styles/layouts/_pages.scss */
 
 .articles-latest h5 {
   font-size: 14px;
@@ -2159,7 +2171,7 @@ h4 font {
   font-style: italic;
 }
 
-/* line 174, resources/assets/styles/layouts/_pages.scss */
+/* line 182, resources/assets/styles/layouts/_pages.scss */
 
 .articles-latest .meditations h3 {
   font-size: 24px;
@@ -2167,47 +2179,47 @@ h4 font {
   margin-top: 28px;
 }
 
-/* line 179, resources/assets/styles/layouts/_pages.scss */
+/* line 187, resources/assets/styles/layouts/_pages.scss */
 
 .articles-latest .meditations h3 font {
   font-size: 24px;
   font-weight: 700;
 }
 
-/* line 185, resources/assets/styles/layouts/_pages.scss */
+/* line 193, resources/assets/styles/layouts/_pages.scss */
 
 .articles-latest .meditations p {
   font-size: 14px;
   line-height: 26px;
 }
 
-/* line 189, resources/assets/styles/layouts/_pages.scss */
+/* line 197, resources/assets/styles/layouts/_pages.scss */
 
 .articles-latest .meditations p font {
   font-size: 14px;
   line-height: 26px;
 }
 
-/* line 195, resources/assets/styles/layouts/_pages.scss */
+/* line 203, resources/assets/styles/layouts/_pages.scss */
 
 .articles-latest .meditations .btn {
   display: inline-block;
   margin-top: 28px;
 }
 
-/* line 202, resources/assets/styles/layouts/_pages.scss */
+/* line 210, resources/assets/styles/layouts/_pages.scss */
 
 .articles-latest .meditations .meta-data .bsf-rt-display-time::after {
   content: attr(reading_time);
 }
 
-/* line 208, resources/assets/styles/layouts/_pages.scss */
+/* line 216, resources/assets/styles/layouts/_pages.scss */
 
 .articles-latest .meditations .meta-data .bsf-rt-display-postfix::after {
   content: attr(postfix);
 }
 
-/* line 216, resources/assets/styles/layouts/_pages.scss */
+/* line 224, resources/assets/styles/layouts/_pages.scss */
 
 .articles-latest .blogs .blog-item {
   text-decoration: none;
@@ -2215,7 +2227,7 @@ h4 font {
   margin-bottom: 16px;
 }
 
-/* line 221, resources/assets/styles/layouts/_pages.scss */
+/* line 229, resources/assets/styles/layouts/_pages.scss */
 
 .articles-latest .blogs .blog-item h3 {
   margin-top: 20px;
@@ -2224,52 +2236,52 @@ h4 font {
   font-weight: 700;
 }
 
-/* line 227, resources/assets/styles/layouts/_pages.scss */
+/* line 235, resources/assets/styles/layouts/_pages.scss */
 
 .articles-latest .blogs .blog-item h3 font {
   font-size: 18px;
   font-weight: 700;
 }
 
-/* line 233, resources/assets/styles/layouts/_pages.scss */
+/* line 241, resources/assets/styles/layouts/_pages.scss */
 
 .articles-latest .blogs .blog-item .content-part {
   padding-bottom: 12px;
 }
 
-/* line 236, resources/assets/styles/layouts/_pages.scss */
+/* line 244, resources/assets/styles/layouts/_pages.scss */
 
 .articles-latest .blogs .blog-item .content-part p {
   font-size: 14px;
   font-weight: 300;
 }
 
-/* line 240, resources/assets/styles/layouts/_pages.scss */
+/* line 248, resources/assets/styles/layouts/_pages.scss */
 
 .articles-latest .blogs .blog-item .content-part p font {
   font-size: 14px;
   font-weight: 300;
 }
 
-/* line 247, resources/assets/styles/layouts/_pages.scss */
+/* line 255, resources/assets/styles/layouts/_pages.scss */
 
 .articles-latest .blogs .blog-item .meta-data {
   margin-bottom: 14px;
 }
 
-/* line 251, resources/assets/styles/layouts/_pages.scss */
+/* line 259, resources/assets/styles/layouts/_pages.scss */
 
 .articles-latest .blogs .blog-item .meta-data .bsf-rt-display-time::after {
   content: attr(reading_time);
 }
 
-/* line 257, resources/assets/styles/layouts/_pages.scss */
+/* line 265, resources/assets/styles/layouts/_pages.scss */
 
 .articles-latest .blogs .blog-item .meta-data .bsf-rt-display-postfix::after {
   content: attr(postfix);
 }
 
-/* line 268, resources/assets/styles/layouts/_pages.scss */
+/* line 276, resources/assets/styles/layouts/_pages.scss */
 
 .latest-video {
   padding-top: 50px;
@@ -2281,7 +2293,7 @@ h4 font {
   margin-bottom: 60px;
 }
 
-/* line 277, resources/assets/styles/layouts/_pages.scss */
+/* line 285, resources/assets/styles/layouts/_pages.scss */
 
 .latest-video .subtitle {
   font-size: 16px;
@@ -2290,102 +2302,102 @@ h4 font {
   margin-bottom: 12px;
 }
 
-/* line 283, resources/assets/styles/layouts/_pages.scss */
+/* line 291, resources/assets/styles/layouts/_pages.scss */
 
 .latest-video .subtitle font {
   font-size: 16px;
   font-weight: 500;
 }
 
-/* line 288, resources/assets/styles/layouts/_pages.scss */
+/* line 296, resources/assets/styles/layouts/_pages.scss */
 
 .latest-video .subtitle .nr {
   font-style: italic;
   font-weight: 500;
 }
 
-/* line 292, resources/assets/styles/layouts/_pages.scss */
+/* line 300, resources/assets/styles/layouts/_pages.scss */
 
 .latest-video .subtitle .nr font {
   font-style: italic;
   font-weight: 500;
 }
 
-/* line 299, resources/assets/styles/layouts/_pages.scss */
+/* line 307, resources/assets/styles/layouts/_pages.scss */
 
 .latest-video h3 {
   font-size: 26px;
   font-weight: 700;
 }
 
-/* line 303, resources/assets/styles/layouts/_pages.scss */
+/* line 311, resources/assets/styles/layouts/_pages.scss */
 
 .latest-video h3 font {
   font-size: 26px;
   font-weight: 700;
 }
 
-/* line 309, resources/assets/styles/layouts/_pages.scss */
+/* line 317, resources/assets/styles/layouts/_pages.scss */
 
 .latest-video p {
   margin-bottom: 20px;
 }
 
-/* line 314, resources/assets/styles/layouts/_pages.scss */
+/* line 322, resources/assets/styles/layouts/_pages.scss */
 
 .latest--sand {
   background: #eee5e2;
 }
 
-/* line 318, resources/assets/styles/layouts/_pages.scss */
+/* line 326, resources/assets/styles/layouts/_pages.scss */
 
 .latest--blue {
   background: #121928;
 }
 
-/* line 321, resources/assets/styles/layouts/_pages.scss */
+/* line 329, resources/assets/styles/layouts/_pages.scss */
 
 .latest--blue .subtitle {
   color: #fff;
 }
 
-/* line 324, resources/assets/styles/layouts/_pages.scss */
+/* line 332, resources/assets/styles/layouts/_pages.scss */
 
 .latest--blue .subtitle font {
   color: #fff;
 }
 
-/* line 328, resources/assets/styles/layouts/_pages.scss */
+/* line 336, resources/assets/styles/layouts/_pages.scss */
 
 .latest--blue .subtitle .nr {
   color: #fff;
 }
 
-/* line 331, resources/assets/styles/layouts/_pages.scss */
+/* line 339, resources/assets/styles/layouts/_pages.scss */
 
 .latest--blue .subtitle .nr font {
   color: #fff;
 }
 
-/* line 337, resources/assets/styles/layouts/_pages.scss */
+/* line 345, resources/assets/styles/layouts/_pages.scss */
 
 .latest--blue h3 {
   color: #fff;
 }
 
-/* line 340, resources/assets/styles/layouts/_pages.scss */
+/* line 348, resources/assets/styles/layouts/_pages.scss */
 
 .latest--blue h3 font {
   color: #fff;
 }
 
-/* line 345, resources/assets/styles/layouts/_pages.scss */
+/* line 353, resources/assets/styles/layouts/_pages.scss */
 
 .latest--blue p {
   color: #fff;
 }
 
-/* line 352, resources/assets/styles/layouts/_pages.scss */
+/* line 360, resources/assets/styles/layouts/_pages.scss */
 
 .hero-blue-img {
   border-radius: 10px;
@@ -2395,19 +2407,19 @@ h4 font {
   margin-top: 20px;
 }
 
-/* line 359, resources/assets/styles/layouts/_pages.scss */
+/* line 367, resources/assets/styles/layouts/_pages.scss */
 
 .hero-blue-img .wrap-50 {
   width: 50%;
 }
 
-/* line 363, resources/assets/styles/layouts/_pages.scss */
+/* line 371, resources/assets/styles/layouts/_pages.scss */
 
 .hero-blue-img .bg--blue {
   padding: 65px;
 }
 
-/* line 365, resources/assets/styles/layouts/_pages.scss */
+/* line 373, resources/assets/styles/layouts/_pages.scss */
 
 .hero-blue-img .bg--blue h1 {
   color: #fff;
@@ -2417,13 +2429,13 @@ h4 font {
   margin-bottom: 22px;
 }
 
-/* line 373, resources/assets/styles/layouts/_pages.scss */
+/* line 381, resources/assets/styles/layouts/_pages.scss */
 
 .hero-blue-img .bg--blue p {
   color: #fff;
 }
 
-/* line 379, resources/assets/styles/layouts/_pages.scss */
+/* line 387, resources/assets/styles/layouts/_pages.scss */
 
 .hero-blue-img .wrap-img img {
   width: 100%;
@@ -2434,7 +2446,7 @@ h4 font {
   border-bottom-right-radius: 10px;
 }
 
-/* line 389, resources/assets/styles/layouts/_pages.scss */
+/* line 397, resources/assets/styles/layouts/_pages.scss */
 
 .hero-sand-img {
   border-radius: 10px;
@@ -2444,19 +2456,19 @@ h4 font {
   margin-top: 20px;
 }
 
-/* line 396, resources/assets/styles/layouts/_pages.scss */
+/* line 404, resources/assets/styles/layouts/_pages.scss */
 
 .hero-sand-img .wrap-50 {
   width: 50%;
 }
 
-/* line 400, resources/assets/styles/layouts/_pages.scss */
+/* line 408, resources/assets/styles/layouts/_pages.scss */
 
 .hero-sand-img .bg--sand {
   padding: 65px;
 }
 
-/* line 402, resources/assets/styles/layouts/_pages.scss */
+/* line 410, resources/assets/styles/layouts/_pages.scss */
 
 .hero-sand-img .bg--sand h1 {
   color: #212121;
@@ -2466,13 +2478,13 @@ h4 font {
   margin-bottom: 22px;
 }
 
-/* line 410, resources/assets/styles/layouts/_pages.scss */
+/* line 418, resources/assets/styles/layouts/_pages.scss */
 
 .hero-sand-img .bg--sand p {
   color: #212121;
 }
 
-/* line 416, resources/assets/styles/layouts/_pages.scss */
+/* line 424, resources/assets/styles/layouts/_pages.scss */
 
 .hero-sand-img .wrap-img img {
   width: 100%;
@@ -2483,7 +2495,7 @@ h4 font {
   border-bottom-right-radius: 10px;
 }
 
-/* line 428, resources/assets/styles/layouts/_pages.scss */
+/* line 436, resources/assets/styles/layouts/_pages.scss */
 
 .hero-black-img {
   border-radius: 10px;
@@ -2493,19 +2505,19 @@ h4 font {
   margin-top: 20px;
 }
 
-/* line 435, resources/assets/styles/layouts/_pages.scss */
+/* line 443, resources/assets/styles/layouts/_pages.scss */
 
 .hero-black-img .wrap-50 {
   width: 50%;
 }
 
-/* line 439, resources/assets/styles/layouts/_pages.scss */
+/* line 447, resources/assets/styles/layouts/_pages.scss */
 
 .hero-black-img .bg--black {
   padding: 65px;
 }
 
-/* line 441, resources/assets/styles/layouts/_pages.scss */
+/* line 449, resources/assets/styles/layouts/_pages.scss */
 
 .hero-black-img .bg--black h1 {
   color: #fff;
@@ -2515,13 +2527,13 @@ h4 font {
   margin-bottom: 22px;
 }
 
-/* line 449, resources/assets/styles/layouts/_pages.scss */
+/* line 457, resources/assets/styles/layouts/_pages.scss */
 
 .hero-black-img .bg--black p {
   color: #fff;
 }
 
-/* line 455, resources/assets/styles/layouts/_pages.scss */
+/* line 463, resources/assets/styles/layouts/_pages.scss */
 
 .hero-black-img .wrap-img img {
   width: 100%;
@@ -2532,7 +2544,7 @@ h4 font {
   border-bottom-right-radius: 10px;
 }
 
-/* line 467, resources/assets/styles/layouts/_pages.scss */
+/* line 475, resources/assets/styles/layouts/_pages.scss */
 
 .img-text {
   background: #eee5e2;
@@ -2541,13 +2553,13 @@ h4 font {
   border-radius: 10px;
 }
 
-/* line 473, resources/assets/styles/layouts/_pages.scss */
+/* line 481, resources/assets/styles/layouts/_pages.scss */
 
 .img-text .text-side {
   padding: 40px;
 }
 
-/* line 476, resources/assets/styles/layouts/_pages.scss */
+/* line 484, resources/assets/styles/layouts/_pages.scss */
 
 .img-text .text-side h2,
     .img-text .text-side h3,
@@ -2558,7 +2570,7 @@ h4 font {
   font-weight: 700;
 }
 
-/* line 485, resources/assets/styles/layouts/_pages.scss */
+/* line 493, resources/assets/styles/layouts/_pages.scss */
 
 .img-text .text-side span,
     .img-text .text-side p,
@@ -2566,13 +2578,13 @@ h4 font {
   font-size: 14px;
 }
 
-/* line 492, resources/assets/styles/layouts/_pages.scss */
+/* line 500, resources/assets/styles/layouts/_pages.scss */
 
 .img-text .wrap-50 {
   width: 50%;
 }
 
-/* line 497, resources/assets/styles/layouts/_pages.scss */
+/* line 505, resources/assets/styles/layouts/_pages.scss */
 
 .img-text .img-side img {
   width: 100%;
@@ -2581,7 +2593,7 @@ h4 font {
      object-fit: cover;
 }
 
-/* line 505, resources/assets/styles/layouts/_pages.scss */
+/* line 513, resources/assets/styles/layouts/_pages.scss */
 
 .text-img {
   background: #eee5e2;
@@ -2590,13 +2602,13 @@ h4 font {
   border-radius: 10px;
 }
 
-/* line 511, resources/assets/styles/layouts/_pages.scss */
+/* line 519, resources/assets/styles/layouts/_pages.scss */
 
 .text-img .text-side {
   padding: 40px;
 }
 
-/* line 514, resources/assets/styles/layouts/_pages.scss */
+/* line 522, resources/assets/styles/layouts/_pages.scss */
 
 .text-img .text-side h2,
     .text-img .text-side h3,
@@ -2607,7 +2619,7 @@ h4 font {
   font-weight: 700;
 }
 
-/* line 523, resources/assets/styles/layouts/_pages.scss */
+/* line 531, resources/assets/styles/layouts/_pages.scss */
 
 .text-img .text-side span,
     .text-img .text-side p,
@@ -2615,13 +2627,13 @@ h4 font {
   font-size: 14px;
 }
 
-/* line 530, resources/assets/styles/layouts/_pages.scss */
+/* line 538, resources/assets/styles/layouts/_pages.scss */
 
 .text-img .wrap-50 {
   width: 50%;
 }
 
-/* line 535, resources/assets/styles/layouts/_pages.scss */
+/* line 543, resources/assets/styles/layouts/_pages.scss */
 
 .text-img .img-side img {
   width: 100%;
@@ -2630,13 +2642,13 @@ h4 font {
      object-fit: cover;
 }
 
-/* line 545, resources/assets/styles/layouts/_pages.scss */
+/* line 553, resources/assets/styles/layouts/_pages.scss */
 
 .archive-header {
   margin-top: 80px;
 }
 
-/* line 548, resources/assets/styles/layouts/_pages.scss */
+/* line 556, resources/assets/styles/layouts/_pages.scss */
 
 .archive-header h1 {
   font-size: 28px;
@@ -2645,26 +2657,26 @@ h4 font {
   margin-bottom: 0;
 }
 
-/* line 555, resources/assets/styles/layouts/_pages.scss */
+/* line 563, resources/assets/styles/layouts/_pages.scss */
 
 .archive-header img {
   margin-right: 16px;
 }
 
-/* line 560, resources/assets/styles/layouts/_pages.scss */
+/* line 568, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive.archive-archive {
   padding-top: 60px;
 }
 
-/* line 564, resources/assets/styles/layouts/_pages.scss */
+/* line 572, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive {
   padding-top: 120px;
   padding-bottom: 90px;
 }
 
-/* line 568, resources/assets/styles/layouts/_pages.scss */
+/* line 576, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-loop {
   width: 60%;
@@ -2672,7 +2684,7 @@ h4 font {
   border-right: 1px solid rgba(112, 112, 112, 0.1);
 }
 
-/* line 573, resources/assets/styles/layouts/_pages.scss */
+/* line 581, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-loop .post-item {
   padding-bottom: 36px;
@@ -2680,32 +2692,32 @@ h4 font {
   border-bottom: 1px solid rgba(112, 112, 112, 0.1);
 }
 
-/* line 578, resources/assets/styles/layouts/_pages.scss */
+/* line 586, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-loop .post-item h2 {
   margin-bottom: 18px;
 }
 
-/* line 582, resources/assets/styles/layouts/_pages.scss */
+/* line 590, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-loop .post-item .meta-data {
   margin-bottom: 12px;
   padding-top: 0;
 }
 
-/* line 587, resources/assets/styles/layouts/_pages.scss */
+/* line 595, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-loop .post-item .meta-data .bsf-rt-display-time::after {
   content: attr(reading_time);
 }
 
-/* line 593, resources/assets/styles/layouts/_pages.scss */
+/* line 601, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-loop .post-item .meta-data .bsf-rt-display-postfix::after {
   content: attr(postfix);
 }
 
-/* line 600, resources/assets/styles/layouts/_pages.scss */
+/* line 608, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-loop .post-item .content-row img.ytb-thumb {
   width: 190px;
@@ -2714,27 +2726,27 @@ h4 font {
   margin-right: 28px;
 }
 
-/* line 607, resources/assets/styles/layouts/_pages.scss */
+/* line 615, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-loop .post-item .content-row p {
   font-size: 14px;
   line-height: 24px;
 }
 
-/* line 615, resources/assets/styles/layouts/_pages.scss */
+/* line 623, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar {
   width: 40%;
   padding-left: 50px;
 }
 
-/* line 619, resources/assets/styles/layouts/_pages.scss */
+/* line 627, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-filter {
   padding-bottom: 26px;
 }
 
-/* line 622, resources/assets/styles/layouts/_pages.scss */
+/* line 630, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-filter h3 {
   font-size: 18px;
@@ -2743,7 +2755,7 @@ h4 font {
   margin-bottom: 16px;
 }
 
-/* line 628, resources/assets/styles/layouts/_pages.scss */
+/* line 636, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-filter h3 font {
   color: #212121;
@@ -2751,7 +2763,7 @@ h4 font {
   font-weight: 700;
 }
 
-/* line 636, resources/assets/styles/layouts/_pages.scss */
+/* line 644, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-filter .filter-loop .filter-btn {
   font-size: 12px;
@@ -2767,7 +2779,7 @@ h4 font {
   transition: 0.1s ease-in-out;
 }
 
-/* line 647, resources/assets/styles/layouts/_pages.scss */
+/* line 655, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-filter .filter-loop .filter-btn font {
   font-size: 12px;
@@ -2775,47 +2787,47 @@ h4 font {
   font-weight: 300;
 }
 
-/* line 653, resources/assets/styles/layouts/_pages.scss */
+/* line 661, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-filter .filter-loop .filter-btn:hover {
   background: #212121;
   color: #fff;
 }
 
-/* line 657, resources/assets/styles/layouts/_pages.scss */
+/* line 665, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-filter .filter-loop .filter-btn:hover font {
   background: #212121;
   color: #fff;
 }
 
-/* line 664, resources/assets/styles/layouts/_pages.scss */
+/* line 672, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-filter .filter-loop .filter-btn.active {
   background: #212121;
   color: #fff;
 }
 
-/* line 668, resources/assets/styles/layouts/_pages.scss */
+/* line 676, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-filter .filter-loop .filter-btn.active font {
   background: #212121;
   color: #fff;
 }
 
-/* line 676, resources/assets/styles/layouts/_pages.scss */
+/* line 684, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-ytb {
   padding-top: 26px;
 }
 
-/* line 680, resources/assets/styles/layouts/_pages.scss */
+/* line 688, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-ytb .youtube-links a {
   margin-bottom: 16px;
 }
 
-/* line 683, resources/assets/styles/layouts/_pages.scss */
+/* line 691, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-ytb .youtube-links a img {
   width: 37px;
@@ -2823,25 +2835,25 @@ h4 font {
   display: inline-block;
 }
 
-/* line 689, resources/assets/styles/layouts/_pages.scss */
+/* line 697, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-ytb .youtube-links a .content {
   width: calc(100% - 47px);
 }
 
-/* line 692, resources/assets/styles/layouts/_pages.scss */
+/* line 700, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-ytb .youtube-links a .content span {
   color: #212121;
 }
 
-/* line 695, resources/assets/styles/layouts/_pages.scss */
+/* line 703, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-ytb .youtube-links a .content span font {
   color: #212121;
 }
 
-/* line 700, resources/assets/styles/layouts/_pages.scss */
+/* line 708, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-ytb .youtube-links a .content .title {
   font-size: 14px;
@@ -2852,20 +2864,20 @@ h4 font {
   transition: 0.2s ease;
 }
 
-/* line 706, resources/assets/styles/layouts/_pages.scss */
+/* line 714, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-ytb .youtube-links a .content .title:hover {
   opacity: 1;
 }
 
-/* line 710, resources/assets/styles/layouts/_pages.scss */
+/* line 718, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-ytb .youtube-links a .content .title font {
   font-size: 14px;
   font-weight: 500;
 }
 
-/* line 716, resources/assets/styles/layouts/_pages.scss */
+/* line 724, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-ytb .youtube-links a .content .subtitle {
   font-size: 12px;
@@ -2876,20 +2888,20 @@ h4 font {
   transition: 0.2s ease;
 }
 
-/* line 722, resources/assets/styles/layouts/_pages.scss */
+/* line 730, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-ytb .youtube-links a .content .subtitle:hover {
   opacity: 1;
 }
 
-/* line 726, resources/assets/styles/layouts/_pages.scss */
+/* line 734, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-ytb .youtube-links a .content .subtitle font {
   font-size: 12px;
   font-style: italic;
 }
 
-/* line 736, resources/assets/styles/layouts/_pages.scss */
+/* line 744, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-subscribe {
   padding: 45px;
@@ -2899,7 +2911,7 @@ h4 font {
   border-radius: 10px;
 }
 
-/* line 743, resources/assets/styles/layouts/_pages.scss */
+/* line 751, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-subscribe h3 {
   font-size: 16px;
@@ -2908,7 +2920,7 @@ h4 font {
   color: #212121;
 }
 
-/* line 749, resources/assets/styles/layouts/_pages.scss */
+/* line 757, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-subscribe h3 font {
   font-size: 16px;
@@ -2916,34 +2928,34 @@ h4 font {
   color: #212121;
 }
 
-/* line 756, resources/assets/styles/layouts/_pages.scss */
+/* line 764, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-subscribe p {
   font-size: 14px;
   color: #212121;
 }
 
-/* line 760, resources/assets/styles/layouts/_pages.scss */
+/* line 768, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-subscribe p font {
   font-size: 14px;
   color: #212121;
 }
 
-/* line 767, resources/assets/styles/layouts/_pages.scss */
+/* line 775, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-subscribe .es_subscription_form .es-field-wrap {
   display: inline-block;
   width: calc(65% - 10px);
 }
 
-/* line 771, resources/assets/styles/layouts/_pages.scss */
+/* line 779, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-subscribe .es_subscription_form .es-field-wrap label {
   width: 100%;
 }
 
-/* line 775, resources/assets/styles/layouts/_pages.scss */
+/* line 783, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-subscribe .es_subscription_form .es-field-wrap input {
   background: transparent;
@@ -2954,37 +2966,37 @@ h4 font {
   font-size: 14px;
 }
 
-/* line 784, resources/assets/styles/layouts/_pages.scss */
+/* line 792, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-subscribe .es_subscription_form .es-field-wrap:first-of-type {
   margin-right: 19px;
 }
 
-/* line 789, resources/assets/styles/layouts/_pages.scss */
+/* line 797, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-subscribe .es_subscription_form .es-field-wrap:first-child {
   width: calc(35% - 10px);
 }
 
-/* line 793, resources/assets/styles/layouts/_pages.scss */
+/* line 801, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-subscribe .es_subscription_form p {
   margin-top: 16px;
 }
 
-/* line 797, resources/assets/styles/layouts/_pages.scss */
+/* line 805, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-subscribe .es_subscription_form .ig-es-form-list-selection {
   margin-bottom: 16px;
 }
 
-/* line 799, resources/assets/styles/layouts/_pages.scss */
+/* line 807, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-subscribe .es_subscription_form .ig-es-form-list-selection .pt-4 {
   padding-top: 4px;
 }
 
-/* line 804, resources/assets/styles/layouts/_pages.scss */
+/* line 812, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-subscribe .es_subscription_form .es_subscription_form_submit {
   display: inline-block;
@@ -3004,7 +3016,7 @@ h4 font {
   cursor: pointer;
 }
 
-/* line 822, resources/assets/styles/layouts/_pages.scss */
+/* line 830, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-latest-video {
   padding-top: 26px;
@@ -3012,7 +3024,7 @@ h4 font {
   width: 100%;
 }
 
-/* line 827, resources/assets/styles/layouts/_pages.scss */
+/* line 835, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-latest-video h3 {
   font-size: 16px;
@@ -3022,7 +3034,7 @@ h4 font {
   margin-bottom: 16px;
 }
 
-/* line 834, resources/assets/styles/layouts/_pages.scss */
+/* line 842, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-latest-video h3 font {
   font-size: 16px;
@@ -3030,78 +3042,78 @@ h4 font {
   color: #212121;
 }
 
-/* line 841, resources/assets/styles/layouts/_pages.scss */
+/* line 849, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-latest-video .embed-container {
   width: 100%;
   height: 210px;
 }
 
-/* line 845, resources/assets/styles/layouts/_pages.scss */
+/* line 853, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive .archive-sidebar .aside-latest-video .embed-container iframe {
   border-radius: 10px;
 }
 
-/* line 853, resources/assets/styles/layouts/_pages.scss */
+/* line 861, resources/assets/styles/layouts/_pages.scss */
 
 .duo-text {
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
-/* line 857, resources/assets/styles/layouts/_pages.scss */
+/* line 865, resources/assets/styles/layouts/_pages.scss */
 
 .duo-text .wrap-50 {
   width: calc(50% - 16px);
 }
 
-/* line 861, resources/assets/styles/layouts/_pages.scss */
+/* line 869, resources/assets/styles/layouts/_pages.scss */
 
 .duo-text p {
   margin-bottom: 26px;
 }
 
-/* line 868, resources/assets/styles/layouts/_pages.scss */
+/* line 876, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive-blog {
   padding-top: 75px;
   padding-bottom: 75px;
 }
 
-/* line 872, resources/assets/styles/layouts/_pages.scss */
+/* line 880, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive-blog h2 {
   font-size: 20px;
   font-weight: 500;
 }
 
-/* line 880, resources/assets/styles/layouts/_pages.scss */
+/* line 888, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive-blog .blog-latest .featured-item .thumbnail img {
   border-radius: 10px;
 }
 
-/* line 885, resources/assets/styles/layouts/_pages.scss */
+/* line 893, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive-blog .blog-latest .featured-item h3 {
   font-weight: 700;
   font-size: 24px;
 }
 
-/* line 890, resources/assets/styles/layouts/_pages.scss */
+/* line 898, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive-blog .blog-latest .featured-item .meta-data .bsf-rt-display-postfix::after {
   content: attr(postfix);
 }
 
-/* line 894, resources/assets/styles/layouts/_pages.scss */
+/* line 902, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive-blog .blog-latest .featured-item .wrap-50 {
   width: calc(50% - 26px);
 }
 
-/* line 900, resources/assets/styles/layouts/_pages.scss */
+/* line 908, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive-blog .blogs {
   padding-top: 80px;
@@ -3109,13 +3121,13 @@ h4 font {
   width: 100%;
 }
 
-/* line 905, resources/assets/styles/layouts/_pages.scss */
+/* line 913, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive-blog .blogs .wrap-50 {
   width: calc(50% - 26px);
 }
 
-/* line 909, resources/assets/styles/layouts/_pages.scss */
+/* line 917, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive-blog .blogs .blog-item {
   text-decoration: none;
@@ -3123,7 +3135,7 @@ h4 font {
   margin-bottom: 16px;
 }
 
-/* line 914, resources/assets/styles/layouts/_pages.scss */
+/* line 922, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive-blog .blogs .blog-item h3 {
   margin-top: 20px;
@@ -3132,79 +3144,79 @@ h4 font {
   font-weight: 700;
 }
 
-/* line 920, resources/assets/styles/layouts/_pages.scss */
+/* line 928, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive-blog .blogs .blog-item h3 font {
   font-size: 18px;
   font-weight: 700;
 }
 
-/* line 926, resources/assets/styles/layouts/_pages.scss */
+/* line 934, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive-blog .blogs .blog-item .content-part {
   padding-bottom: 12px;
 }
 
-/* line 929, resources/assets/styles/layouts/_pages.scss */
+/* line 937, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive-blog .blogs .blog-item .content-part p {
   font-size: 14px;
   font-weight: 300;
 }
 
-/* line 933, resources/assets/styles/layouts/_pages.scss */
+/* line 941, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive-blog .blogs .blog-item .content-part p font {
   font-size: 14px;
   font-weight: 300;
 }
 
-/* line 940, resources/assets/styles/layouts/_pages.scss */
+/* line 948, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive-blog .blogs .blog-item .meta-data {
   margin-bottom: 14px;
 }
 
-/* line 944, resources/assets/styles/layouts/_pages.scss */
+/* line 952, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive-blog .blogs .blog-item .meta-data .bsf-rt-display-time::after {
   content: attr(reading_time);
 }
 
-/* line 950, resources/assets/styles/layouts/_pages.scss */
+/* line 958, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive-blog .blogs .blog-item .meta-data .bsf-rt-display-postfix::after {
   content: attr(postfix);
 }
 
-/* line 958, resources/assets/styles/layouts/_pages.scss */
+/* line 966, resources/assets/styles/layouts/_pages.scss */
 
 .main-archive-blog .btn-row {
   width: 100%;
 }
 
-/* line 965, resources/assets/styles/layouts/_pages.scss */
+/* line 973, resources/assets/styles/layouts/_pages.scss */
 
 .container-all-videos {
   padding-top: 45px;
   padding-bottom: 75px;
 }
 
-/* line 969, resources/assets/styles/layouts/_pages.scss */
+/* line 977, resources/assets/styles/layouts/_pages.scss */
 
 .container-all-videos h2 {
   font-size: 20px;
   font-weight: 500;
 }
 
-/* line 975, resources/assets/styles/layouts/_pages.scss */
+/* line 983, resources/assets/styles/layouts/_pages.scss */
 
 .container-all-videos .row-videos .item-video {
   width: calc(33.333% - 10px);
   margin-bottom: 20px;
 }
 
-/* line 979, resources/assets/styles/layouts/_pages.scss */
+/* line 987, resources/assets/styles/layouts/_pages.scss */
 
 .container-all-videos .row-videos .item-video img {
   width: 100%;
@@ -3213,35 +3225,35 @@ h4 font {
      object-fit: cover;
 }
 
-/* line 985, resources/assets/styles/layouts/_pages.scss */
+/* line 993, resources/assets/styles/layouts/_pages.scss */
 
 .container-all-videos .row-videos .item-video h3 {
   font-size: 16px;
   padding-top: 8px;
 }
 
-/* line 992, resources/assets/styles/layouts/_pages.scss */
+/* line 1000, resources/assets/styles/layouts/_pages.scss */
 
 .container-all-videos .btn-row {
   width: 100%;
   padding-top: 40px;
 }
 
-/* line 1000, resources/assets/styles/layouts/_pages.scss */
+/* line 1008, resources/assets/styles/layouts/_pages.scss */
 
 .container-grid {
   padding-top: 45px;
   padding-bottom: 100px;
 }
 
-/* line 1004, resources/assets/styles/layouts/_pages.scss */
+/* line 1012, resources/assets/styles/layouts/_pages.scss */
 
 .container-grid h2 {
   margin-bottom: 45px;
   font-weight: 400;
 }
 
-/* line 1010, resources/assets/styles/layouts/_pages.scss */
+/* line 1018, resources/assets/styles/layouts/_pages.scss */
 
 .container-grid .wrap-grid .item {
   width: calc(33.333% - 10px);
@@ -3254,47 +3266,47 @@ h4 font {
   transition: 0.2s ease-in-out;
 }
 
-/* line 1018, resources/assets/styles/layouts/_pages.scss */
+/* line 1026, resources/assets/styles/layouts/_pages.scss */
 
 .container-grid .wrap-grid .item .head {
   margin-bottom: 16px;
 }
 
-/* line 1021, resources/assets/styles/layouts/_pages.scss */
+/* line 1029, resources/assets/styles/layouts/_pages.scss */
 
 .container-grid .wrap-grid .item .head h3 {
   font-size: 16px;
   font-weight: 700;
 }
 
-/* line 1026, resources/assets/styles/layouts/_pages.scss */
+/* line 1034, resources/assets/styles/layouts/_pages.scss */
 
 .container-grid .wrap-grid .item .head img {
   height: 30px;
   width: auto;
 }
 
-/* line 1032, resources/assets/styles/layouts/_pages.scss */
+/* line 1040, resources/assets/styles/layouts/_pages.scss */
 
 .container-grid .wrap-grid .item p {
   font-size: 14px;
 }
 
-/* line 1036, resources/assets/styles/layouts/_pages.scss */
+/* line 1044, resources/assets/styles/layouts/_pages.scss */
 
 .container-grid .wrap-grid .item:hover {
   -webkit-box-shadow: 0px 0px 26px rgba(0, 0, 0, 0.02);
           box-shadow: 0px 0px 26px rgba(0, 0, 0, 0.02);
 }
 
-/* line 1045, resources/assets/styles/layouts/_pages.scss */
+/* line 1053, resources/assets/styles/layouts/_pages.scss */
 
 .container-text {
   padding-top: 80px;
   padding-bottom: 80px;
 }
 
-/* line 1054, resources/assets/styles/layouts/_pages.scss */
+/* line 1062, resources/assets/styles/layouts/_pages.scss */
 
 .woocommerce-cart .main,
 .woocommerce-page .main {
@@ -3305,7 +3317,7 @@ h4 font {
   margin: 0 auto;
 }
 
-/* line 1062, resources/assets/styles/layouts/_pages.scss */
+/* line 1070, resources/assets/styles/layouts/_pages.scss */
 
 .woocommerce-cart h1,
 .woocommerce-page h1 {
@@ -3315,7 +3327,7 @@ h4 font {
   margin-bottom: 16px;
 }
 
-/* line 1071, resources/assets/styles/layouts/_pages.scss */
+/* line 1079, resources/assets/styles/layouts/_pages.scss */
 
 .woocommerce .main {
   max-width: 1155px;
@@ -3325,7 +3337,7 @@ h4 font {
   margin: 0 auto;
 }
 
-/* line 1079, resources/assets/styles/layouts/_pages.scss */
+/* line 1087, resources/assets/styles/layouts/_pages.scss */
 
 .woocommerce a.button,
 .woocommerce button.button,
@@ -3345,7 +3357,7 @@ h4 font {
   color: #fff;
 }
 
-/* line 1094, resources/assets/styles/layouts/_pages.scss */
+/* line 1102, resources/assets/styles/layouts/_pages.scss */
 
 .woocommerce a.button font,
   .woocommerce button.button font,
@@ -3355,7 +3367,7 @@ h4 font {
   font-size: 14px;
 }
 
-/* line 1099, resources/assets/styles/layouts/_pages.scss */
+/* line 1107, resources/assets/styles/layouts/_pages.scss */
 
 .woocommerce a.button:hover,
   .woocommerce button.button:hover,
@@ -3365,7 +3377,7 @@ h4 font {
   color: #212121;
 }
 
-/* line 1103, resources/assets/styles/layouts/_pages.scss */
+/* line 1111, resources/assets/styles/layouts/_pages.scss */
 
 .woocommerce a.button:hover font,
     .woocommerce button.button:hover font,
@@ -3375,7 +3387,7 @@ h4 font {
   font-size: 14px;
 }
 
-/* line 1111, resources/assets/styles/layouts/_pages.scss */
+/* line 1119, resources/assets/styles/layouts/_pages.scss */
 
 .woocommerce #respond input#submit.alt,
 .woocommerce a.button.alt,
@@ -3395,7 +3407,7 @@ h4 font {
   color: #fff;
 }
 
-/* line 1126, resources/assets/styles/layouts/_pages.scss */
+/* line 1134, resources/assets/styles/layouts/_pages.scss */
 
 .woocommerce #respond input#submit.alt font,
   .woocommerce a.button.alt font,
@@ -3405,7 +3417,7 @@ h4 font {
   font-size: 14px;
 }
 
-/* line 1131, resources/assets/styles/layouts/_pages.scss */
+/* line 1139, resources/assets/styles/layouts/_pages.scss */
 
 .woocommerce #respond input#submit.alt:hover,
   .woocommerce a.button.alt:hover,
@@ -3415,7 +3427,7 @@ h4 font {
   color: #212121;
 }
 
-/* line 1135, resources/assets/styles/layouts/_pages.scss */
+/* line 1143, resources/assets/styles/layouts/_pages.scss */
 
 .woocommerce #respond input#submit.alt:hover font,
     .woocommerce a.button.alt:hover font,
@@ -3425,13 +3437,13 @@ h4 font {
   font-size: 14px;
 }
 
-/* line 1142, resources/assets/styles/layouts/_pages.scss */
+/* line 1150, resources/assets/styles/layouts/_pages.scss */
 
 .woocommerce .quantity .qty {
   height: 38px;
 }
 
-/* line 1146, resources/assets/styles/layouts/_pages.scss */
+/* line 1154, resources/assets/styles/layouts/_pages.scss */
 
 .woocommerce div.product .product_title {
   font-size: 28px;
@@ -3440,7 +3452,7 @@ h4 font {
   margin-bottom: 16px;
 }
 
-/* line 1153, resources/assets/styles/layouts/_pages.scss */
+/* line 1161, resources/assets/styles/layouts/_pages.scss */
 
 .woocommerce div.product p.price,
 .woocommerce div.product span.price {
@@ -3448,7 +3460,7 @@ h4 font {
   font-weight: 500;
 }
 
-/* line 1159, resources/assets/styles/layouts/_pages.scss */
+/* line 1167, resources/assets/styles/layouts/_pages.scss */
 
 .woocommerce #respond input#submit.disabled,
 .woocommerce #respond input#submit:disabled,
@@ -3658,6 +3670,196 @@ h4 font {
 
 body#tinymce {
   margin: 12px !important;
+}
+
+@media screen and (max-width: 1016px) {
+  /* line 3, resources/assets/styles/layouts/_responsive.scss */
+
+  .content-info .container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  /* line 7, resources/assets/styles/layouts/_responsive.scss */
+
+  .content-info .footer-col {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 854px) {
+  /* line 14, resources/assets/styles/layouts/_responsive.scss */
+
+  .btn img {
+    width: 18px !important;
+  }
+
+  /* line 19, resources/assets/styles/layouts/_responsive.scss */
+
+  .banner .nav-primary {
+    display: none;
+  }
+
+  /* line 25, resources/assets/styles/layouts/_responsive.scss */
+
+  .hero-quote-and-search .container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  /* line 29, resources/assets/styles/layouts/_responsive.scss */
+
+  .hero-quote-and-search .wrap-50 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  /* line 35, resources/assets/styles/layouts/_responsive.scss */
+
+  .search-and-contact-block {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+
+  /* line 38, resources/assets/styles/layouts/_responsive.scss */
+
+  .search-and-contact-block .function-block {
+    max-width: 100%;
+  }
+
+  /* line 44, resources/assets/styles/layouts/_responsive.scss */
+
+  .double-cards .wrap {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  /* line 48, resources/assets/styles/layouts/_responsive.scss */
+
+  .double-cards .wrap-50 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  /* line 52, resources/assets/styles/layouts/_responsive.scss */
+
+  .double-cards .wrap-50 img {
+    width: 100%;
+  }
+
+  /* line 59, resources/assets/styles/layouts/_responsive.scss */
+
+  .articles-latest .container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  /* line 63, resources/assets/styles/layouts/_responsive.scss */
+
+  .articles-latest .wrap-50,
+  .articles-latest .wrap-40 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  /* line 69, resources/assets/styles/layouts/_responsive.scss */
+
+  .articles-latest .wrap-50 {
+    margin-bottom: 65px;
+  }
+
+  /* line 75, resources/assets/styles/layouts/_responsive.scss */
+
+  .latest-video .container {
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+  }
+
+  /* line 79, resources/assets/styles/layouts/_responsive.scss */
+
+  .latest-video .wrap-40,
+  .latest-video .wrap-55 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  /* line 89, resources/assets/styles/layouts/_responsive.scss */
+
+  .quote-block .verse-verse {
+    font-size: 20px;
+  }
+
+  /* line 94, resources/assets/styles/layouts/_responsive.scss */
+
+  .hero-quote-and-search {
+    padding-top: 60px;
+  }
+
+  /* line 98, resources/assets/styles/layouts/_responsive.scss */
+
+  .articles-latest {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  /* line 103, resources/assets/styles/layouts/_responsive.scss */
+
+  .verse-centered {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  /* line 108, resources/assets/styles/layouts/_responsive.scss */
+
+  .latest-video {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  /* line 112, resources/assets/styles/layouts/_responsive.scss */
+
+  .latest-video .wrap-40 {
+    margin-bottom: 0;
+  }
+
+  /* line 117, resources/assets/styles/layouts/_responsive.scss */
+
+  h1 {
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  /* line 122, resources/assets/styles/layouts/_responsive.scss */
+
+  h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  /* line 127, resources/assets/styles/layouts/_responsive.scss */
+
+  .articles-latest .meditations h3,
+  .latest-video h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  /* line 133, resources/assets/styles/layouts/_responsive.scss */
+
+  .double-cards .card--blue .card-content,
+  .double-cards .card--sand .card-content {
+    padding: 25px;
+  }
+
+  /* line 138, resources/assets/styles/layouts/_responsive.scss */
+
+  .content-info .footer-foot .footer-small {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 
 /**

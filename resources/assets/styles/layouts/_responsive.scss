@@ -1,0 +1,141 @@
+@media screen and (max-width: 1016px) {
+    .content-info {
+        .container {
+            flex-wrap: wrap;
+        }
+
+        .footer-col {
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 854px) {
+    .btn img {
+        width: 18px !important;
+    }
+
+    .banner {
+        .nav-primary {
+            display: none;
+        }
+    }
+
+    .hero-quote-and-search {
+        .container {
+            flex-wrap: wrap;
+        }
+
+        .wrap-50 {
+            width: 100%;
+            margin-bottom: 30px;
+        }
+    }
+
+    .search-and-contact-block {
+        align-items: flex-start;
+
+        .function-block {
+            max-width: 100%;
+        }
+    }
+
+    .double-cards {
+        .wrap {
+            flex-wrap: wrap;
+        }
+
+        .wrap-50 {
+            width: 100%;
+            margin-bottom: 30px;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .articles-latest {
+        .container {
+            flex-wrap: wrap;
+        }
+
+        .wrap-50,
+        .wrap-40 {
+            width: 100%;
+            margin-bottom: 30px;
+        }
+
+        .wrap-50 {
+            margin-bottom: 65px;
+        }
+    }
+
+    .latest-video {
+        .container {
+            flex-wrap: wrap-reverse;
+        }
+
+        .wrap-40,
+        .wrap-55 {
+            width: 100%;
+            margin-bottom: 30px;
+        }
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .quote-block {
+        .verse-verse {
+            font-size: 20px;
+        }
+    }
+
+    .hero-quote-and-search {
+        padding-top: 60px;
+    }
+
+    .articles-latest {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .verse-centered {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .latest-video {
+        padding-top: 25px;
+        padding-bottom: 25px;
+
+        .wrap-40 {
+            margin-bottom: 0;
+        }
+    }
+
+    h1 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    h2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .articles-latest .meditations h3,
+    .latest-video h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .double-cards .card--blue .card-content,
+    .double-cards .card--sand .card-content {
+        padding: 25px;
+    }
+
+    .content-info .footer-foot .footer-small {
+        flex-wrap: wrap;
+    }
+}
