@@ -8,6 +8,26 @@
             width: 100%;
         }
     }
+
+    .main-archive.archive-archive,
+    .main-archive {
+        flex-wrap: wrap;
+    }
+
+    .main-archive .archive-loop {
+        width: 100%;
+        border-right: none;
+        padding-right: 0;
+    }
+
+    .main-archive .archive-sidebar {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .container-grid .wrap-grid .item {
+        width: calc(50% - 10px);
+    }
 }
 
 @media screen and (max-width: 854px) {
@@ -33,7 +53,7 @@
     }
 
     .search-and-contact-block {
-        align-items: flex-start;
+        align-items: flex-start !important;
 
         .function-block {
             max-width: 100%;
@@ -71,6 +91,30 @@
         }
     }
 
+    .hero-blue-img {
+        flex-wrap: wrap-reverse;
+
+        .wrap-50 {
+            width: 100%;
+        }
+    }
+
+    .hero-sand-img {
+        flex-wrap: wrap-reverse;
+
+        .wrap-50 {
+            width: 100%;
+        }
+    }
+
+    .hero-black-img {
+        flex-wrap: wrap-reverse;
+
+        .wrap-50 {
+            width: 100%;
+        }
+    }
+
     .latest-video {
         .container {
             flex-wrap: wrap-reverse;
@@ -80,6 +124,60 @@
         .wrap-55 {
             width: 100%;
             margin-bottom: 30px;
+        }
+    }
+
+    .main-archive-blog {
+        .blog-latest {
+            .featured-item {
+                flex-wrap: wrap;
+
+                .wrap-50 {
+                    width: 100%;
+                }
+
+                .content {
+                    padding-top: 16px;
+                }
+            }
+        }
+
+        .blogs {
+            flex-wrap: wrap;
+
+            .wrap-50 {
+                width: 100%;
+            }
+        }
+    }
+
+    .container-all-videos {
+        .row-videos {
+            .item-video {
+                width: calc(50% - 10px);
+            }
+        }
+    }
+
+    .text-img {
+        flex-wrap: wrap-reverse;
+        width: calc(100% - 30px);
+        margin: 0 auto;
+        margin-top: 30px;
+
+        .wrap-50 {
+            width: 100%;
+        }
+    }
+
+    .img-text {
+        flex-wrap: wrap;
+        width: calc(100% - 30px);
+        margin: 0 auto;
+        margin-top: 30px;
+
+        .wrap-50 {
+            width: 100%;
         }
     }
 }
@@ -137,5 +235,114 @@
 
     .content-info .footer-foot .footer-small {
         flex-wrap: wrap;
+    }
+
+    .main-archive .archive-loop .post-item h2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .main-archive .archive-loop .post-item {
+        .content-row {
+            flex-wrap: wrap;
+
+            img.ytb-thumb {
+                width: 100%;
+                margin-right: 0;
+            }
+
+            .content-content {
+                width: 100%;
+                padding-top: 16px;
+            }
+        }
+    }
+
+    .container--small .article-content h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .hero-blue-img {
+        flex-wrap: wrap-reverse;
+
+        .wrap-50 {
+            width: 100%;
+        }
+
+        .bg--blue {
+            padding: 25px;
+
+            h1,
+            h2 {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .hero-sand-img {
+        flex-wrap: wrap-reverse;
+
+        .wrap-50 {
+            width: 100%;
+        }
+
+        .bg--sand {
+            padding: 25px;
+
+            h1,
+            h2 {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .hero-black-img {
+        flex-wrap: wrap-reverse;
+
+        .wrap-50 {
+            width: 100%;
+        }
+
+        .bg--black {
+            padding: 25px;
+
+            h1,
+            h2 {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .main-archive-blog {
+        .blog-latest {
+            .featured-item {
+                flex-wrap: wrap;
+
+                h3 {
+                    font-size: 20px;
+                }
+
+                .wrap-50 {
+                    width: 100%;
+                }
+
+                .content {
+                    padding-top: 16px;
+                }
+            }
+        }
+    }
+
+    .container-all-videos {
+        .row-videos {
+            .item-video {
+                width: 100%;
+            }
+        }
+    }
+
+    .container-grid .wrap-grid .item {
+        width: 100%;
     }
 }

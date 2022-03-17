@@ -3685,77 +3685,106 @@ body#tinymce {
   .content-info .footer-col {
     width: 100%;
   }
+
+  /* line 12, resources/assets/styles/layouts/_responsive.scss */
+
+  .main-archive.archive-archive,
+  .main-archive {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  /* line 17, resources/assets/styles/layouts/_responsive.scss */
+
+  .main-archive .archive-loop {
+    width: 100%;
+    border-right: none;
+    padding-right: 0;
+  }
+
+  /* line 23, resources/assets/styles/layouts/_responsive.scss */
+
+  .main-archive .archive-sidebar {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  /* line 28, resources/assets/styles/layouts/_responsive.scss */
+
+  .container-grid .wrap-grid .item {
+    width: calc(50% - 10px);
+  }
 }
 
 @media screen and (max-width: 854px) {
-  /* line 14, resources/assets/styles/layouts/_responsive.scss */
+  /* line 34, resources/assets/styles/layouts/_responsive.scss */
 
   .btn img {
     width: 18px !important;
   }
 
-  /* line 19, resources/assets/styles/layouts/_responsive.scss */
+  /* line 39, resources/assets/styles/layouts/_responsive.scss */
 
   .banner .nav-primary {
     display: none;
   }
 
-  /* line 25, resources/assets/styles/layouts/_responsive.scss */
+  /* line 45, resources/assets/styles/layouts/_responsive.scss */
 
   .hero-quote-and-search .container {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
 
-  /* line 29, resources/assets/styles/layouts/_responsive.scss */
+  /* line 49, resources/assets/styles/layouts/_responsive.scss */
 
   .hero-quote-and-search .wrap-50 {
     width: 100%;
     margin-bottom: 30px;
   }
 
-  /* line 35, resources/assets/styles/layouts/_responsive.scss */
+  /* line 55, resources/assets/styles/layouts/_responsive.scss */
 
   .search-and-contact-block {
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -webkit-box-align: start !important;
+        -ms-flex-align: start !important;
+            align-items: flex-start !important;
   }
 
-  /* line 38, resources/assets/styles/layouts/_responsive.scss */
+  /* line 58, resources/assets/styles/layouts/_responsive.scss */
 
   .search-and-contact-block .function-block {
     max-width: 100%;
   }
 
-  /* line 44, resources/assets/styles/layouts/_responsive.scss */
+  /* line 64, resources/assets/styles/layouts/_responsive.scss */
 
   .double-cards .wrap {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
 
-  /* line 48, resources/assets/styles/layouts/_responsive.scss */
+  /* line 68, resources/assets/styles/layouts/_responsive.scss */
 
   .double-cards .wrap-50 {
     width: 100%;
     margin-bottom: 30px;
   }
 
-  /* line 52, resources/assets/styles/layouts/_responsive.scss */
+  /* line 72, resources/assets/styles/layouts/_responsive.scss */
 
   .double-cards .wrap-50 img {
     width: 100%;
   }
 
-  /* line 59, resources/assets/styles/layouts/_responsive.scss */
+  /* line 79, resources/assets/styles/layouts/_responsive.scss */
 
   .articles-latest .container {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
 
-  /* line 63, resources/assets/styles/layouts/_responsive.scss */
+  /* line 83, resources/assets/styles/layouts/_responsive.scss */
 
   .articles-latest .wrap-50,
   .articles-latest .wrap-40 {
@@ -3763,83 +3792,192 @@ body#tinymce {
     margin-bottom: 30px;
   }
 
-  /* line 69, resources/assets/styles/layouts/_responsive.scss */
+  /* line 89, resources/assets/styles/layouts/_responsive.scss */
 
   .articles-latest .wrap-50 {
     margin-bottom: 65px;
   }
 
-  /* line 75, resources/assets/styles/layouts/_responsive.scss */
+  /* line 94, resources/assets/styles/layouts/_responsive.scss */
+
+  .hero-blue-img {
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+  }
+
+  /* line 97, resources/assets/styles/layouts/_responsive.scss */
+
+  .hero-blue-img .wrap-50 {
+    width: 100%;
+  }
+
+  /* line 102, resources/assets/styles/layouts/_responsive.scss */
+
+  .hero-sand-img {
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+  }
+
+  /* line 105, resources/assets/styles/layouts/_responsive.scss */
+
+  .hero-sand-img .wrap-50 {
+    width: 100%;
+  }
+
+  /* line 110, resources/assets/styles/layouts/_responsive.scss */
+
+  .hero-black-img {
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+  }
+
+  /* line 113, resources/assets/styles/layouts/_responsive.scss */
+
+  .hero-black-img .wrap-50 {
+    width: 100%;
+  }
+
+  /* line 119, resources/assets/styles/layouts/_responsive.scss */
 
   .latest-video .container {
     -ms-flex-wrap: wrap-reverse;
         flex-wrap: wrap-reverse;
   }
 
-  /* line 79, resources/assets/styles/layouts/_responsive.scss */
+  /* line 123, resources/assets/styles/layouts/_responsive.scss */
 
   .latest-video .wrap-40,
   .latest-video .wrap-55 {
     width: 100%;
     margin-bottom: 30px;
   }
+
+  /* line 132, resources/assets/styles/layouts/_responsive.scss */
+
+  .main-archive-blog .blog-latest .featured-item {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  /* line 135, resources/assets/styles/layouts/_responsive.scss */
+
+  .main-archive-blog .blog-latest .featured-item .wrap-50 {
+    width: 100%;
+  }
+
+  /* line 139, resources/assets/styles/layouts/_responsive.scss */
+
+  .main-archive-blog .blog-latest .featured-item .content {
+    padding-top: 16px;
+  }
+
+  /* line 145, resources/assets/styles/layouts/_responsive.scss */
+
+  .main-archive-blog .blogs {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  /* line 148, resources/assets/styles/layouts/_responsive.scss */
+
+  .main-archive-blog .blogs .wrap-50 {
+    width: 100%;
+  }
+
+  /* line 156, resources/assets/styles/layouts/_responsive.scss */
+
+  .container-all-videos .row-videos .item-video {
+    width: calc(50% - 10px);
+  }
+
+  /* line 162, resources/assets/styles/layouts/_responsive.scss */
+
+  .text-img {
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+    width: calc(100% - 30px);
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  /* line 168, resources/assets/styles/layouts/_responsive.scss */
+
+  .text-img .wrap-50 {
+    width: 100%;
+  }
+
+  /* line 173, resources/assets/styles/layouts/_responsive.scss */
+
+  .img-text {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: calc(100% - 30px);
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  /* line 179, resources/assets/styles/layouts/_responsive.scss */
+
+  .img-text .wrap-50 {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 640px) {
-  /* line 89, resources/assets/styles/layouts/_responsive.scss */
+  /* line 187, resources/assets/styles/layouts/_responsive.scss */
 
   .quote-block .verse-verse {
     font-size: 20px;
   }
 
-  /* line 94, resources/assets/styles/layouts/_responsive.scss */
+  /* line 192, resources/assets/styles/layouts/_responsive.scss */
 
   .hero-quote-and-search {
     padding-top: 60px;
   }
 
-  /* line 98, resources/assets/styles/layouts/_responsive.scss */
+  /* line 196, resources/assets/styles/layouts/_responsive.scss */
 
   .articles-latest {
     padding-top: 50px;
     padding-bottom: 50px;
   }
 
-  /* line 103, resources/assets/styles/layouts/_responsive.scss */
+  /* line 201, resources/assets/styles/layouts/_responsive.scss */
 
   .verse-centered {
     padding-top: 50px;
     padding-bottom: 50px;
   }
 
-  /* line 108, resources/assets/styles/layouts/_responsive.scss */
+  /* line 206, resources/assets/styles/layouts/_responsive.scss */
 
   .latest-video {
     padding-top: 25px;
     padding-bottom: 25px;
   }
 
-  /* line 112, resources/assets/styles/layouts/_responsive.scss */
+  /* line 210, resources/assets/styles/layouts/_responsive.scss */
 
   .latest-video .wrap-40 {
     margin-bottom: 0;
   }
 
-  /* line 117, resources/assets/styles/layouts/_responsive.scss */
+  /* line 215, resources/assets/styles/layouts/_responsive.scss */
 
   h1 {
     font-size: 22px;
     line-height: 32px;
   }
 
-  /* line 122, resources/assets/styles/layouts/_responsive.scss */
+  /* line 220, resources/assets/styles/layouts/_responsive.scss */
 
   h2 {
     font-size: 20px;
     line-height: 30px;
   }
 
-  /* line 127, resources/assets/styles/layouts/_responsive.scss */
+  /* line 225, resources/assets/styles/layouts/_responsive.scss */
 
   .articles-latest .meditations h3,
   .latest-video h3 {
@@ -3847,18 +3985,168 @@ body#tinymce {
     line-height: 30px;
   }
 
-  /* line 133, resources/assets/styles/layouts/_responsive.scss */
+  /* line 231, resources/assets/styles/layouts/_responsive.scss */
 
   .double-cards .card--blue .card-content,
   .double-cards .card--sand .card-content {
     padding: 25px;
   }
 
-  /* line 138, resources/assets/styles/layouts/_responsive.scss */
+  /* line 236, resources/assets/styles/layouts/_responsive.scss */
 
   .content-info .footer-foot .footer-small {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+  }
+
+  /* line 240, resources/assets/styles/layouts/_responsive.scss */
+
+  .main-archive .archive-loop .post-item h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  /* line 246, resources/assets/styles/layouts/_responsive.scss */
+
+  .main-archive .archive-loop .post-item .content-row {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  /* line 249, resources/assets/styles/layouts/_responsive.scss */
+
+  .main-archive .archive-loop .post-item .content-row img.ytb-thumb {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  /* line 254, resources/assets/styles/layouts/_responsive.scss */
+
+  .main-archive .archive-loop .post-item .content-row .content-content {
+    width: 100%;
+    padding-top: 16px;
+  }
+
+  /* line 261, resources/assets/styles/layouts/_responsive.scss */
+
+  .container--small .article-content h1 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  /* line 266, resources/assets/styles/layouts/_responsive.scss */
+
+  .hero-blue-img {
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+  }
+
+  /* line 269, resources/assets/styles/layouts/_responsive.scss */
+
+  .hero-blue-img .wrap-50 {
+    width: 100%;
+  }
+
+  /* line 273, resources/assets/styles/layouts/_responsive.scss */
+
+  .hero-blue-img .bg--blue {
+    padding: 25px;
+  }
+
+  /* line 276, resources/assets/styles/layouts/_responsive.scss */
+
+  .hero-blue-img .bg--blue h1,
+      .hero-blue-img .bg--blue h2 {
+    font-size: 20px;
+  }
+
+  /* line 283, resources/assets/styles/layouts/_responsive.scss */
+
+  .hero-sand-img {
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+  }
+
+  /* line 286, resources/assets/styles/layouts/_responsive.scss */
+
+  .hero-sand-img .wrap-50 {
+    width: 100%;
+  }
+
+  /* line 290, resources/assets/styles/layouts/_responsive.scss */
+
+  .hero-sand-img .bg--sand {
+    padding: 25px;
+  }
+
+  /* line 293, resources/assets/styles/layouts/_responsive.scss */
+
+  .hero-sand-img .bg--sand h1,
+      .hero-sand-img .bg--sand h2 {
+    font-size: 20px;
+  }
+
+  /* line 300, resources/assets/styles/layouts/_responsive.scss */
+
+  .hero-black-img {
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+  }
+
+  /* line 303, resources/assets/styles/layouts/_responsive.scss */
+
+  .hero-black-img .wrap-50 {
+    width: 100%;
+  }
+
+  /* line 307, resources/assets/styles/layouts/_responsive.scss */
+
+  .hero-black-img .bg--black {
+    padding: 25px;
+  }
+
+  /* line 310, resources/assets/styles/layouts/_responsive.scss */
+
+  .hero-black-img .bg--black h1,
+      .hero-black-img .bg--black h2 {
+    font-size: 20px;
+  }
+
+  /* line 319, resources/assets/styles/layouts/_responsive.scss */
+
+  .main-archive-blog .blog-latest .featured-item {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  /* line 322, resources/assets/styles/layouts/_responsive.scss */
+
+  .main-archive-blog .blog-latest .featured-item h3 {
+    font-size: 20px;
+  }
+
+  /* line 326, resources/assets/styles/layouts/_responsive.scss */
+
+  .main-archive-blog .blog-latest .featured-item .wrap-50 {
+    width: 100%;
+  }
+
+  /* line 330, resources/assets/styles/layouts/_responsive.scss */
+
+  .main-archive-blog .blog-latest .featured-item .content {
+    padding-top: 16px;
+  }
+
+  /* line 339, resources/assets/styles/layouts/_responsive.scss */
+
+  .container-all-videos .row-videos .item-video {
+    width: 100%;
+  }
+
+  /* line 345, resources/assets/styles/layouts/_responsive.scss */
+
+  .container-grid .wrap-grid .item {
+    width: 100%;
   }
 }
 
