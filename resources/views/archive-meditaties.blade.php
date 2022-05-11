@@ -17,7 +17,11 @@
                 <a href="@permalink" class="post-item">
                     <h2>@title</h2>
                     <div class="content-row flex flex-row">
-                        <img src="{{$video_thumb_url}}" alt="" class="ytb-thumb">
+                        @if ($video_thumb_url == false)
+                        <!-- No YTB here -->
+                        @else
+                            <img src="{{$video_thumb_url}}" alt="" class="ytb-thumb">
+                        @endif
                         <div class="content-content flex flex-col">
                             <div class="meta-data flex flex-row justify-between items-center">
                                 <div class="meta-left flex flex-row justify-start items-center">

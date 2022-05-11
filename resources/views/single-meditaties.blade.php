@@ -7,9 +7,11 @@
       $author_field = get_field('user_profile_photo', 'user_'. $author_id );
   @endphp
     <main class="container--small meditation-article">
-        <div class="embed-container">
-            @field('oembed_field')
-        </div>
+        @hasfield('oembed_field')
+            <div class="embed-container">
+                @field('oembed_field')
+            </div>
+        @endfield
         <article class="container-content article-content">
             <h1>@title</h1>
 
