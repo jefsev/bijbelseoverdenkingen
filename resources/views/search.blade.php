@@ -1,7 +1,10 @@
 @extends('layouts.app')
 
 @section('content')
-  @include('partials.page-header')
+    <div class="page-header">
+        <h1>Zoekresultaten</h1>
+    </div>
+  
 
   @if (!have_posts())
     <div class="alert alert-warning">

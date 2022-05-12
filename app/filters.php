@@ -95,4 +95,5 @@ add_filter('comments_template', function ($comments_template) {
 add_filter( 'woocommerce_product_add_to_cart_text',  function () {
     return __( 'in winkelwagen', 'woocommerce' );
 } );  
-   
+
+ 
