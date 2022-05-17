@@ -173,18 +173,17 @@ add_action('init', function () {
 );
 
 add_action('init', function () {
-        $f_labels = [
-            'name'              => 'Blogs',
-            'singular_name'     => 'Blog',
-            'add_new'           => 'Nieuwe blog',
+        $n_labels = [
+            'name'              => 'In gesprek',
+            'singular_name'     => 'artikel',
+            'add_new'           => 'Nieuwe artikel',
             'edit_item'         => 'Blog aanpassen',
         ];
-        register_post_type('blog', [
-            'labels'            => $f_labels,
+        register_post_type('in-gesprek', [
+            'labels'            => $n_labels,
             'public'            => true,
             'has_archive'       => true,
             'query_var'         => true,
-            'rewrite'            => array( 'slug' => 'blogs' ),
             'supports'          => array('title', 'thumbnail', 'editor', 'author'),
             'position'          => '4',
         ]);

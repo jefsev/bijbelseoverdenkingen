@@ -13,7 +13,7 @@
         @layout('section_articles')
             @include('partials.section-articles')
         @endlayout
-        @layout('section_articles')
+        @layout('section_latest_video')
             @include('partials.section-latest-video')
         @endlayout
         @layout('section_verse_centered')
