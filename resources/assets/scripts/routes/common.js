@@ -24,12 +24,12 @@ export default {
             mega_menu.classList.remove('active');
         });
 
+        // Defer YTB, add scr url
         $(window).load(function() {
 			$('[data-src]').each(function(index, element) {
 				$(element).attr('src', $(element).attr('data-src'));
 			});
 		});
-
   },
   finalize() {
     // JavaScript to be fired on all pages, after page specific JS is fired
